@@ -1,1 +1,0 @@
-{"step": 11, "block": 2762517, "_timestamp": 1725923740.7994094, "_runtime": 964.9368283748627, "_step": 1160, "master": 0, "sync_successes": 0, "sync_failures": 11, "loss": 3.0436322689056396, "total_accumulations": 30, "_wandb": {"runtime": 964}}

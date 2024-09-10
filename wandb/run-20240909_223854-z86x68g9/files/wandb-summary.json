@@ -1,1 +1,0 @@
-{"step": 6, "block": 2762373, "_timestamp": 1725922005.6145854, "_runtime": 471.40128540992737, "_step": 39, "loss_dif": 3.1354604959487915, "pre loss": 54.03450667858124, "post loss": 50.899046182632446, "total_accumulations": 15, "_wandb": {"runtime": 482}}

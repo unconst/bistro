@@ -1,9 +1,0 @@
---------------------------------------------------------------------------------
-Step: 1, Block: 2767707, Master: 0 Hash: fb76a0c481bb40a176a1095d9f9044768869d9e4a8bb03d56351b16150edc9e2
-Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725985946.pt@decis
-/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
-  warnings.warn("Can't initialize NVML")
-Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725985946.pt@decis in 98.72160410881042 seconds.
-100%|██████████| 1/1 [00:01<00:00,  1.14s/it]
-Uploaded model to model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986117.pt@decis in 5.5869526863098145 seconds.
-
