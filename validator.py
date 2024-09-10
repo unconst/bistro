@@ -22,7 +22,6 @@ import time
 import boto3
 import torch
 import wandb
-import signal
 import random
 import argparse
 import traceback
@@ -33,8 +32,6 @@ from collections import deque
 from dotenv import dotenv_values
 from types import SimpleNamespace
 from transformers import AutoTokenizer
-from transformers import GPT2Config, GPT2LMHeadModel
-from transformers import LlamaForCausalLM, LlamaConfig, LlamaTokenizer
 from typing import Dict, Optional
 
 from common import upload_model, get_latest_metadata, download_model, hash_model
@@ -51,16 +48,6 @@ CLIENT: boto3.client = boto3.client(
     aws_secret_access_key = AWS_SECRET_ACCESS_KEY
 )
 
-# For gracefull exits.
-def handle_exit_signal(signum, frame, config):
-    if config.use_wandb:
-        wandb.finish()
-        api = wandb.Api()
-        run = api.run(f"{wandb.run.entity}/{wandb.run.project}/{wandb.run.id}")
-        run.delete()
-    exit(0)
-signal.signal(signal.SIGTERM, handle_exit_signal)
-
 # Main function.
 def main( config ):
     print ( config )
@@ -75,9 +62,10 @@ def main( config ):
     print ( f'Wallet: {wallet}\nSubtensor: {subtensor}\nMetagraph: {metagraph}\nUID: {my_uid}' )
     
     # Init weights and biases
+    run = None
     if config.use_wandb:
         name = f'Validator-{wallet.hotkey.ss58_address[:5]}'
-        wandb.init(project='bistro', name = name, config = config )
+        run = wandb.init(project='bistro', name = name, config = config )
         
     # Remember delta for later removal.
     steps = 0
@@ -103,11 +91,12 @@ def main( config ):
                         
             # If we are not in sync with master, download the state.
             if hash_model( master ) != master_meta.model_hash:
-                master = download_model( metadata = master_meta, device = config.device, CLIENT = CLIENT )
+                master = download_model( metadata = master_meta, device = 'cpu', CLIENT = CLIENT )
                 tokenizer: AutoTokenizer = AutoTokenizer.from_pretrained( master_meta.tokenizer_name, verbose=False, clean_up_tokenization_spaces=True )
                 tokenizer.pad_token = tokenizer.eos_token    
                 master_hash = hash_model( master )
                 master.eval()
+                master.to( config.device )
                 
             # Eval until the master has updated.
             while True:
@@ -196,7 +185,10 @@ def main( config ):
                          
         # Handle keyboard interrupts, stops training gracefully.
         except (KeyboardInterrupt, SystemExit):
-            handle_exit_signal( None, None, config )
+            if config.use_wandb and run != None: 
+                api = wandb.Api()
+                api_run = api.run(f"{run.entity}/{run.project}/{run.id}")
+                api_run.delete()
             break
         
         # Handle unknown exceptions, continue training after 5 seconds.
@@ -218,4 +210,5 @@ if __name__ == "__main__":
     bt.wallet.add_args( parser )
     bt.subtensor.add_args( parser )
     config = bt.config( parser )   
+    config.subtensor.chain_endpoint = 'wss://test.finney.opentensor.ai:443/' # Fix this value.
     main( config ) 

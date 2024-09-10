@@ -83,7 +83,8 @@ def main( config ):
     if my_current_meta != None and not config.restart:
         # Download the model state from remote.
         print ('Downloading master state from remote.')
-        master = download_model( metadata = my_current_meta, device = config.device, CLIENT = CLIENT )
+        master = download_model( metadata = my_current_meta, device = 'cpu', CLIENT = CLIENT )
+        master.to( config.device )
         
     # If the master does not exist, create it.
     if master == None or config.restart:
@@ -139,7 +140,7 @@ def main( config ):
                 if delta_meta == None or delta_meta.master_hash != master_hash:
                     continue
                 pending.append( delta_meta )
-            if len( pending ) < config.n_accumulations:
+            if len( pending ) < config.min_accumulations:
                 print ('\tWaiting for deltas ...')
                 continue
             
@@ -162,6 +163,7 @@ def main( config ):
                     for (name, master_param), (_, delta_param) in zip( master.named_parameters(), delta.named_parameters() ):
                         # Sanatize the delta NaN vales.
                         delta_update = delta_param.data.to( master.device )
+                        # Remove Nans.
                         if torch.isnan(delta_update).any():
                             delta_update[ torch.isnan(delta_update) ] = 0  # Set NaNs to 0
                         master_param.data.add_( delta_update / len( pending ) ) 
@@ -202,7 +204,7 @@ def main( config ):
                 api = wandb.Api()
                 api_run = api.run(f"{run.entity}/{run.project}/{run.id}")
                 api_run.delete()
-             for el in history[:-1]:
+            for el in history[:-1]:
                 print (f'Deleting: {el.filename}')
                 CLIENT.delete_object( Bucket = config.bucket, Key = el.filename )
                 CLIENT.delete_object( Bucket = config.bucket, Key = el.metadata_filename )
@@ -225,12 +227,13 @@ if __name__ == "__main__":
     parser.add_argument('--history_size', type=int, default=2, help='Number of previous models to maintain.')
     parser.add_argument('--sequence_length', type=int, default=2048, help='Sequence Length.')
     parser.add_argument('--tokenizer_name', type=str, default='gpt2', help='Tokenizer name.')
-    parser.add_argument('--n_accumulations', type=int, default=1, help='Number of steps before we upload a new model state.')
+    parser.add_argument('--min_accumulations', type=int, default=1, help='Min number of deltas to apply every step.')
     parser.add_argument('--device', type=str, default='cuda', help='Device to use for training')
     parser.add_argument('--use_wandb', action='store_true', help='Use Weights and Biases for logging')
-    parser.add_argument('--model_type', type=str, choices=['gpt2', 'llama'], default='gpt2', help='Model type to use: gpt2 or llama')
+    parser.add_argument('--model_type', type=str, choices=['gpt2', 'llama'], default='llama', help='Model type to use: gpt2 or llama')
     parser.add_argument('--restart', action='store_true', default=False, help='Restart with a new training state.')
     bt.wallet.add_args( parser )
     bt.subtensor.add_args( parser )
     config = bt.config( parser )   
+    config.subtensor.chain_endpoint = 'wss://test.finney.opentensor.ai:443/' # Fix this value.
     main( config ) 

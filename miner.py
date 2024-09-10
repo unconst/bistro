@@ -34,7 +34,6 @@ import torch.optim as optim
 from dotenv import dotenv_values
 from types import SimpleNamespace
 from transformers import AutoTokenizer
-from transformers import GPT2Config, GPT2LMHeadModel
 from typing import Dict, List, Optional, Tuple
 
 # Import common tooling.
@@ -106,7 +105,7 @@ def main( config ):
             if hash_model( master ) != master_meta.model_hash:
                 # Fully resync the state.
                 print ('Failed to sync master state using deltas.')
-                master = download_model( metadata = master_meta, device = config.device, CLIENT = CLIENT )
+                master = download_model( metadata = master_meta, device = 'cpu' CLIENT = CLIENT )
                 tokenizer: AutoTokenizer = AutoTokenizer.from_pretrained( master_meta.tokenizer_name, verbose=False, clean_up_tokenization_spaces=True )
                 tokenizer.pad_token = tokenizer.eos_token    
                 master_hash = hash_model( master )
@@ -226,11 +225,12 @@ if __name__ == "__main__":
     parser.add_argument('--optimizer_beta1', type=float, default=0.9, help='Beta1 for the optimizer')
     parser.add_argument('--optimizer_beta2', type=float, default=0.95, help='Beta2 for the optimizer')
     parser.add_argument('--optimizer_weight_decay', type=float, default=0.1, help='Weight decay for the optimizer')
-    parser.add_argument('--num_pages_per_upload', type=int, default=3, help='Number of pages per delta upload')
+    parser.add_argument('--num_pages_per_upload', type=int, default=1, help='Number of pages per delta upload')
     parser.add_argument('--eval_window', type=int, default=5, help='Number of pages to load')
     parser.add_argument('--device', type=str, default='cuda', help='Device to use for training')
     parser.add_argument('--use_wandb', action='store_true', help='Use Weights and Biases for logging')
     bt.wallet.add_args( parser )
     bt.subtensor.add_args( parser )
     config = bt.config( parser )   
+    config.subtensor.chain_endpoint = 'wss://test.finney.opentensor.ai:443/' # Fix this value.
     main( config ) 
