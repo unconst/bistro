@@ -105,7 +105,7 @@ def main( config ):
             if hash_model( master ) != master_meta.model_hash:
                 # Fully resync the state.
                 print ('Failed to sync master state using deltas.')
-                master = download_model( metadata = master_meta, device = 'cpu' CLIENT = CLIENT )
+                master = download_model( metadata = master_meta, device = 'cpu', CLIENT = CLIENT )
                 tokenizer: AutoTokenizer = AutoTokenizer.from_pretrained( master_meta.tokenizer_name, verbose=False, clean_up_tokenization_spaces=True )
                 tokenizer.pad_token = tokenizer.eos_token    
                 master_hash = hash_model( master )

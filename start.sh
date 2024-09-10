@@ -1,14 +1,13 @@
 
 
 # Create Alice, Bob, Charlie, Dave, Eve, Ferdie
-echo "Creating wallets for Alice, Bob, Charlie, Dave, Eve, and Ferdie ..."
-python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Alice'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Alice', overwrite=True, use_password = False, suppress = False); print(w)"
-python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Bob'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Bob', overwrite=True, use_password = False, suppress = False); print(w)"
-python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Charlie'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Charlie', overwrite=True, use_password = False, suppress = False); print(w)"
-python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Dave'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Dave', overwrite=True, use_password = False, suppress = False); print(w)"
-python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Eve'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Eve', overwrite=True, use_password = False, suppress = False); print(w)"
-python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Ferdie'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Ferdie', overwrite=True, use_password = False, suppress = False); print(w)"
-
+# echo "Creating wallets for Alice, Bob, Charlie, Dave, Eve, and Ferdie ..."
+# python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Alice'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Alice', overwrite=True, use_password = False, suppress = False); print(w)"
+# python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Bob'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Bob', overwrite=True, use_password = False, suppress = False); print(w)"
+# python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Charlie'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Charlie', overwrite=True, use_password = False, suppress = False); print(w)"
+# python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Dave'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Dave', overwrite=True, use_password = False, suppress = False); print(w)"
+# python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Eve'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Eve', overwrite=True, use_password = False, suppress = False); print(w)"
+# python3 -c "import bittensor as bt; w = bt.wallet( name = 'Alice', hotkey = 'Ferdie'); w.create_coldkey_from_uri('//Alice', overwrite=True, use_password = False, suppress = True); w.create_coldkey_from_uri( '/Ferdie', overwrite=True, use_password = False, suppress = False); print(w)"
 
 # Close down all previous processes and restart them.
 pm2 sendSignal SIGINT all
