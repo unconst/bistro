@@ -1,0 +1,93 @@
+--------------------------------------------------------------------------------
+Step: 1, Block: 2767883, Master: 0 Hash: 374972ca880f1eb5ef452dd11afa615f8b730faab36d0dd4c935144ff3dfa6e0
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725988055.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725988055.pt@decis in 108.2844295501709 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.36it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis in 4.061270713806152 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.79it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988260.pt@decis in 4.780705451965332 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.56it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988274.pt@decis in 4.686004161834717 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.47it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988288.pt@decis in 4.267295598983765 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis in 5.852014064788818 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725988246.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725988246.pt@decis in 6.200076341629028 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725988246.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725988246.pt@decis in 6.146941184997559 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725988247.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725988247.pt@decis in 5.541009187698364 seconds.
+--------------------------------------------------------------------------------
+Step: 2, Block: 2767899, Master: 0 Hash: 549f759c5a70ced0521f5ec327f653ad5a0b3c09fada618fa4a7d3b6df7d1248
+Successfully synced master state using deltas.
+
+100%|██████████| 1/1 [00:00<00:00,  1.64it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988329.pt@decis in 7.626412630081177 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 3, Block: 2767902, Master: 0 Hash: 549f759c5a70ced0521f5ec327f653ad5a0b3c09fada618fa4a7d3b6df7d1248
+Successfully synced master state using deltas.
+100%|██████████| 1/1 [00:01<00:00,  1.61s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988359.pt@decis in 4.691822528839111 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 4, Block: 2767904, Master: 0 Hash: 549f759c5a70ced0521f5ec327f653ad5a0b3c09fada618fa4a7d3b6df7d1248
+Successfully synced master state using deltas.
+
+100%|██████████| 1/1 [00:01<00:00,  1.63s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988385.pt@decis in 4.357000827789307 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 5, Block: 2767906, Master: 0 Hash: 549f759c5a70ced0521f5ec327f653ad5a0b3c09fada618fa4a7d3b6df7d1248
+Successfully synced master state using deltas.
+
+100%|██████████| 1/1 [00:01<00:00,  1.57s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988410.pt@decis in 5.205068349838257 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 6, Block: 2767908, Master: 0 Hash: 549f759c5a70ced0521f5ec327f653ad5a0b3c09fada618fa4a7d3b6df7d1248
+Successfully synced master state using deltas.
+
+100%|██████████| 1/1 [00:01<00:00,  1.64s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988435.pt@decis in 5.361023902893066 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 7, Block: 2767910, Master: 0 Hash: 549f759c5a70ced0521f5ec327f653ad5a0b3c09fada618fa4a7d3b6df7d1248
+Successfully synced master state using deltas.
+100%|██████████| 1/1 [00:01<00:00,  1.14s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988461.pt@decis in 6.633252859115601 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725988246.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 8, Block: 2767913, Master: 0 Hash: 549f759c5a70ced0521f5ec327f653ad5a0b3c09fada618fa4a7d3b6df7d1248
+Successfully synced master state using deltas.
+

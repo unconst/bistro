@@ -1,0 +1,648 @@
+--------------------------------------------------------------------------------
+Step: 1, Block: 2768530, Master: 0 Hash: d5f8a431c8812892603a17041d9381a58a40c0bcc57f71240540f936b15d95c2
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995858.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995858.pt@decis in 21.084165811538696 seconds.
+
+100%|██████████| 3/3 [00:03<00:00,  1.12s/it]
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995935.pt@decis in 5.325496435165405 seconds.
+
+ 67%|██████▋   | 2/3 [00:03<00:01,  1.55s/it]
+
+100%|██████████| 3/3 [00:04<00:00,  1.51s/it]
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+
+
+100%|██████████| 3/3 [00:05<00:00,  1.73s/it]
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+loss nan
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+
+
+loss 3.2063329219818115espace' object has no attribute 'deltas'
+loss 3.5889227390289307espace' object has no attribute 'deltas'
+loss 3.8722779750823975espace' object has no attribute 'deltas'
+loss 3.0851278305053715espace' object has no attribute 'deltas'
+loss 1.7730699777603155espace' object has no attribute 'deltas'
+loss 1.7252230644226074espace' object has no attribute 'deltas'
+loss 2.8139412403106694espace' object has no attribute 'deltas'
+loss 3.1190793514251714espace' object has no attribute 'deltas'
+loss 3.1389477252960205espace' object has no attribute 'deltas'
+loss 3.1389477252960205espace' object has no attribute 'deltas'
+loss 2.6223282814025885espace' object has no attribute 'deltas'
+loss 1.7766069173812866espace' object has no attribute 'deltas'
+loss 1.7766069173812866espace' object has no attribute 'deltas'
+loss 1.7766069173812866espace' object has no attribute 'deltas'
+
+
+ 67%|██████▋   | 2/3 [00:03<00:01,  1.71s/it]
+
+loss 2.4063501358032227espace' object has no attribute 'deltas'
+loss 2.1750369071960457espace' object has no attribute 'deltas'
+loss 3.0196089744567877espace' object has no attribute 'deltas'
+loss 1.9650864601135254espace' object has no attribute 'deltas'
+loss 2.3447518348693848espace' object has no attribute 'deltas'
+loss 2.9217274188995368espace' object has no attribute 'deltas'
+loss 2.9652442932128906espace' object has no attribute 'deltas'
+loss 3.0666062831878666espace' object has no attribute 'deltas'
+loss 3.0666062831878666espace' object has no attribute 'deltas'
+loss 3.3655247688293457espace' object has no attribute 'deltas'
+loss 3.5990352630615234espace' object has no attribute 'deltas'
+loss 2.5437455177307134espace' object has no attribute 'deltas'
+loss 2.5437455177307134espace' object has no attribute 'deltas'
+loss 2.5437455177307134espace' object has no attribute 'deltas'
+
+
+ 67%|██████▋   | 2/3 [00:03<00:01,  1.64s/it]
+
+loss 1.6357963085174564espace' object has no attribute 'deltas'
+loss 1.8789608478546143espace' object has no attribute 'deltas'
+loss 1.2591042518615723espace' object has no attribute 'deltas'
+loss 1.4809008836746216espace' object has no attribute 'deltas'
+loss 2.2108290195465096espace' object has no attribute 'deltas'
+loss 1.8231500387191772espace' object has no attribute 'deltas'
+loss 1.8446402549743652espace' object has no attribute 'deltas'
+loss 2.9955251216888428espace' object has no attribute 'deltas'
+loss 3.2542114257812528espace' object has no attribute 'deltas'
+loss 3.2542114257812528espace' object has no attribute 'deltas'
+loss 3.4811687469482428espace' object has no attribute 'deltas'
+loss 2.4553847312927246espace' object has no attribute 'deltas'
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996079.pt@decis
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996079.pt@decis
+Step: 3, Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+Step: 3, Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+Step: 3, Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+
+
+
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+loss nan Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+
+100%|██████████| 3/3 [00:02<00:00,  1.04it/s]
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996005.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+
+100%|██████████| 3/3 [00:02<00:00,  1.20it/s]
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996090.pt, still holding: 4 files.
+Sync the new state. model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996090.pt, still holding: 4 files.
+Step: 4, Block: 2768562, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+Step: 4, Block: 2768562, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+Step: 4, Block: 2768562, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+
+
+loss 4.5458765029907232, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+
+loss 3.3450787067413332, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 2.1932072639465332, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 3.2803890705108643, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 3.1052625179290773, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 3.0543620586395264, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 3.6887559890747074, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 2.3152270317077637, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 2.5397970676422127, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 3.0666530132293727, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 0.8589581251144409, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 1.6793968677520752, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+loss 3.2364563941955566, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e24 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 3.927299737930298del-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+
+loss 2.126556158065796del-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 2.257683753967285del-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 2.801593303680425del-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 2.167271852493286del-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 2.3614137172698975el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 2.5248954296112065el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 3.1915562152862555el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 2.5568082332611084el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 1.4530293941497803el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 1.3072342872619633el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 1.3417391777038574el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 1.6295270919799805el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+loss 1.6295270919799805el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996126.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+
+loss 1.5525261163711548el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 2.8158965110778818el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 2.0306868553161628el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 2.3458683490753174el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 3.5876796245574954el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 2.4457244873046875el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 2.8244431018829346el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 1.1203012466430664el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 2.2933516502380374el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 3.0297513008117676el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 1.3808579444885254el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+loss 3.3000714778900146el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996224.pt, still holding: 4 files.
+Sync the new state. model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996224.pt, still holding: 4 files.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996303.pt@decisolding: 4 files.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996277.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996301.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996301.pt@decisolding: 4 files.
+Step: 5, Block: 2768573, Master: 0 Hash: 6dbb11c35751e36b55489284e276d1fcb8667cd85d2edaa05be9a622ac9975f64 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+
+100%|██████████| 3/3 [00:02<00:00,  1.16it/s]
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+loss naning model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decisac9975f64 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+
+100%|██████████| 3/3 [00:03<00:00,  1.05s/it]
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+loss nan old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996254.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996303.pt, still holding: 4 files.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996444.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996426.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996426.pt@decisolding: 4 files.
+Step: 6, Block: 2768581, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+Step: 6, Block: 2768581, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+Step: 6, Block: 2768581, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+
+100%|██████████| 3/3 [00:02<00:00,  1.09it/s]
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+loss 10.824931144714355, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb00353984 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996338.pt, still holding: 4 files.
+Step: 7, Block: 2768585, Master: 0 Hash: f0322c58f7cd2fd9c5ce1c0a2c22d1390a0dfd54969744477ce294b7364b57ea4 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+
+
+ 67%|██████▋   | 2/3 [00:04<00:02,  2.13s/it]
+
+loss 3.9951672554016113model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 1.6310572624206543model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 4.1313138008117683model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 4.6835727691650393model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 1.8325220346450806model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 2.7256152629852295model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 1.9563958644866943model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 1.6103428602218628model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 1.9937198162078857model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 2.7798736095428467model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 1.6345101594924927model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+loss 1.7329455614089966model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis364b57ea4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+
+loss 2.3959710597991943el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 1.6321406364440918el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 1.9737110137939453el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 1.3656740188598633el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 1.8287481069564823el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 2.7132010459899902el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 2.9048006534576416el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 1.2176492214202886el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 3.4168345928192146el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 3.3502433300018316el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 2.8073172569274902el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+loss 2.7121875286102295el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996373.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996436.pt, still holding: 4 files.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996583.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996586.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996586.pt@decisolding: 4 files.
+Step: 8, Block: 2768594, Master: 0 Hash: 8ecb15c49dbc01a58b9503f0cdd83a4da20d2040789489ecfc71b263337d961b4 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+
+ 67%|██████▋   | 2/3 [00:02<00:01,  1.03s/it]
+
+loss 3.6461849212646484model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 3.4806072711944584model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 3.4800033569335938model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 2.3447086811065674model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 3.0464525222778324model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 2.8268680572509766model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 3.1087419986724854model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.3682918548583984model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.6577879190444946model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 2.0431668758392334model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.9035967588424683model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.6483283042907715model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.6483283042907715model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.6483283042907715model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.6483283042907715model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+
+loss 2.5063288211822515model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 2.9028365612030035model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.9766204357147217model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.1184805631637573model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 3.1122190952301025model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.8147869110107422model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.3815054893493652model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 2.3698611259460452model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.5637162923812866model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 1.1176778078079224model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 2.9599237442016624model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+loss 3.1136851310729984model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis337d961b4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+
+loss 2.8032760620117188el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 2.3086240291595468el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 1.4329746961593628el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 0.9749441146850586el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 3.4272902011871346el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 0.7071809768676758el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 1.4178602695465088el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 1.4310096502304077el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 2.0306735038757324el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 3.6119618415832524el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 2.5338730812072754el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+loss 2.5461597442626953el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996583.pt, still holding: 4 files.
+Sync the new state. model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996583.pt, still holding: 4 files.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996682.pt@decisolding: 4 files.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996686.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996681.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996681.pt@decisolding: 4 files.
+Step: 9, Block: 2768605, Master: 0 Hash: ae8cba14e324d80fc838ec02bb93737ad7a7f2d283027c2f6ed4529a9823ba624 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+
+
+loss 1.5519317388534546model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+
+loss 1.9794124364852905model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 1.8166668415069585model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 1.4391878843307495model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 1.7798790931701665model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 1.8570009469985962model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 2.4743251800537112model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 2.7440967559814453model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 1.8930057287216187model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 3.1791007518768317model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 3.5593781471252447model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 2.6379814147949227model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+loss 2.4675981998443604model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis9823ba624 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+
+ 67%|██████▋   | 2/3 [00:03<00:01,  1.95s/it]
+
+loss 0.736398458480835del-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.597806453704834del-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.7412073612213135el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.2626535892486572el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.3217651844024662el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 3.1819846630096436el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.6052694320678716el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.5424966812133796el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.2280447483062744el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.3290934562683105el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 2.9650032520294195el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+loss 3.5617468357086185el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996619.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996687.pt, still holding: 4 files.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996820.pt@decisolding: 4 files.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996817.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996817.pt@decisolding: 4 files.
+Step: 10, Block: 2768614, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+Step: 10, Block: 2768614, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+Step: 10, Block: 2768614, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+
+loss 2.53271508216857914, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+
+loss 2.09109663963317874, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 3.32460212707519534, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 2.27605628967285164, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 3.47759079933166564, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 1.98946130275726324, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 2.54606223106384284, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 2.28948140144348144, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 2.18990492820739754, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 1.71037292480468754, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 2.73765993118286134, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 2.17428016662597664, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+loss 2.29625463485717774, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+  0%|          | 0/3 [00:00<?, ?it/s]
+
+loss 2.1858880519866943el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 1.4853159189224243el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 2.3402845859527593el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 1.1325564384460453el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 1.0464283227920532el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 2.0030591487884522el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 2.2915003299713135el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 2.8717362880706787el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 2.6976153850555427el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 2.2442760467529297el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 1.6248968839645386el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+loss 1.1805144548416138el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996721.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996754.pt, still holding: 4 files.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996919.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996924.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996924.pt@decisolding: 4 files.
+Step: 11, Block: 2768622, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+Step: 11, Block: 2768622, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+Step: 11, Block: 2768622, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+
+loss 1.86936831474304222, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+
+loss 3.92286539077758822, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.73556494712829622, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.06606626510620122, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.27524447441101072, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 1.45371091365814272, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.45062041282653872, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.53685998916625982, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 1.88230860233306882, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.71231555938720782, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.95104885101318362, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 2.65433835983276372, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+loss 1.87667465209960942, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+
+loss 1.5097801685333252el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+
+loss 1.9688298702239992el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 1.8703926801681519el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 3.0957736968994149el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 1.6155004501342773el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 2.1933927536010743el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 1.3182656764984133el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 1.8203803300857544el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 3.2428784370422363el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 2.2149746417999268el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 1.9932537078857422el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+loss 3.2622401714324952el-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt, still holding: 4 files.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996860.pt, still holding: 4 files.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725997014.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725997022.pt@decisolding: 4 files.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725997022.pt@decisolding: 4 files.
+Step: 12, Block: 2768629, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+Step: 12, Block: 2768629, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+Step: 12, Block: 2768629, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+
+
+loss 1.60722160339355479, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 1.79739248752594479, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 3.17822790145874029, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 1.96875441074371349, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.50477409362792979, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 1.47502744197845469, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.24165987968444829, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.50644278526306159, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.06758499145507859, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.59533190727233959, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.00489115715026869, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 0.97569078207015999, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 0.97569078207015999, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 0.97569078207015999, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 0.97569078207015999, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+
+loss 2.75295543670654399, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+
+loss 2.91706728935241799, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.47697067260742299, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 0.74383449554443369, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.08772873878479369, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 1.52012002468109139, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 1.53106820583343539, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.06059503555297859, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.13932752609252939, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 2.33757257461547859, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 1.63332700729370129, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.
+loss 1.76198196411132819, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e files.

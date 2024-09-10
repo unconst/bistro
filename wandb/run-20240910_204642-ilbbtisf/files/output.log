@@ -1,0 +1,292 @@
+
+	Waiting for deltas ...
+	Waiting for deltas ...
+	Waiting for deltas ...
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/master.py", line 150, in main
+    delta_meta = get_latest_metadata( uid, metagraph, subtensor, CLIENT = CLIENT )
+  File "/home/ubuntu/frontend/bistro/common.py", line 152, in get_latest_metadata
+    metadata = get_latest_metadata_for_hotkey_and_bucket( hotkey = hotkey, bucket = bucket, CLIENT = CLIENT )
+  File "/home/ubuntu/frontend/bistro/common.py", line 101, in get_latest_metadata_for_hotkey_and_bucket
+    latest_block = get_latest_metadata_block( hotkey, bucket, CLIENT )
+  File "/home/ubuntu/frontend/bistro/common.py", line 51, in get_latest_metadata_block
+    response = CLIENT.list_objects_v2( Bucket = bucket )
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/client.py", line 569, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/client.py", line 1005, in _make_api_call
+    http, parsed_response = self._make_request(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/client.py", line 1029, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py", line 119, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py", line 197, in _send_request
+    success_response, exception = self._get_response(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py", line 239, in _get_response
+    success_response, exception = self._do_get_response(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py", line 279, in _do_get_response
+    http_response = self._send(request)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py", line 375, in _send
+    return self.http_session.send(request)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/httpsession.py", line 464, in send
+    urllib_response = conn.urlopen(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connection.py", line 615, in connect
+    self.sock = sock = self._new_conn()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connection.py", line 196, in _new_conn
+    sock = connection.create_connection(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/master.py", line 242, in <module>
+    main( config )
+  File "/home/ubuntu/frontend/bistro/master.py", line 213, in main
+    if config.use_wandb: run.delete()
+AttributeError: 'Run' object has no attribute 'delete'
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/master.py:150 in main                           │
+│                                                                              │
+│   147 │   │   │   pending = []                                               │
+│   148 │   │   │   for uid in metagraph.uids:                                 │
+│   149 │   │   │   │   if uid == my_uid: continue                             │
+│ ❱ 150 │   │   │   │   delta_meta = get_latest_metadata( uid, metagraph, subt │
+│   151 │   │   │   │   if delta_meta == None or delta_meta.master_hash != mas │
+│   152 │   │   │   │   │   continue                                           │
+│   153 │   │   │   │   pending.append( delta_meta )                           │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/common.py:152 in get_latest_metadata            │
+│                                                                              │
+│   149 │   │   # Get the bucket name using the subtensor and metagraph inform │
+│   150 │   │   bucket = subtensor.get_commitment(metagraph.netuid, uid)       │
+│   151 │   │   hotkey = metagraph.hotkeys[uid]                                │
+│ ❱ 152 │   │   metadata = get_latest_metadata_for_hotkey_and_bucket( hotkey = │
+│   153 │   │   if metadata != None:                                           │
+│   154 │   │   │   metadata.uid = int(uid)                                    │
+│   155 │   │   │   return metadata                                            │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/common.py:101 in                                │
+│ get_latest_metadata_for_hotkey_and_bucket                                    │
+│                                                                              │
+│    98 │   │   CLIENT                                                         │
+│    99 │   ) -> SimpleNamespace:                                              │
+│   100 │   # Latest block                                                     │
+│ ❱ 101 │   latest_block = get_latest_metadata_block( hotkey, bucket, CLIENT ) │
+│   102 │   if latest_block == -1:                                             │
+│   103 │   │   # Metadata does not exist.                                     │
+│   104 │   │   return None                                                    │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/common.py:51 in get_latest_metadata_block       │
+│                                                                              │
+│    48 │   Returns:                                                           │
+│    49 │   │   int: The highest block number found for the given hotkey. Retu │
+│    50 │   """                                                                │
+│ ❱  51 │   response = CLIENT.list_objects_v2( Bucket = bucket )               │
+│    52 │   # TODO( const ): needs pagination.                                 │
+│    53 │   file_names = [content['Key'] for content in response.get('Contents │
+│    54 │   max_block = -1                                                     │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/client.py:5 │
+│ 69 in _api_call                                                              │
+│                                                                              │
+│    566 │   │   │   │   │   f"{py_operation_name}() only accepts keyword argu │
+│    567 │   │   │   │   )                                                     │
+│    568 │   │   │   # The "self" in this scope is referring to the BaseClient │
+│ ❱  569 │   │   │   return self._make_api_call(operation_name, kwargs)        │
+│    570 │   │                                                                 │
+│    571 │   │   _api_call.__name__ = str(py_operation_name)                   │
+│    572                                                                       │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/client.py:1 │
+│ 005 in _make_api_call                                                        │
+│                                                                              │
+│   1002 │   │   │   │   self.meta.config, request_dict, operation_model       │
+│   1003 │   │   │   )                                                         │
+│   1004 │   │   │   apply_request_checksum(request_dict)                      │
+│ ❱ 1005 │   │   │   http, parsed_response = self._make_request(               │
+│   1006 │   │   │   │   operation_model, request_dict, request_context        │
+│   1007 │   │   │   )                                                         │
+│   1008                                                                       │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/client.py:1 │
+│ 029 in _make_request                                                         │
+│                                                                              │
+│   1026 │                                                                     │
+│   1027 │   def _make_request(self, operation_model, request_dict, request_co │
+│   1028 │   │   try:                                                          │
+│ ❱ 1029 │   │   │   return self._endpoint.make_request(operation_model, reque │
+│   1030 │   │   except Exception as e:                                        │
+│   1031 │   │   │   self.meta.events.emit(                                    │
+│   1032 │   │   │   │   f'after-call-error.{self._service_model.service_id.hy │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py │
+│ :119 in make_request                                                         │
+│                                                                              │
+│   116 │   │   │   operation_model,                                           │
+│   117 │   │   │   request_dict,                                              │
+│   118 │   │   )                                                              │
+│ ❱ 119 │   │   return self._send_request(request_dict, operation_model)       │
+│   120 │                                                                      │
+│   121 │   def create_request(self, params, operation_model=None):            │
+│   122 │   │   request = create_request_object(params)                        │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py │
+│ :197 in _send_request                                                        │
+│                                                                              │
+│   194 │   │   context = request_dict['context']                              │
+│   195 │   │   self._update_retries_context(context, attempts)                │
+│   196 │   │   request = self.create_request(request_dict, operation_model)   │
+│ ❱ 197 │   │   success_response, exception = self._get_response(              │
+│   198 │   │   │   request, operation_model, context                          │
+│   199 │   │   )                                                              │
+│   200 │   │   while self._needs_retry(                                       │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py │
+│ :239 in _get_response                                                        │
+│                                                                              │
+│   236 │   │   # (http_response, parsed_dict).                                │
+│   237 │   │   # If an exception occurs then the success_response is None.    │
+│   238 │   │   # If no exception occurs then exception is None.               │
+│ ❱ 239 │   │   success_response, exception = self._do_get_response(           │
+│   240 │   │   │   request, operation_model, context                          │
+│   241 │   │   )                                                              │
+│   242 │   │   kwargs_to_emit = {                                             │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py │
+│ :279 in _do_get_response                                                     │
+│                                                                              │
+│   276 │   │   │   responses = self._event_emitter.emit(event_name, request=r │
+│   277 │   │   │   http_response = first_non_none_response(responses)         │
+│   278 │   │   │   if http_response is None:                                  │
+│ ❱ 279 │   │   │   │   http_response = self._send(request)                    │
+│   280 │   │   except HTTPClientError as e:                                   │
+│   281 │   │   │   return (None, e)                                           │
+│   282 │   │   except Exception as e:                                         │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/endpoint.py │
+│ :375 in _send                                                                │
+│                                                                              │
+│   372 │   │   │   return True                                                │
+│   373 │                                                                      │
+│   374 │   def _send(self, request):                                          │
+│ ❱ 375 │   │   return self.http_session.send(request)                         │
+│   376                                                                        │
+│   377                                                                        │
+│   378 class EndpointCreator:                                                 │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/botocore/httpsession │
+│ .py:464 in send                                                              │
+│                                                                              │
+│   461 │   │   │   │   conn.proxy_headers['host'] = host                      │
+│   462 │   │   │                                                              │
+│   463 │   │   │   request_target = self._get_request_target(request.url, pro │
+│ ❱ 464 │   │   │   urllib_response = conn.urlopen(                            │
+│   465 │   │   │   │   method=request.method,                                 │
+│   466 │   │   │   │   url=request_target,                                    │
+│   467 │   │   │   │   body=request.body,                                     │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connectionpo │
+│ ol.py:789 in urlopen                                                         │
+│                                                                              │
+│    786 │   │   │   response_conn = conn if not release_conn else None        │
+│    787 │   │   │                                                             │
+│    788 │   │   │   # Make the request on the HTTPConnection object           │
+│ ❱  789 │   │   │   response = self._make_request(                            │
+│    790 │   │   │   │   conn,                                                 │
+│    791 │   │   │   │   method,                                               │
+│    792 │   │   │   │   url,                                                  │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connectionpo │
+│ ol.py:466 in _make_request                                                   │
+│                                                                              │
+│    463 │   │   try:                                                          │
+│    464 │   │   │   # Trigger any extra validation we need to do.             │
+│    465 │   │   │   try:                                                      │
+│ ❱  466 │   │   │   │   self._validate_conn(conn)                             │
+│    467 │   │   │   except (SocketTimeout, BaseSSLError) as e:                │
+│    468 │   │   │   │   self._raise_timeout(err=e, url=url, timeout_value=con │
+│    469 │   │   │   │   raise                                                 │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connectionpo │
+│ ol.py:1095 in _validate_conn                                                 │
+│                                                                              │
+│   1092 │   │                                                                 │
+│   1093 │   │   # Force connect early to allow us to validate the connection. │
+│   1094 │   │   if conn.is_closed:                                            │
+│ ❱ 1095 │   │   │   conn.connect()                                            │
+│   1096 │   │                                                                 │
+│   1097 │   │   # TODO revise this, see https://github.com/urllib3/urllib3/is │
+│   1098 │   │   if not conn.is_verified and not conn.proxy_is_verified:       │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connection.p │
+│ y:615 in connect                                                             │
+│                                                                              │
+│   612 │                                                                      │
+│   613 │   def connect(self) -> None:                                         │
+│   614 │   │   sock: socket.socket | ssl.SSLSocket                            │
+│ ❱ 615 │   │   self.sock = sock = self._new_conn()                            │
+│   616 │   │   server_hostname: str = self.host                               │
+│   617 │   │   tls_in_tls = False                                             │
+│   618                                                                        │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/connection.p │
+│ y:196 in _new_conn                                                           │
+│                                                                              │
+│   193 │   │   :return: New socket connection.                                │
+│   194 │   │   """                                                            │
+│   195 │   │   try:                                                           │
+│ ❱ 196 │   │   │   sock = connection.create_connection(                       │
+│   197 │   │   │   │   (self._dns_host, self.port),                           │
+│   198 │   │   │   │   self.timeout,                                          │
+│   199 │   │   │   │   source_address=self.source_address,                    │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/urllib3/util/connect │
+│ ion.py:60 in create_connection                                               │
+│                                                                              │
+│    57 │   except UnicodeError:                                               │
+│    58 │   │   raise LocationParseError(f"'{host}', label empty or too long") │
+│    59 │                                                                      │
+│ ❱  60 │   for res in socket.getaddrinfo(host, port, family, socket.SOCK_STRE │
+│    61 │   │   af, socktype, proto, canonname, sa = res                       │
+│    62 │   │   sock = None                                                    │
+│    63 │   │   try:                                                           │
+│                                                                              │
+│ /usr/lib/python3.10/socket.py:955 in getaddrinfo                             │
+│                                                                              │
+│   952 │   # We override this function since we want to translate the numeric │
+│   953 │   # and socket type values to enum constants.                        │
+│   954 │   addrlist = []                                                      │
+│ ❱ 955 │   for res in _socket.getaddrinfo(host, port, family, type, proto, fl │
+│   956 │   │   af, socktype, proto, canonname, sa = res                       │
+│   957 │   │   addrlist.append((_intenum_converter(af, AddressFamily),        │
+│   958 │   │   │   │   │   │    _intenum_converter(socktype, SocketKind),     │
+╰──────────────────────────────────────────────────────────────────────────────╯
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/master.py:242 in <module>                       │
+│                                                                              │
+│   239 │   bt.wallet.add_args( parser )                                       │
+│   240 │   bt.subtensor.add_args( parser )                                    │
+│   241 │   config = bt.config( parser )                                       │
+│ ❱ 242 │   main( config )                                                     │
+│   243                                                                        │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/master.py:213 in main                           │
+│                                                                              │
+│   210 │   │                                                                  │
+│   211 │   │   # Handle keyboard interrupts, stops training gracefully.       │
+│   212 │   │   except (KeyboardInterrupt, SystemExit):                        │
+│ ❱ 213 │   │   │   if config.use_wandb: run.delete()                          │
+│   214 │   │   │   handle_exit_signal( None, None, history, config )          │
+│   215 │   │   │   break                                                      │
+│   216                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttributeError: 'Run' object has no attribute 'delete'

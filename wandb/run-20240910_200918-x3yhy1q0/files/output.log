@@ -1,0 +1,577 @@
+--------------------------------------------------------------------------------
+Step: 1, Block: 2768786, Master: 0 Hash: d62dfc30efcfc903b63577d90f42dd195631d302967299b57578b454db8cba21
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725998823.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725998823.pt@decis in 89.27115416526794 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999087.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999087.pt@decis in 4.883658170700073 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+Eval post...
+UID 5 loss_dif 8.404511499404908 pre loss 10.68382453918457 post loss 2.2793130397796633
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 2, Block: 2768799, Master: 0 Hash: e0977ca7d5baa912a9262e93cea4f920a0075e659aaf718dad67f7e15c39b7ea
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725998961.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725998961.pt@decis in 8.732140064239502 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999131.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999131.pt@decis in 6.202458620071411 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.31it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif 8.032885284423827 pre loss 10.314855613708495 post loss 2.281970329284668
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999133.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.55it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999133.pt@decis in 3.994006633758545 seconds.
+Eval pre...
+Eval post...
+UID 3 loss_dif 7.884851870536805 pre loss 10.338582420349121 post loss 2.4537305498123168
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999130.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999130.pt@decis in 6.866275072097778 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.55it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif 8.117459177970886 pre loss 10.308449783325194 post loss 2.190990605354309
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 3, Block: 2768805, Master: 0 Hash: 74d326f649bcad82c78f8c050a4778fef24549f8c9195563ebc431459a6f6347
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999167.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999167.pt@decis in 8.949124097824097 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999240.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999240.pt@decis in 6.273979663848877 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.40it/s]
+Eval post...
+UID 3 loss_dif 0.013305540084838974 pre loss 2.700884485244751 post loss 2.687578945159912
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999240.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif 0.005930278301239156 pre loss 2.3887459421157837 post loss 2.3828156638145446
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999241.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.44it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999241.pt@decis in 4.675797939300537 seconds.
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.010992884635925293 pre loss 2.304037127494812 post loss 2.293044242858887
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 4, Block: 2768814, Master: 0 Hash: a256ba50fb99340b5b0d4b4afda3f9d1d92cbd1b672fc24990b23b02a41f7c1b
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999274.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999274.pt@decis in 5.084858655929565 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999316.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.54it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999316.pt@decis in 5.1026692390441895 seconds.
+Eval pre...
+Eval post...
+UID 3 loss_dif 0.07134289264678939 pre loss 2.2749625039100647 post loss 2.2036196112632753
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999317.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999317.pt@decis in 5.1192052364349365 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.031117997169494593 pre loss 2.219493501186371 post loss 2.1883755040168764
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999317.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999317.pt@decis in 4.97342324256897 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.026240475177764733 pre loss 2.1464167070388793 post loss 2.1201762318611146
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 5, Block: 2768820, Master: 0 Hash: 6f02c12feded4b471d38fa0022ca770370aa4b76efc7eeea65f1d7f93bb88812
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999346.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999346.pt@decis in 4.5400567054748535 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999401.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999401.pt@decis in 6.869900226593018 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.67it/s]
+Eval pre...
+Eval post...
+
+UID 4 loss_dif 0.07083748579025251 pre loss 2.1265850281715393 post loss 2.0557475423812868
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999404.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999404.pt@decis in 9.750669956207275 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.47it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif 0.007225620746612371 pre loss 2.3258679580688475 post loss 2.318642337322235
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999404.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999404.pt@decis in 4.968418121337891 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+Eval post...
+UID 1 loss_dif 0.009502184391021684 pre loss 1.9137429928779601 post loss 1.9042408084869384
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 6, Block: 2768827, Master: 0 Hash: 84320571c09cb493b18945540dd6667a12347f00d9c171b569ac5cb35c373508
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999435.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999435.pt@decis in 5.395014047622681 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999480.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.72it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999480.pt@decis in 6.011753082275391 seconds.
+Eval pre...
+Eval post...
+UID 1 loss_dif 0.0018736362457274502 pre loss 2.3834545373916627 post loss 2.3815809011459352
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999483.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999483.pt@decis in 5.478838682174683 seconds.
+Eval pre...model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999483.pt@decis in 5.478838682174683 seconds.
+Eval pre...model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999483.pt@decis in 5.478838682174683 seconds.
+Eval post...
+UID 5 loss_dif -0.00027547836303698503 pre loss 2.2336597442626953 post loss 2.2339352226257323
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999508.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  2.21it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999508.pt@decis in 6.8535542488098145 seconds.
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.0008876037597653763 pre loss 2.341281006336212 post loss 2.3403934025764466
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999513.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.11s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif 0.014400601387023926 pre loss 2.2024781465530396 post loss 2.1880775451660157
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999506.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:02<00:00,  2.08s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.0005652475357056375 pre loss 2.1041622734069825 post loss 2.104727520942688
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 7, Block: 2768836, Master: 0 Hash: 0e1b37872f796de2cfe7c8b876db91e10f99907509a4fec55e8ea6c01e36a9d4
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999542.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999542.pt@decis in 5.611518859863281 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999589.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.005444920063018888 pre loss 2.300796020030975 post loss 2.306240940093994
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999589.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999589.pt@decis in 6.0346901416778564 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif -0.0029557609558104048 pre loss 2.188829712867737 post loss 2.1917854738235474
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 8, Block: 2768842, Master: 0 Hash: 455f7720d3db4b2de5eaf056c60f681149e6c0876011ba8ff75df21a60949faa
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999614.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999614.pt@decis in 6.715174913406372 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999669.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.0006728982925414684 pre loss 2.566796803474426 post loss 2.5674697017669676
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999684.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999684.pt@decis in 7.546557426452637 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.004233527183532981 pre loss 2.377316994667053 post loss 2.381550521850586
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 9, Block: 2768849, Master: 0 Hash: af149e24af64a057a3de17d7e53885810ff61ad7d2be4431b0f549d379b071bb
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999699.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999699.pt@decis in 8.220666885375977 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999744.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.41it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999744.pt@decis in 6.299187183380127 seconds.
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.06743817329406765 pre loss 2.2886229658126833 post loss 2.2211847925186157
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999753.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725999753.pt@decis in 5.82498025894165 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.90it/s]
+Eval post...
+UID 1 loss_dif -0.007780294418334943 pre loss 2.0092592573165895 post loss 2.0170395517349244
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999760.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999760.pt@decis in 5.613475799560547 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.56s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.008096423149108745 pre loss 2.3588348627090454 post loss 2.366931285858154
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 10, Block: 2768857, Master: 0 Hash: 477c9d70ccc136ef2fdcb67b1706b933cfd98e78e1b85abfd0a725b40de9da5c
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999784.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999784.pt@decis in 4.992218971252441 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999840.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999840.pt@decis in 5.97290301322937 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.16it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif 0.06502250671386722 pre loss 2.238493938446045 post loss 2.1734714317321777
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725999840.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.22s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.010775341987609988 pre loss 2.1890770959854127 post loss 2.1998524379730227
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999848.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999848.pt@decis in 7.717200517654419 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.006677062511444287 pre loss 2.1559046721458435 post loss 2.1625817346572878
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 11, Block: 2768864, Master: 0 Hash: 0e80324f2e88e56b342f5f23f300b7ba7ca7698119d4c3623f9f5ba0e18afc3a
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999875.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999875.pt@decis in 10.128006219863892 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999931.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725999931.pt@decis in 6.439091682434082 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.32it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif 0.06497955799102817 pre loss 2.450263752937317 post loss 2.385284194946289
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999937.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999937.pt@decis in 5.680032730102539 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+Eval post...
+UID 4 loss_dif -0.00807718634605381 pre loss 2.0214633655548098 post loss 2.0295405519008636
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999937.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725999937.pt@decis in 5.3095703125 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.87it/s]
+Eval post...
+UID 4 loss_dif -0.008972864151000959 pre loss 2.198067421913147 post loss 2.207040286064148
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 12, Block: 2768872, Master: 0 Hash: c228dddc562276fdcdc41d795223ae56ba9daf6311acc2fa8187a4390f1ce30c
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999970.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725999970.pt@decis in 5.525727033615112 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000027.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000027.pt@decis in 8.062767505645752 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.94s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif -0.007394518852233745 pre loss 2.263000011444092 post loss 2.2703945302963255
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000027.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000027.pt@decis in 6.144779920578003 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.37s/it]
+Eval post...
+UID 1 loss_dif -0.008096203804015989 pre loss 2.106971082687378 post loss 2.115067286491394
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000045.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000045.pt@decis in 5.854502439498901 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.78s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.010430569648742782 pre loss 2.299813723564148 post loss 2.310244293212891
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 13, Block: 2768880, Master: 0 Hash: 5b5af3d138d46e1925904d97b5f7efb80c9e1cea201008775325d784be960042
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000066.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000066.pt@decis in 6.290775775909424 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000125.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000125.pt@decis in 5.688968896865845 seconds.
+
+100%|██████████| 1/1 [00:02<00:00,  2.32s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.009490394592285512 pre loss 2.2214744186401365 post loss 2.230964813232422
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000127.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000127.pt@decis in 6.729888677597046 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.69s/it]
+Eval post...
+UID 4 loss_dif -0.009926221370696986 pre loss 2.1265314650535583 post loss 2.1364576864242553
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000146.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000146.pt@decis in 6.208310604095459 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.41it/s]
+Eval post...
+UID 3 loss_dif -0.008340945243835662 pre loss 2.118515815734863 post loss 2.126856760978699
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 14, Block: 2768888, Master: 0 Hash: b9b91acb36f286bdfdef416a147525c8bc36e9e227397a20e02763d4a850ecd5
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000169.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000169.pt@decis in 4.243175745010376 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000225.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000225.pt@decis in 5.691596746444702 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.54it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif -0.007706992626190123 pre loss 1.9096490263938903 post loss 1.9173560190200805
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000225.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.08it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif -0.008960900306701713 pre loss 2.057433786392212 post loss 2.0663946866989136
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000240.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000240.pt@decis in 6.125715494155884 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.14s/it]
+Eval post...
+UID 4 loss_dif -0.011076507568359428 pre loss 2.229158704280853 post loss 2.2402352118492126
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 15, Block: 2768896, Master: 0 Hash: 9210ab3ae8fb464091399f2a03a7b4002a8a3894f1268f64f11f54743a45bab9
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000265.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000265.pt@decis in 4.904149293899536 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000314.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000314.pt@decis in 4.635833978652954 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.20it/s]
+Eval post...
+UID 5 loss_dif -0.006747288703918386 pre loss 1.9912481307983398 post loss 1.9979954195022582
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000314.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000314.pt@decis in 4.9163498878479 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.88it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.006747264862060565 pre loss 1.9912481546401977 post loss 1.9979954195022582
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000314.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000314.pt@decis in 5.066960096359253 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.14s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.007603154182433958 pre loss 2.4299071788787843 post loss 2.4375103330612182
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000338.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000338.pt@decis in 5.102299213409424 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif -0.007883243560791175 pre loss 2.320676031112671 post loss 2.328559274673462
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000359.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000359.pt@decis in 5.67680549621582 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.009380388259887518 pre loss 2.107338523864746 post loss 2.1167189121246337
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 16, Block: 2768906, Master: 0 Hash: ce96a8ac538a24a0d5e2161b76b4f670eaf0a864bcf3884072cc45d3d745ec3d
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000373.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000373.pt@decis in 6.133293867111206 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000422.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000422.pt@decis in 5.929706573486328 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.67s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.011985678672790545 pre loss 2.215478792190552 post loss 2.2274644708633424
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000436.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000436.pt@decis in 8.414931535720825 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.59s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.009623572826385374 pre loss 2.256829776763916 post loss 2.2664533495903014
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000436.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.17s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.00912618637084961 pre loss 2.092844581604004 post loss 2.1019707679748536
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 17, Block: 2768913, Master: 0 Hash: f3aae2a4096f12eaf95e1a074a2b7a28342b7a57d037c619a5616decb8ebc360
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000467.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000467.pt@decis in 4.028362512588501 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000516.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000516.pt@decis in 6.578125953674316 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.011491889953612944 pre loss 2.1640772151947023 post loss 2.1755691051483153
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000516.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.009344918727874685 pre loss 2.1352692151069643 post loss 2.144614133834839
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000541.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000541.pt@decis in 4.971287488937378 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Eval post...
+UID 3 loss_dif -0.010108809471130353 pre loss 2.0673113369941714 post loss 2.0774201464653017
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000541.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000541.pt@decis in 6.056208848953247 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.37s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.00900485038757326 pre loss 1.972989685535431 post loss 1.9819945359230042
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 18, Block: 2768922, Master: 0 Hash: 37bcfee522e6bf0d8201141622e3a0994d2361dfb042ec8ceabe802cbe982683
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000572.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000572.pt@decis in 5.932586431503296 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000625.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000625.pt@decis in 7.11716628074646 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.79s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.008331754207610897 pre loss 1.9968698716163635 post loss 2.0052016258239744
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000624.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000624.pt@decis in 7.320468187332153 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.05it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.008003582954406507 pre loss 2.12241720199585 post loss 2.1304207849502563
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 19, Block: 2768928, Master: 0 Hash: faf57ba81524a092e8924895137c23294d788bf9cd74572018c9b1c30a6d91e6
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000656.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000656.pt@decis in 6.872011184692383 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000708.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000708.pt@decis in 6.347783088684082 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.47it/s]
+Eval post...
+UID 3 loss_dif 0.05015748023986788 pre loss 2.4210918378829955 post loss 2.3709343576431277
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000709.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000709.pt@decis in 4.676040410995483 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.07it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.006508321762085156 pre loss 2.235863666534424 post loss 2.242371988296509
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000717.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000717.pt@decis in 6.779083728790283 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.008259963989257768 pre loss 1.9399447631835938 post loss 1.9482047271728515
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 20, Block: 2768936, Master: 0 Hash: ce2330832fffaf44a83f715ea9ce7aebb6d08388166eb6042ea4894b5858e5e5
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000745.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000745.pt@decis in 3.7691855430603027 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000792.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  2.11it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726000792.pt@decis in 5.309622526168823 seconds.
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.010500516891479794 pre loss 2.119637756347656 post loss 2.130138273239136
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000793.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.31it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.006975350379943457 pre loss 2.3216812324523928 post loss 2.3286565828323362
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000793.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000793.pt@decis in 5.262534141540527 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.005849094390869114 pre loss 1.9073761487007141 post loss 1.9132252430915833
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000828.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000828.pt@decis in 5.822319507598877 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.40it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.013401212692260689 pre loss 2.290055158138275 post loss 2.303456370830536
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 21, Block: 2768944, Master: 0 Hash: 802de75088f3df412a9a10cc4ce73b441c7709d402eb53b3a2435bd5932c4189
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000841.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000841.pt@decis in 5.780233144760132 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000892.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726000892.pt@decis in 5.644116401672363 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.56it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif -0.006767334938049263 pre loss 2.0127228260040284 post loss 2.0194901609420777
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000904.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000904.pt@decis in 5.851648330688477 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.92it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.008975801467895561 pre loss 2.1230851507186888 post loss 2.1320609521865843
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000904.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1726000904.pt@decis in 10.818758010864258 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.33it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif -0.006901750564574982 pre loss 2.110558385848999 post loss 2.117460136413574
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 22, Block: 2768952, Master: 0 Hash: d403f93887075dcc7ca1021406f144a842c71a3c1d53aec55f81dc97718c7f1a
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000941.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726000941.pt@decis in 5.694911956787109 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000983.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000983.pt@decis in 6.817706823348999 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.013283598423004417 pre loss 2.286374752521515 post loss 2.299658350944519
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000983.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726000983.pt@decis in 5.1062517166137695 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif -0.013283581733703809 pre loss 2.2863747692108154 post loss 2.299658350944519
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726001012.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1726001012.pt@decis in 5.020366907119751 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.07it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif -0.00865349292755102 pre loss 2.1669188046455385 post loss 2.1755722975730896
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726001003.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726001003.pt@decis in 5.706916332244873 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.56it/s]
+Eval post...
+UID 1 loss_dif -0.007221012115478764 pre loss 2.0705363607406615 post loss 2.0777573728561403
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 23, Block: 2768961, Master: 0 Hash: dd645e92651bedf4b073ef0134c03af5bece775e242db8d74c93bc5b78917388
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001032.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001032.pt@decis in 5.246107816696167 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726001081.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1726001081.pt@decis in 7.527632236480713 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+Eval post...
+UID 1 loss_dif -0.0041518115997316585 pre loss 2.322648868560791 post loss 2.3268006801605225
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001099.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001099.pt@decis in 8.325782060623169 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.70s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif 0.03186931848526031 pre loss 2.0559608054161074 post loss 2.024091486930847
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 24, Block: 2768967, Master: 0 Hash: 319cf52625480b768a9b8df9359c25b00a20d5af62e6b75ee1b7816e5ffe24fe
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001116.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001116.pt@decis in 6.224904298782349 seconds.

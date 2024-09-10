@@ -1,0 +1,834 @@
+
+	Waiting for a master model to be uploaded ...
+	Waiting for a master model to be uploaded ...
+	Waiting for a master model to be uploaded ...
+	Waiting for a master model to be uploaded ...
+--------------------------------------------------------------------------------
+Step: 1, Block: 2768980, Master: 0 Hash: 4e573cb9bea4300b9fef799145d1b45346d7e1528f9902e8d21368f8397b99ee
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001256.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001256.pt@decis in 117.67840647697449 seconds.
+
+
+100%|██████████| 3/3 [00:03<00:00,  1.32s/it]
+loss 11.079975128173828
+loss 3.6586406230926514
+loss 4.01264762878418
+loss 1.7380495071411133
+loss 2.512040376663208
+loss 4.301429748535156
+loss 2.663872003555298
+loss 3.3519341945648193
+loss 1.6229792833328247
+loss 1.8435930013656616
+loss 1.9452698230743408
+loss 2.4273128509521484
+loss 3.815528154373169
+loss 2.670664072036743
+loss 2.2279014587402344
+loss 1.1550334692001343
+loss 2.42592191696167
+loss 1.792065978050232
+loss 3.203284740447998
+loss 1.574440598487854
+loss 3.478519916534424
+loss 2.857344627380371
+loss 2.973689079284668
+loss 1.6720789670944214
+loss 1.8598195314407349
+loss 2.673114538192749
+loss 2.6901791095733643
+loss 1.914821982383728
+loss 2.62707257270813
+loss 1.5102063417434692
+loss 3.000720739364624
+loss 1.6354260444641113
+loss 2.158940553665161
+loss 1.9458328485488892
+loss 2.8735764026641846
+loss 2.2435779571533203
+loss 2.8828094005584717
+loss 2.4685516357421875
+loss 2.350825786590576
+loss 1.7070176601409912
+loss 3.9818103313446045
+loss 2.3036770820617676
+loss 2.5598304271698
+loss 2.972982168197632
+loss 2.5521225929260254
+loss 3.3349568843841553
+loss 2.068230152130127
+loss 2.3209426403045654
+loss 1.6722313165664673
+loss 2.460177421569824
+loss 2.3714427947998047
+loss 2.20794939994812
+loss 2.170212984085083
+loss 3.1592392921447754
+loss 1.910094141960144
+loss 2.403395414352417
+loss 2.1102800369262695
+loss 2.1347815990448
+loss 1.5506500005722046
+loss 3.4243252277374268
+loss 1.7268673181533813
+loss 2.183426856994629
+loss 1.2291767597198486
+loss 2.3699467182159424
+loss 2.6000187397003174
+loss 1.9833725690841675
+loss 3.786604881286621
+loss 1.7968474626541138
+loss 2.7154252529144287
+loss 3.3306221961975098
+loss 2.1608974933624268
+loss 2.93056583404541
+loss 1.9830498695373535
+loss 2.21425461769104
+loss 2.8635165691375732
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001523.pt@decis in 22.23118829727173 seconds.
+
+100%|██████████| 3/3 [00:02<00:00,  1.01it/s]
+loss 1.5615965127944946
+loss 3.0941429138183594
+loss 3.56589937210083
+loss 1.9230132102966309
+loss 2.4885141849517822
+loss 3.610128164291382
+loss 3.678713083267212
+loss 1.5199737548828125
+loss 2.328331470489502
+loss 2.362290143966675
+loss 1.179261565208435
+loss 1.7575620412826538
+loss 2.7898504734039307
+loss 2.581737518310547
+loss 1.0439844131469727
+loss 2.110332727432251
+loss 2.9652490615844727
+loss 1.8614338636398315
+loss 2.3842625617980957
+loss 1.0820960998535156
+loss 1.272297978401184
+loss 2.635634422302246
+loss 1.7197191715240479
+loss 2.980984687805176
+loss 2.176978588104248
+loss 3.0137417316436768
+loss 3.110142469406128
+loss 1.6376142501831055
+loss 2.809846878051758
+loss 2.3334550857543945
+loss 2.675868034362793
+loss 2.409698009490967
+loss 2.6812658309936523
+loss 2.4350426197052
+loss 2.131051540374756
+loss 2.2404918670654297
+loss 1.2005553245544434
+loss 2.1286115646362305
+loss 2.1714141368865967
+loss 2.3661954402923584
+loss 2.054682493209839
+loss 2.4219279289245605
+loss 1.7875032424926758
+loss 2.2937934398651123
+loss 1.3637382984161377
+loss 1.6870765686035156
+loss 1.976616382598877
+loss 2.4455366134643555
+loss 2.9351019859313965
+loss 3.2531745433807373
+loss 2.025453805923462
+loss 1.2051753997802734
+loss 2.583832263946533
+loss 2.169377565383911
+loss 0.8550659418106079
+loss 2.672353982925415
+loss 2.0314860343933105
+loss 2.544100046157837
+loss 3.050417423248291
+loss 0.6441922783851624
+loss 2.23403000831604
+loss 1.1396971940994263
+loss 3.132362127304077
+loss 2.390316963195801
+loss 2.5470800399780273
+loss 2.134392023086548
+loss 2.0848724842071533
+loss 2.500715732574463
+loss 2.842235803604126
+loss 1.9487106800079346
+loss 2.04087495803833
+loss 2.5865750312805176
+loss 2.874528408050537
+loss 2.3563923835754395
+loss 3.2069718837738037
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001662.pt@decis in 22.60470461845398 seconds.
+[34m2024-09-10 20:54:44.966[39m | [33m[1m    WARNING     [39m[22m | Expecting value: line 1 column 1 (char 0) - %s, retrying in %s seconds... - 1
+[34m2024-09-10 20:54:45.968[39m | [33m[1m    WARNING     [39m[22m | EOF occurred in violation of protocol (_ssl.c:2426) - %s, retrying in %s seconds... - 2
+EOF occurred in violation of protocol (_ssl.c:2426)
+Error: 'NoneType' object has no attribute 'model_hash'
+--------------------------------------------------------------------------------
+Step: 2, Block: 2769014, Master: 0 Hash: 794c6a1f403eef0f83c5fb5a8ec69a9489961f2abdda292606e294b61340e62f
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001659.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001659.pt@decis in 21.651633977890015 seconds.
+
+100%|██████████| 3/3 [00:03<00:00,  1.03s/it]
+loss 2.108612537384033
+loss 4.045363903045654
+loss 2.0322751998901367
+loss 2.0762085914611816
+loss 3.0088815689086914
+loss 3.0907952785491943
+loss 2.284489631652832
+loss 2.8777847290039062
+loss 2.286763906478882
+loss 1.9880810976028442
+loss 1.956682562828064
+loss 2.340656042098999
+loss 2.842527389526367
+loss 1.5188745260238647
+loss 2.2679827213287354
+loss 3.8973209857940674
+loss 3.264868974685669
+loss 2.352653741836548
+loss 1.8894141912460327
+loss 2.700528860092163
+loss 2.8109354972839355
+loss 2.174485445022583
+loss 2.313444137573242
+loss 1.3816121816635132
+loss 0.7715683579444885
+loss 2.063248872756958
+loss 2.9298431873321533
+loss 3.821668863296509
+loss 2.8977787494659424
+loss 1.7275742292404175
+loss 2.998509168624878
+loss 3.4959464073181152
+loss 2.6738531589508057
+loss 3.229093551635742
+loss 2.7480602264404297
+loss 2.2473912239074707
+loss 3.1273796558380127
+loss 2.0524702072143555
+loss 2.7881901264190674
+loss 2.8835370540618896
+loss 1.9052659273147583
+loss 1.1445130109786987
+loss 2.7058422565460205
+loss 2.7698798179626465
+loss 1.9050846099853516
+loss 1.4764418601989746
+loss 3.342639446258545
+loss 3.008697748184204
+loss 3.433136224746704
+loss 3.042971134185791
+loss 2.5777151584625244
+loss 2.8071200847625732
+loss 2.5887598991394043
+loss 2.7609894275665283
+loss 1.1909259557724
+loss 2.6199193000793457
+loss 3.0741827487945557
+loss 2.4160239696502686
+loss 2.480314016342163
+loss 3.113424777984619
+loss 3.0488173961639404
+loss 3.328460454940796
+loss 1.0052369832992554
+loss 3.305152177810669
+loss 1.5411896705627441
+loss 2.213205575942993
+loss 1.5407649278640747
+loss 1.7861711978912354
+loss 1.4985982179641724
+loss 3.308664321899414
+loss 1.1625036001205444
+loss 1.9846770763397217
+loss 2.6626343727111816
+loss 1.7436487674713135
+loss 1.9271773099899292
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001843.pt@decis in 22.928436756134033 seconds.
+
+100%|██████████| 3/3 [00:03<00:00,  1.01s/it]
+loss 2.2251052856445312
+loss 2.315525770187378
+loss 3.621690273284912
+loss 2.1833529472351074
+loss 2.5395851135253906
+loss 2.2048513889312744
+loss 2.6217799186706543
+loss 1.9372663497924805
+loss 2.9120213985443115
+loss 2.709693670272827
+loss 2.6924734115600586
+loss 2.434769630432129
+loss 2.428623914718628
+loss 1.7468819618225098
+loss 1.7381091117858887
+loss 2.3394393920898438
+loss 2.4521327018737793
+loss 2.857992172241211
+loss 1.9101144075393677
+loss 1.9295660257339478
+loss 2.700209617614746
+loss 2.6518537998199463
+loss 1.4102673530578613
+loss 2.9106247425079346
+loss 2.201615571975708
+loss 3.8482911586761475
+loss 2.0636179447174072
+loss 1.808359980583191
+loss 1.2553086280822754
+loss 2.8418543338775635
+loss 3.439055919647217
+loss 2.0962448120117188
+loss 2.0055084228515625
+loss 2.0812315940856934
+loss 2.1136789321899414
+loss 2.830162286758423
+loss 3.5683653354644775
+loss 2.5578198432922363
+loss 1.2853206396102905
+loss 2.7740917205810547
+loss 1.6695598363876343
+loss 1.452485203742981
+loss 3.11446475982666
+loss 1.8128376007080078
+loss 2.7579424381256104
+loss 1.5130685567855835
+loss 2.6386003494262695
+loss 1.3652024269104004
+loss 2.159895658493042
+loss 2.046304225921631
+loss 1.770444631576538
+loss 1.9215267896652222
+loss 2.702486038208008
+loss 1.687024474143982
+loss 2.527186870574951
+loss 2.5330374240875244
+loss 2.8004403114318848
+loss 2.7688112258911133
+loss 1.5212637186050415
+loss 2.2049379348754883
+loss 1.9533653259277344
+loss 1.9662500619888306
+loss 2.2220025062561035
+loss 2.6809158325195312
+loss 1.1359403133392334
+loss 3.0210819244384766
+loss 2.802006244659424
+loss 2.504206418991089
+loss 1.4618241786956787
+loss 1.997678518295288
+loss 1.9526152610778809
+loss 2.2483203411102295
+loss 2.780164957046509
+loss 2.0401735305786133
+loss 2.40224289894104
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001983.pt@decis in 23.391876935958862 seconds.
+
+100%|██████████| 3/3 [00:02<00:00,  1.24it/s]
+loss 3.7733044624328613
+loss 1.5379937887191772
+loss 2.777282476425171
+loss 1.8164079189300537
+loss 2.0390450954437256
+loss 1.9126931428909302
+loss 2.441023826599121
+loss 1.8890742063522339
+loss 2.7976162433624268
+loss 1.933314323425293
+loss 1.1734528541564941
+loss 2.7937076091766357
+loss 1.6855993270874023
+loss 1.9836333990097046
+loss 2.3650693893432617
+loss 2.000856637954712
+loss 2.1674721240997314
+loss 2.8743114471435547
+loss 2.8373241424560547
+loss 2.8278422355651855
+loss 1.8216513395309448
+loss 1.8735706806182861
+loss 1.4374687671661377
+loss 1.5316497087478638
+loss 1.6373164653778076
+loss 1.9442315101623535
+loss 2.6806282997131348
+loss 3.3880743980407715
+loss 0.9018010497093201
+loss 2.6308178901672363
+loss 2.32846736907959
+loss 1.559384822845459
+loss 2.128589391708374
+loss 2.4138572216033936
+loss 1.9448084831237793
+loss 1.260032296180725
+loss 2.3348116874694824
+loss 1.266349196434021
+loss 2.996917247772217
+loss 2.0094103813171387
+loss 1.7363271713256836
+loss 1.0553327798843384
+loss 1.8684943914413452
+loss 2.9151415824890137
+loss 3.026747703552246
+loss 3.1667990684509277
+loss 1.834431529045105
+loss 3.0021965503692627
+loss 2.6075215339660645
+loss 2.6738593578338623
+loss 3.0974888801574707
+loss 2.5836679935455322
+loss 1.8255481719970703
+loss 2.416712760925293
+loss 2.9286718368530273
+loss 2.030654191970825
+loss 2.912648916244507
+loss 3.0672168731689453
+loss 2.734583854675293
+loss 3.1661806106567383
+loss 1.945848822593689
+loss 3.241637706756592
+loss 1.6120842695236206
+loss 2.1413872241973877
+loss 1.8437936305999756
+loss 1.4687800407409668
+loss 2.2420654296875
+loss 3.1816325187683105
+loss 1.6049034595489502
+loss 2.6229052543640137
+loss 3.2367537021636963
+loss 1.8700803518295288
+loss 2.33880352973938
+loss 2.2145345211029053
+loss 1.5959049463272095
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726002122.pt@decis in 24.878448247909546 seconds.
+Deleting old delta: model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001523.pt, still holding: 4 files.
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 3, Block: 2769052, Master: 0 Hash: a9ec64c3cc8f1a1fd7195efd7b33576b566a091dcb0e1a7ac369b19145e8b643
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001999.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001999.pt@decis in 32.878124475479126 seconds.
+
+
+100%|██████████| 3/3 [00:03<00:00,  1.21s/it]
+loss 2.1577680110931396
+loss 1.8417994976043701
+loss 1.3551108837127686
+loss 2.816884994506836
+loss 3.292841672897339
+loss 1.4608070850372314
+loss 2.6306910514831543
+loss 2.3788704872131348
+loss 2.762241840362549
+loss 2.4369068145751953
+loss 2.1726632118225098
+loss 1.0680135488510132
+loss 3.2157256603240967
+loss 1.2097722291946411
+loss 2.795983076095581
+loss 2.133918285369873
+loss 1.6456613540649414
+loss 2.638334035873413
+loss 2.2352566719055176
+loss 1.6774271726608276
+loss 1.8465495109558105
+loss 1.2406466007232666
+loss 2.560875654220581
+loss 1.9845540523529053
+loss 2.5256216526031494
+loss 3.316901445388794
+loss 0.7570322751998901
+loss 3.1902096271514893
+loss 2.3462436199188232
+loss 3.1838154792785645
+loss 1.869701862335205
+loss 2.289832592010498
+loss 2.9144575595855713
+loss 2.829498767852783
+loss 3.532635450363159
+loss 3.5706417560577393
+loss 1.7643358707427979
+loss 4.026637077331543
+loss 2.5119009017944336
+loss 1.9645464420318604
+loss 2.2641184329986572
+loss 3.9599690437316895
+loss 2.2140369415283203
+loss 2.220463991165161
+loss 1.4699363708496094
+loss 3.2127959728240967
+loss 2.290044069290161
+loss 1.780394196510315
+loss 1.8875147104263306
+loss 2.2703685760498047
+loss 2.708495855331421
+loss 1.065970540046692
+loss 1.5527424812316895
+loss 1.7254084348678589
+loss 2.084836006164551
+loss 2.2928802967071533
+loss 1.98816978931427
+loss 2.2549445629119873
+loss 3.317298173904419
+loss 1.6116288900375366
+loss 1.8744165897369385
+loss 2.406071901321411
+loss 3.817385673522949
+loss 2.756222724914551
+loss 3.034532070159912
+loss 2.899951934814453
+loss 2.8105990886688232
+loss 3.4751944541931152
+loss 3.9379374980926514
+loss 2.521683931350708
+loss 1.8285008668899536
+loss 3.7868714332580566
+loss 1.3124662637710571
+loss 2.896712303161621
+loss 1.6031882762908936
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726002310.pt@decis in 23.268425941467285 seconds.
+Deleting old delta: model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001662.pt, still holding: 4 files.
+[34m2024-09-10 21:05:33.946[39m | [33m[1m    WARNING     [39m[22m | Expecting value: line 1 column 1 (char 0) - %s, retrying in %s seconds... - 1
+[34m2024-09-10 21:05:34.948[39m | [33m[1m    WARNING     [39m[22m | EOF occurred in violation of protocol (_ssl.c:2426) - %s, retrying in %s seconds... - 2
+EOF occurred in violation of protocol (_ssl.c:2426)
+Error: 'NoneType' object has no attribute 'model_hash'
+--------------------------------------------------------------------------------
+Step: 4, Block: 2769068, Master: 0 Hash: a9ec64c3cc8f1a1fd7195efd7b33576b566a091dcb0e1a7ac369b19145e8b643
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001999.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001999.pt@decis in 23.95546293258667 seconds.
+
+100%|██████████| 3/3 [00:02<00:00,  1.26it/s]
+loss 2.6785202026367188
+loss 0.8858241438865662
+loss 2.2065300941467285
+loss 2.8154866695404053
+loss 1.0120922327041626
+loss 1.3019452095031738
+loss 1.8576589822769165
+loss 1.438092589378357
+loss 1.5984082221984863
+loss 2.201695203781128
+loss 2.4763753414154053
+loss 2.049133062362671
+loss 3.121826648712158
+loss 1.508286952972412
+loss 2.731260061264038
+loss 1.7301970720291138
+loss 2.0129377841949463
+loss 2.4132678508758545
+loss 1.4659781455993652
+loss 2.1066110134124756
+loss 3.338956594467163
+loss 1.1888885498046875
+loss 2.6747117042541504
+loss 2.752922534942627
+loss 1.975919485092163
+loss 2.709486484527588
+loss 2.7214324474334717
+loss 1.4011634588241577
+loss 2.7623255252838135
+loss 2.6510205268859863
+loss 2.259073495864868
+loss 2.444154739379883
+loss 2.1182925701141357
+loss 1.8967992067337036
+loss 2.4924683570861816
+loss 3.5685527324676514
+loss 2.9936323165893555
+loss 2.4709317684173584
+loss 2.1823818683624268
+loss 1.9024590253829956
+loss 1.0149028301239014
+loss 3.794625997543335
+loss 1.9916794300079346
+loss 2.2877659797668457
+loss 2.1974282264709473
+loss 2.8150277137756348
+loss 2.829418420791626
+loss 2.814648389816284
+loss 2.326397180557251
+loss 1.6840564012527466
+loss 2.813138008117676
+loss 2.221832513809204
+loss 2.305675983428955
+loss 2.3370251655578613
+loss 1.9853689670562744
+loss 2.314409017562866
+loss 2.110563278198242
+loss 2.7362895011901855
+loss 1.9272531270980835
+loss 2.392216444015503
+loss 2.5275120735168457
+loss 2.466872215270996
+loss 2.6406781673431396
+loss 2.381932020187378
+loss 2.2075345516204834
+loss 2.337280750274658
+loss 2.881899356842041
+loss 3.1141412258148193
+loss 3.5141100883483887
+loss 2.5523083209991455
+loss 2.3643953800201416
+loss 2.645068883895874
+loss 1.5966033935546875
+loss 1.846920371055603
+loss 2.3193957805633545
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726002493.pt@decis in 29.555266857147217 seconds.
+Deleting old delta: model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001843.pt, still holding: 4 files.
+A new master has been uploaded, break the loop.
+--------------------------------------------------------------------------------
+Step: 5, Block: 2769083, Master: 0 Hash: f5745c7935a9a5096fcfc892f6fbbe06fe83699fb8752a26b17e312fee8f171c
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726002406.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726002406.pt@decis in 26.92657446861267 seconds.
+
+
+100%|██████████| 3/3 [00:03<00:00,  1.00s/it]
+loss 1.6204841136932373
+loss 3.2864913940429688
+loss 2.8744328022003174
+loss 1.0221030712127686
+loss 1.7701560258865356
+loss 2.342906951904297
+loss 2.1842868328094482
+loss 1.6213853359222412
+loss 1.432548999786377
+loss 1.3771982192993164
+loss 2.617513418197632
+loss 1.5919198989868164
+loss 2.6296281814575195
+loss 1.8599129915237427
+loss 2.409677743911743
+loss 2.0652811527252197
+loss 1.5985215902328491
+loss 2.4971489906311035
+loss 3.1059818267822266
+loss 2.832709550857544
+loss 1.4024144411087036
+loss 2.0574536323547363
+loss 2.1689140796661377
+loss 2.108128547668457
+loss 2.5733911991119385
+loss 2.5591719150543213
+loss 3.1430583000183105
+loss 1.2026609182357788
+loss 1.8680667877197266
+loss 1.34193754196167
+loss 2.487412214279175
+loss 3.043267011642456
+loss 1.9308210611343384
+loss 1.6471325159072876
+loss 0.9662396907806396
+loss 1.5038046836853027
+loss 1.6754043102264404
+loss 2.2213504314422607
+loss 2.4361021518707275
+loss 2.303743600845337
+loss 2.458263635635376
+loss 3.442392587661743
+loss 2.7976737022399902
+loss 1.892770528793335
+loss 2.570026159286499
+loss 2.180183172225952
+loss 2.0436911582946777
+loss 1.3878060579299927
+loss 2.588892698287964
+loss 2.778231143951416
+loss 2.251215934753418
+loss 3.1650853157043457
+loss 3.245591402053833
+loss 2.238567590713501
+loss 1.7238070964813232
+loss 2.812007188796997
+loss 2.2644026279449463
+loss 2.0242326259613037
+loss 2.2539873123168945
+loss 1.6105459928512573
+loss 1.9562921524047852
+loss 1.1494598388671875
+loss 2.551849126815796
+loss 2.508580207824707
+loss 3.1134722232818604
+loss 1.1815084218978882
+loss 2.6833062171936035
+loss 1.903243899345398
+loss 3.111097812652588
+loss 2.558946371078491
+loss 1.8835961818695068
+loss 1.8935093879699707
+loss 2.5260400772094727
+loss 2.7113544940948486
+loss 1.3441357612609863
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726002679.pt@decis in 26.860267877578735 seconds.
+Deleting old delta: model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726001983.pt, still holding: 4 files.
+
+100%|██████████| 3/3 [00:02<00:00,  1.19it/s]
+loss 2.0679047107696533
+loss 2.9864587783813477
+loss 1.4984782934188843
+loss 2.2253782749176025
+loss 2.017951011657715
+loss 3.003028631210327
+loss 1.2816739082336426
+loss 3.5603508949279785
+loss 1.354023814201355
+loss 2.4124114513397217
+loss 1.448672890663147
+loss 1.8431791067123413
+loss 2.292609930038452
+loss 1.2486848831176758
+loss 3.294724464416504
+loss 2.4548449516296387
+loss 3.236013174057007
+loss 2.392402172088623
+loss 1.31535804271698
+loss 1.9765679836273193
+loss 1.8777178525924683
+loss 2.4217023849487305
+loss 1.894097924232483
+loss 1.8564209938049316
+loss 2.7221481800079346
+loss 2.8818161487579346
+loss 2.943833589553833
+loss 2.916496753692627
+loss 1.6608686447143555
+loss 3.0342447757720947
+loss 1.8159259557724
+loss 2.025355339050293
+loss 2.259078025817871
+loss 2.3478434085845947
+loss 2.999964475631714
+loss 2.1794075965881348
+loss 2.061256170272827
+loss 2.722458600997925
+loss 2.1495113372802734
+loss 2.8396966457366943
+loss 2.5038983821868896
+loss 3.2161407470703125
+loss 2.4172627925872803
+loss 2.4608964920043945
+loss 2.301429510116577
+loss 3.042353868484497
+loss 1.6949137449264526
+loss 2.265038251876831
+loss 3.344944953918457
+loss 1.1257543563842773
+loss 2.5681800842285156
+loss 2.136838912963867
+loss 2.834197998046875
+loss 2.6072468757629395
+loss 2.014475107192993
+loss 2.645699977874756
+loss 3.0211081504821777
+loss 1.8439573049545288
+loss 2.7625532150268555
+loss 3.259467601776123
+loss 2.294567346572876
+loss 2.4158027172088623
+loss 1.07901930809021
+loss 2.203988552093506
+loss 2.199427366256714
+loss 2.621112108230591
+Deleting: model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726002122.pt
+Deleting: model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726002310.pt
+Deleting: model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1726002493.pt
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/miner.py", line 168, in main
+    # Upload the delta to S3.
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/_tensor.py", line 521, in backward
+    torch.autograd.backward(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/autograd/__init__.py", line 289, in backward
+    _engine_run_backward(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/autograd/graph.py", line 768, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/miner.py", line 241, in <module>
+  File "/home/ubuntu/frontend/bistro/miner.py", line 213, in main
+    print (f"Error: {e}")
+  File "/home/ubuntu/frontend/bistro/miner.py", line 64, in handle_exit_signal
+    raise ValueError(f'Wallet {wallet} is not registered on subnet: {metagraph.netuid}')
+AttributeError: 'Run' object has no attribute 'delete'
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/miner.py:168 in main                            │
+│                                                                              │
+│   165 │   │   │   │   for (name, param), (_, checkpoint_param) in zip(delta. │
+│   166 │   │   │   │   │   param.data.sub_(checkpoint_param.data)             │
+│   167 │   │   │   │                                                          │
+│ ❱ 168 │   │   │   │   # Upload the delta to S3.                              │
+│   169 │   │   │   │   history.append( upload_model(                          │
+│   170 │   │   │   │   │   wallet = wallet,                                   │
+│   171 │   │   │   │   │   model = delta,                                     │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/_tensor.py:521 │
+│ in backward                                                                  │
+│                                                                              │
+│    518 │   │   │   │   create_graph=create_graph,                            │
+│    519 │   │   │   │   inputs=inputs,                                        │
+│    520 │   │   │   )                                                         │
+│ ❱  521 │   │   torch.autograd.backward(                                      │
+│    522 │   │   │   self, gradient, retain_graph, create_graph, inputs=inputs │
+│    523 │   │   )                                                             │
+│    524                                                                       │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/autograd/__ini │
+│ t__.py:289 in backward                                                       │
+│                                                                              │
+│   286 │   # The reason we repeat the same comment below is that              │
+│   287 │   # some Python versions print out the first line of a multi-line fu │
+│   288 │   # calls in the traceback and some print out the last line          │
+│ ❱ 289 │   _engine_run_backward(                                              │
+│   290 │   │   tensors,                                                       │
+│   291 │   │   grad_tensors_,                                                 │
+│   292 │   │   retain_graph,                                                  │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/autograd/graph │
+│ .py:768 in _engine_run_backward                                              │
+│                                                                              │
+│   765 │   if attach_logging_hooks:                                           │
+│   766 │   │   unregister_hooks = _register_logging_hooks_on_whole_graph(t_ou │
+│   767 │   try:                                                               │
+│ ❱ 768 │   │   return Variable._execution_engine.run_backward(  # Calls into  │
+│   769 │   │   │   t_outputs, *args, **kwargs                                 │
+│   770 │   │   )  # Calls into the C++ engine to run the backward pass        │
+│   771 │   finally:                                                           │
+╰──────────────────────────────────────────────────────────────────────────────╯
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/miner.py:241 in <module>                        │
+│                                                                              │
+│   238                                                                        │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/miner.py:213 in main                            │
+│                                                                              │
+│   210 │   │                                                                  │
+│   211 │   │   # Handle unknown exceptions, continue training after 5 seconds │
+│   212 │   │   except Exception as e:                                         │
+│ ❱ 213 │   │   │   print (f"Error: {e}")                                      │
+│   214 │   │   │   time.sleep(5)                                              │
+│   215 │   │   │   continue                                                   │
+│   216                                                                        │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/miner.py:64 in handle_exit_signal               │
+│                                                                              │
+│    61 │   subtensor = bt.subtensor( config = config )                        │
+│    62 │   metagraph = subtensor.metagraph( netuid = config.netuid )          │
+│    63 │   if wallet.hotkey.ss58_address not in metagraph.hotkeys:            │
+│ ❱  64 │   │   raise ValueError(f'Wallet {wallet} is not registered on subnet │
+│    65 │   my_uid = metagraph.hotkeys.index( wallet.hotkey.ss58_address )     │
+│    66 │   print ( f'Wallet: {wallet}\nSubtensor: {subtensor}\nMetagraph: {me │
+│    67                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttributeError: 'Run' object has no attribute 'delete'

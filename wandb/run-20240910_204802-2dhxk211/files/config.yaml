@@ -1,0 +1,105 @@
+wandb_version: 1
+
+__is_set:
+  desc: null
+  value:
+    wallet.name: true
+    wallet.hotkey: true
+    subtensor.network: true
+    device: true
+    use_wandb: true
+    n_accumulations: true
+    restart: true
+    model_type: true
+name:
+  desc: null
+  value: null
+netuid:
+  desc: null
+  value: 212
+bucket:
+  desc: null
+  value: decis
+history_size:
+  desc: null
+  value: 2
+sequence_length:
+  desc: null
+  value: 2048
+tokenizer_name:
+  desc: null
+  value: gpt2
+n_accumulations:
+  desc: null
+  value: 3
+device:
+  desc: null
+  value: cuda:0
+use_wandb:
+  desc: null
+  value: true
+model_type:
+  desc: null
+  value: llama
+restart:
+  desc: null
+  value: true
+no_prompt:
+  desc: null
+  value: false
+wallet:
+  desc: null
+  value:
+    __is_set: {}
+    name: Alice
+    hotkey: Alice
+    path: ~/.bittensor/wallets/
+subtensor:
+  desc: null
+  value:
+    __is_set: {}
+    network: test
+    chain_endpoint: wss://entrypoint-finney.opentensor.ai:443
+    _mock: false
+config:
+  desc: null
+  value: null
+strict:
+  desc: null
+  value: false
+no_version_checking:
+  desc: null
+  value: false
+_wandb:
+  desc: null
+  value:
+    python_version: 3.10.12
+    cli_version: 0.17.7
+    framework: huggingface
+    huggingface_version: 4.44.2
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1726001282
+    t:
+      1:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      2:
+      - 1
+      - 11
+      - 49
+      - 55
+      - 71
+      3:
+      - 13
+      - 16
+      - 23
+      4: 3.10.12
+      5: 0.17.7
+      6: 4.44.2
+      8:
+      - 5
+      13: linux-x86_64

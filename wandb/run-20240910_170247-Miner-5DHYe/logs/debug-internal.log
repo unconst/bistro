@@ -1,0 +1,995 @@
+2024-09-10 17:02:47,259 INFO    StreamThr :514511 [internal.py:wandb_internal():85] W&B internal server running at pid: 514511, started at: 2024-09-10 17:02:47.258471
+2024-09-10 17:02:47,260 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: status
+2024-09-10 17:02:47,263 INFO    WriterThread:514511 [datastore.py:open_for_write():87] open: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/run-Miner-5DHYe.wandb
+2024-09-10 17:02:47,263 DEBUG   SenderThread:514511 [sender.py:send():391] send: header
+2024-09-10 17:02:47,266 DEBUG   SenderThread:514511 [sender.py:send():391] send: run
+2024-09-10 17:02:47,270 INFO    SenderThread:514511 [sender.py:_setup_resume():761] checking resume status for None/bistro/Miner-5DHYe
+2024-09-10 17:02:47,374 INFO    SenderThread:514511 [sender.py:_setup_resume():841] configured resuming with: ResumeState(resumed=True,step=1,history=1,events=0,output=6,runtime=5,wandb_runtime=None,summary={'_runtime': 5.4321088790893555, '_step': 0, '_timestamp': 1725987641.4832058, 'block': 2767843, 'master': 0, 'step': 1},config={'optimizer_beta1': {'value': 0.9}, 'no_version_checking': {'value': False}, 'history_size': {'value': 4}, '__is_set': {'value': {'subtensor.network': True, 'device': True, 'use_wandb': True, 'wallet.hotkey': True, 'wallet.name': True}}, 'subtensor': {'value': {'_mock': False, 'network': 'test', 'chain_endpoint': 'wss://entrypoint-finney.opentensor.ai:443'}}, 'no_prompt': {'value': False}, 'config': {'value': None}, 'device': {'value': 'cuda:3'}, 'use_wandb': {'value': True}, 'optimizer_weight_decay': {'value': 0.1}, 'batch_size': {'value': 4}, 'eval_window': {'value': 5}, 'wallet': {'value': {'name': 'Alice', 'path': '~/.bittensor/wallets/', 'hotkey': 'Charlie'}}, 'strict': {'value': False}, 'learning_rate': {'value': 0.0001}, '_wandb': {'value': {'t': {'5': '0.17.7', '6': '4.44.2', '8': [5], '13': 'linux-x86_64', '1': [1, 11, 49, 55, 71], '2': [1, 11, 49, 55, 71], '3': [13, 14, 16, 23], '4': '3.10.12'}, 'framework': 'huggingface', 'start_time': 1725987636, 'cli_version': '0.17.7', 'is_jupyter_run': False, 'python_version': '3.10.12', 'is_kaggle_kernel': False, 'huggingface_version': '4.44.2'}}, 'netuid': {'value': 212}, 'name': {'value': None}, 'optimizer_beta2': {'value': 0.95}, 'bucket': {'value': 'decis'}},tags=[])
+2024-09-10 17:02:47,477 INFO    SenderThread:514511 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/files
+2024-09-10 17:02:47,477 INFO    SenderThread:514511 [sender.py:_start_run_threads():1200] run started: Miner-5DHYe with start time 1725987762.258365
+2024-09-10 17:02:47,479 DEBUG   SenderThread:514511 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 17:02:47,479 INFO    SenderThread:514511 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 17:02:47,483 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: check_version
+2024-09-10 17:02:47,483 DEBUG   SenderThread:514511 [sender.py:send_request():418] send_request: check_version
+2024-09-10 17:02:47,545 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: run_start
+2024-09-10 17:02:48,478 INFO    Thread-12 :514511 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/files/wandb-summary.json
+2024-09-10 17:02:49,505 DEBUG   HandlerThread:514511 [system_info.py:__init__():26] System info init
+2024-09-10 17:02:49,505 DEBUG   HandlerThread:514511 [system_info.py:__init__():41] System info init done
+2024-09-10 17:02:49,505 INFO    HandlerThread:514511 [system_monitor.py:start():194] Starting system monitor
+2024-09-10 17:02:49,506 INFO    SystemMonitor:514511 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-10 17:02:49,506 INFO    SystemMonitor:514511 [interfaces.py:start():188] Started cpu monitoring
+2024-09-10 17:02:49,507 INFO    SystemMonitor:514511 [interfaces.py:start():188] Started disk monitoring
+2024-09-10 17:02:49,507 INFO    SystemMonitor:514511 [interfaces.py:start():188] Started gpu monitoring
+2024-09-10 17:02:49,508 INFO    SystemMonitor:514511 [interfaces.py:start():188] Started memory monitoring
+2024-09-10 17:02:49,508 INFO    SystemMonitor:514511 [interfaces.py:start():188] Started network monitoring
+2024-09-10 17:02:49,615 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-10 17:02:49,616 DEBUG   SenderThread:514511 [sender.py:send_request():418] send_request: python_packages
+2024-09-10 17:02:49,617 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 17:02:49,617 DEBUG   SenderThread:514511 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 17:02:49,620 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:49,706 DEBUG   SenderThread:514511 [sender.py:send():391] send: telemetry
+2024-09-10 17:02:50,208 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:50,208 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:50,209 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:50,209 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:50,209 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:50,209 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:50,212 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:50,478 INFO    Thread-12 :514511 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/files/requirements.txt
+2024-09-10 17:02:50,722 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:51,723 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:52,092 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:02:52,093 DEBUG   SenderThread:514511 [sender.py:send():391] send: history
+2024-09-10 17:02:52,093 DEBUG   SenderThread:514511 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 17:02:52,096 INFO    SenderThread:514511 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 17:02:52,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:52,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:52,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:52,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:52,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:52,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:52,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:52,479 INFO    Thread-12 :514511 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/files/wandb-summary.json
+2024-09-10 17:02:52,479 INFO    Thread-12 :514511 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/files/output.log
+2024-09-10 17:02:52,702 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:53,135 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:02:53,702 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:54,213 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:54,214 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:54,214 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:54,214 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:54,214 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:54,214 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:54,214 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:54,479 INFO    Thread-12 :514511 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/files/output.log
+2024-09-10 17:02:54,702 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:55,702 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:56,293 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:56,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:56,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:56,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:56,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:56,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:56,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:56,702 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:57,702 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:02:58,349 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:58,377 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:58,378 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:58,378 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:58,378 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:58,378 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:58,378 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:02:58,619 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:03:00,403 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:00,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:00,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:00,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:00,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:00,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:00,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:02,416 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:02,422 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:02,422 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:02,422 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:02,422 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:02,422 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:02,422 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:03,620 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:03:04,471 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:04,473 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:04,473 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:04,474 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:04,474 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:04,474 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:04,474 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:06,571 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:06,641 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:06,641 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:06,641 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:06,641 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:06,641 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:06,641 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:08,621 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:03:08,702 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:08,730 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:08,730 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:08,730 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:08,730 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:08,730 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:08,730 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:10,089 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 17:03:10,089 DEBUG   SenderThread:514511 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 17:03:10,130 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:10,772 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:10,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:10,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:10,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:10,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:10,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:10,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:11,087 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:12,087 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:13,088 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:13,234 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:13,237 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:13,237 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:13,237 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:13,237 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:13,237 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:13,237 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:13,876 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:03:14,088 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:15,088 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:15,272 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:15,341 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:15,341 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:15,341 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:15,341 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:15,341 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:15,341 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:15,912 ERROR   FileStreamThread:514511 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/const69/bistro/Miner-5DHYe/file_stream
+NoneType: None
+2024-09-10 17:03:16,088 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:16,487 INFO    Thread-12 :514511 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/files/output.log
+2024-09-10 17:03:17,089 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:17,387 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:17,449 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:17,449 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:17,449 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:17,449 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:17,449 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:17,449 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:18,089 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:19,089 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:19,095 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:03:19,132 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:03:19,132 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:03:19,540 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:19,575 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:19,575 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:19,575 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:19,575 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:19,575 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:19,575 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:20,129 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:20,257 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:03:20,257 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:03:21,090 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:21,575 ERROR   gpu       :514511 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 17:03:21,604 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:21,605 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:21,605 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:21,605 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:21,605 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:21,605 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:21,605 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:22,090 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:22,643 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:03:22,643 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:03:22,643 INFO    SenderThread:514511 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 345, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+2024-09-10 17:03:23,090 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:23,657 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:23,695 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:23,696 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:23,696 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:23,696 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:23,696 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:23,696 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:24,090 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:25,089 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 17:03:25,129 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:25,753 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:25,757 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:25,757 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:25,757 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:25,757 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:25,757 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:25,757 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:26,090 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:27,091 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:27,301 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:03:27,301 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:03:27,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:28,007 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:28,007 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:28,007 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:28,007 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:28,007 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:28,007 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:28,091 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:29,091 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:30,091 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:30,100 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:30,130 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:30,130 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:30,130 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:30,130 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:30,130 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:30,130 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:31,138 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:32,137 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:32,169 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:32,238 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:32,238 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:32,239 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:32,239 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:32,239 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:32,239 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:33,139 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:34,138 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:34,277 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:34,367 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:34,367 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:34,367 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:34,367 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:34,367 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:34,368 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:35,138 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:36,138 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:36,444 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:36,545 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:36,546 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:36,546 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:36,546 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:36,546 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:36,546 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:36,943 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:03:36,944 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:03:37,138 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:38,138 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:38,634 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:38,666 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:38,666 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:38,666 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:38,667 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:38,667 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:38,667 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:39,139 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:40,139 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:40,689 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:40,690 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:40,690 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:40,690 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:40,690 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:40,690 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:40,690 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:41,139 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:42,139 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:42,723 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:42,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:42,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:42,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:42,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:42,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:42,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:43,139 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:44,139 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:44,883 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:44,885 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:44,885 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:44,885 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:44,885 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:44,885 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:44,885 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:45,140 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:46,140 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:46,966 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:47,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:47,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:47,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:47,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:47,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:47,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:47,392 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:48,392 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:49,133 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:49,135 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:49,135 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:49,135 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:49,135 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:49,135 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:49,135 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:49,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:49,508 DEBUG   SystemMonitor:514511 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-10 17:03:50,392 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:51,161 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:51,201 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:51,202 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:51,202 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:51,202 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:51,202 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:51,202 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:51,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:52,392 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:53,202 ERROR   gpu       :514511 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 17:03:53,257 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:53,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:53,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:53,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:53,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:53,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:53,295 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:53,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:54,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:54,853 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:03:54,853 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:03:55,371 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:55,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:55,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:55,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:55,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:55,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:55,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:55,406 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:56,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:57,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:57,454 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:57,457 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:57,457 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:57,457 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:57,457 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:57,457 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:57,457 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:58,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:59,393 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:03:59,472 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:59,553 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:59,553 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:59,553 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:59,553 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:59,553 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:03:59,553 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:00,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:01,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:01,636 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:01,692 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:01,692 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:01,692 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:01,692 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:01,692 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:01,693 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:02,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:03,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:03,771 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:03,904 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:03,904 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:03,904 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:03,904 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:03,904 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:03,904 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:04,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:05,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:05,997 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:06,127 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:06,127 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:06,127 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:06,127 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:06,127 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:06,127 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:06,395 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:07,395 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:08,170 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:08,211 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:08,211 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:08,211 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:08,211 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:08,211 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:08,211 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:08,395 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:09,395 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:10,244 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:10,339 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:10,339 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:10,340 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:10,340 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:10,340 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:10,340 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:10,396 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:11,395 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:12,395 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:12,396 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:12,484 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:12,485 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:12,485 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:12,485 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:12,485 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:12,485 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:13,396 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:14,396 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:14,567 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:14,649 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:14,649 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:14,649 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:14,649 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:14,649 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:14,649 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:15,396 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:16,396 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:16,705 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:16,759 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:16,759 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:16,759 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:16,759 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:16,759 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:16,759 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:17,397 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:18,397 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:18,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:18,866 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:18,866 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:18,866 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:18,866 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:18,866 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:18,866 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:19,397 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:20,397 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:20,903 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:20,934 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:20,934 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:20,934 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:20,934 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:20,934 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:20,934 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:21,397 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:22,397 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:23,028 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:23,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:23,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:23,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:23,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:23,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:23,090 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:23,397 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:24,398 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:25,090 ERROR   gpu       :514511 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 17:04:25,169 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:25,173 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:25,173 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:25,174 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:25,174 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:25,174 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:25,174 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:25,398 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:26,398 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:27,212 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:27,282 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:27,282 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:27,282 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:27,282 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:27,282 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:27,282 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:27,398 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:28,398 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:29,321 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:29,321 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:29,321 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:29,322 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:29,322 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:29,322 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:29,322 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:29,398 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:29,840 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:04:29,840 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:04:30,399 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:31,399 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:31,411 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:31,512 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:31,513 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:31,513 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:31,513 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:31,513 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:31,513 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:32,399 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:33,399 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:33,580 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:33,672 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:33,672 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:33,672 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:33,672 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:33,672 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:33,673 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:34,399 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:35,399 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:35,751 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:35,784 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:35,784 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:35,784 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:35,784 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:35,784 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:35,784 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:36,400 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:37,792 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:37,799 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:37,800 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:37,800 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:37,800 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:37,800 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:37,800 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:39,801 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:39,802 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:39,802 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:39,802 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:39,802 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:39,802 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:39,802 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:40,034 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:41,001 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:41,802 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:41,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:41,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:41,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:41,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:41,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:41,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:41,999 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:43,000 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:43,341 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:43,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:43,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:43,803 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:43,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:43,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:43,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:43,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:44,000 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:45,000 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:45,131 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:45,452 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:45,755 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:45,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:45,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:45,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:45,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:45,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:45,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:45,804 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:46,000 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:46,073 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:46,387 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:46,690 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:47,000 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:47,005 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:47,319 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:47,627 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:47,805 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:47,805 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:47,805 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:47,805 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:47,805 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:47,805 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:47,805 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:47,944 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:48,000 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:48,255 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:48,567 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:48,873 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:49,000 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:49,188 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:49,500 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:49,806 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:49,806 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:49,806 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:49,806 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:49,806 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:49,806 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:49,806 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:49,810 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:50,001 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:50,123 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:50,436 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:50,746 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:51,001 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:51,059 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:51,373 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:51,686 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:51,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:51,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:51,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:51,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:51,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:51,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:51,807 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:51,998 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:52,001 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:52,312 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:52,628 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:04:53,014 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:53,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:53,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:53,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:53,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:53,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:53,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:53,808 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:54,005 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:55,005 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:55,809 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:56,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:57,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:57,810 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:57,810 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:57,810 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:57,810 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:57,810 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:57,810 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:57,810 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:58,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:59,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:04:59,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:59,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:59,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:59,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:59,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:59,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:04:59,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:00,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:00,948 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:01,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:01,252 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:01,562 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:01,811 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:01,812 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:01,812 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:01,812 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:01,812 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:01,812 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:01,812 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:01,887 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:02,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:02,196 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:02,504 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:02,826 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:03,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:03,137 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:03,452 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:03,774 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:03,812 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:03,813 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:03,813 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:03,813 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:03,813 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:03,813 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:03,813 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:04,006 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:04,090 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:04,398 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:04,708 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:05,007 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:05,026 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:05,335 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:05,646 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:05,813 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:05,814 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:05,814 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:05,814 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:05,814 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:05,814 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:05,814 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:05,963 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:06,007 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:06,273 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:06,586 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:06,902 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:07,007 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:07,214 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:07,529 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:07,814 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:07,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:07,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:07,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:07,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:07,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:07,815 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:07,842 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:08,007 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:08,155 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:08,470 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:09,007 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:09,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:09,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:09,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:09,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:09,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:09,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:09,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:10,013 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:11,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:11,816 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:11,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:11,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:11,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:11,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:11,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:11,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:12,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:13,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:13,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:13,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:13,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:13,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:13,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:13,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:13,817 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:14,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:15,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:15,818 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:15,818 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:15,818 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:15,818 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:15,818 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:15,818 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:15,818 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:16,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:16,164 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:16,468 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:16,777 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:17,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:17,103 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:17,410 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:17,718 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:17,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:17,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:17,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:17,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:17,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:17,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:17,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:18,008 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:18,040 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:18,351 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:18,663 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:18,981 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:19,009 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:19,295 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:19,609 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:19,819 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:19,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:19,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:19,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:19,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:19,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:19,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:19,924 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:20,009 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:20,240 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:20,552 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:20,869 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:21,009 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:21,186 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:21,499 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:21,813 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:21,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:21,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:21,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:21,820 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:21,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:21,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:21,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:22,009 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:22,132 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:22,447 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:22,761 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:23,009 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:23,080 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:23,394 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:23,712 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:23,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:23,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:23,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:23,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:23,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:23,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:23,821 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:24,009 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:25,012 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:25,822 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:26,014 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:27,020 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:27,823 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:27,823 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:27,823 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:27,823 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:27,823 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:27,823 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:27,823 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:28,014 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:29,014 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:29,824 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:29,824 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:29,824 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:29,824 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:29,824 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:29,824 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:29,824 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:30,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:30,212 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:30,517 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:30,831 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:31,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:31,155 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:31,466 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:31,776 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:31,825 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:31,826 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:31,826 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:31,826 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:31,826 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:31,826 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:31,826 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:32,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:32,098 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:32,412 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:32,724 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:33,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:33,042 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:33,359 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:33,672 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:33,826 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:33,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:33,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:33,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:33,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:33,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:33,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:33,991 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:34,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:34,307 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:34,623 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:34,938 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:35,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:35,255 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:35,574 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:35,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:35,827 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:35,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:35,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:35,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:35,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:35,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:35,890 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:36,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:36,201 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:36,519 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:36,834 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:37,015 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:37,150 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:37,466 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:37,782 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:05:37,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:37,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:37,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:37,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:37,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:37,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:37,828 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:38,045 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:39,043 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:39,829 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:39,829 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:39,829 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:39,829 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:39,829 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:39,829 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:39,829 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:40,043 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:41,043 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:41,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:41,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:41,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:41,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:41,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:41,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:41,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:42,044 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:43,044 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:43,830 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:43,831 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:43,831 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:43,831 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:43,831 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:43,831 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:43,831 ERROR   gpu       :514511 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:05:44,048 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:44,743 ERROR   SenderThread:514511 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 17:05:44,743 ERROR   SenderThread:514511 [internal_api.py:execute():350] {"errors":[{"message":"run Miner-5DHYe was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 17:05:45,048 DEBUG   HandlerThread:514511 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:05:45,048 INFO    HandlerThread:514511 [handler.py:finish():880] shutting down handler
+2024-09-10 17:05:45,048 INFO    HandlerThread:514511 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-10 17:05:45,048 DEBUG   SystemMonitor:514511 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-10 17:05:45,049 DEBUG   SystemMonitor:514511 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-10 17:05:45,051 INFO    HandlerThread:514511 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-10 17:05:45,052 ERROR   gpu       :514511 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 17:05:45,052 INFO    HandlerThread:514511 [interfaces.py:finish():200] Joined disk monitor
+2024-09-10 17:05:45,052 INFO    HandlerThread:514511 [interfaces.py:finish():200] Joined gpu monitor
+2024-09-10 17:05:45,053 INFO    HandlerThread:514511 [interfaces.py:finish():200] Joined memory monitor
+2024-09-10 17:05:45,053 INFO    HandlerThread:514511 [interfaces.py:finish():200] Joined network monitor
+2024-09-10 17:05:45,182 INFO    WriterThread:514511 [datastore.py:close():296] close: /home/ubuntu/frontend/bistro/wandb/run-20240910_170247-Miner-5DHYe/run-Miner-5DHYe.wandb
+2024-09-10 17:05:45,454 ERROR   StreamThr :514511 [internal.py:wandb_internal():173] Thread SenderThread:
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 41, in wrapper
+    return func(*args, **kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 2224, in upsert_run
+    response = self.gql(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 317, in gql
+    ret = self._retry_gql(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 345, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/lib/gql_request.py", line 59, in execute
+    request.raise_for_status()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 409 Client Error: Conflict for url: https://api.wandb.ai/graphql
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 48, in run
+    self._run()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/internal_util.py", line 92, in _run
+    self._debounce()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/internal.py", line 333, in _debounce
+    self._sm.debounce()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 549, in debounce
+    self._maybe_update_config(always=final)
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 526, in _maybe_update_config
+    self._debounce_config()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/sdk/internal/sender.py", line 555, in _debounce_config
+    self._api.upsert_run(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/wandb/apis/normalize.py", line 51, in wrapper
+    raise CommError(message, error)
+wandb.errors.CommError: run Miner-5DHYe was previously created and deleted; try a new run name (Error 409: Conflict)

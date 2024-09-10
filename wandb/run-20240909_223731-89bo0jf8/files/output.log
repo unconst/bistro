@@ -1,0 +1,241 @@
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762312.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.38it/s]
+
+
+
+
+25it [00:07,  3.21it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762336.pt@decis in 3.9796557426452637 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.05s/it]
+
+
+
+
+25it [00:07,  3.22it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762337.pt@decis in 4.219338655471802 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.04s/it]
+
+
+
+
+25it [00:07,  3.20it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762338.pt@decis in 5.082296133041382 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+
+
+
+
+25it [00:07,  3.19it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762340.pt@decis in 3.8250732421875 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+
+
+
+
+25it [00:07,  3.19it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762341.pt@decis in 4.910596609115601 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.53it/s]
+
+
+
+
+25it [00:07,  3.18it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762342.pt@decis in 4.197741508483887 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762343.pt@decis in 4.2077741622924805 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.32it/s]
+
+
+
+
+25it [00:07,  3.16it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762344.pt@decis in 4.126289367675781 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762315.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762315.pt@decis with error PytorchStreamReader failed reading zip archive: failed finding central directory.
+Error: 'NoneType' object has no attribute 'named_parameters'
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762343.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+
+
+
+
+25it [00:07,  3.19it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762347.pt@decis in 3.7908098697662354 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.41it/s]
+
+
+
+
+25it [00:07,  3.17it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762348.pt@decis in 8.578341960906982 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762350.pt@decis in 4.249306678771973 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762351.pt@decis in 4.080886602401733 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762352.pt@decis in 3.8430051803588867 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762347.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762347.pt@decis in 4.579548120498657 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762348.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762348.pt@decis in 3.4323577880859375 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762349.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762349.pt@decis in 3.161080837249756 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762351.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762351.pt@decis in 4.789626121520996 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.61s/it]
+
+
+
+25it [00:07,  3.19it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762355.pt@decis in 3.903308868408203 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+
+
+
+
+25it [00:07,  3.18it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762356.pt@decis in 3.862853527069092 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762357.pt@decis in 4.1341776847839355 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.71s/it]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762359.pt@decis in 3.9730193614959717 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762354.pt@decis
+Error while downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762354.pt@decis with error PytorchStreamReader failed reading zip archive: failed finding central directory.
+Error: 'NoneType' object has no attribute 'named_parameters'
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762358.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762358.pt@decis in 5.227107524871826 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+
+
+
+25it [00:07,  3.18it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762362.pt@decis in 3.952986001968384 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+
+
+
+
+25it [00:07,  3.18it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762363.pt@decis in 3.888063907623291 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:02<00:00,  2.26s/it]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762364.pt@decis in 3.8971922397613525 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.72s/it]
+
+
+
+
+25it [00:07,  3.16it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762366.pt@decis in 4.114020586013794 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.00s/it]
+
+
+
+
+25it [00:07,  3.16it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762367.pt@decis in 3.8381600379943848 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762362.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762362.pt@decis in 5.26129150390625 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762362.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762362.pt@decis in 4.725741624832153 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762363.pt@decis
+Error while downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762363.pt@decis with error PytorchStreamReader failed reading zip archive: failed finding central directory.
+Error: 'NoneType' object has no attribute 'named_parameters'
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762366.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762366.pt@decis in 5.044229030609131 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.54s/it]
+
+
+
+
+25it [00:07,  3.18it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762370.pt@decis in 7.592193841934204 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.26it/s]
+
+
+
+
+25it [00:07,  3.18it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762372.pt@decis in 4.150261640548706 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+
+
+
+
+25it [00:07,  3.17it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762373.pt@decis in 3.8687989711761475 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762369.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762369.pt@decis in 4.742292404174805 seconds.

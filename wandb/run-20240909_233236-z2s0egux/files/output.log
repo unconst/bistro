@@ -1,0 +1,1065 @@
+Model hash is incorrect: 0x0000000000000000000000000000000000000000000000000000000000000000 != 6aa9eef80887cca47ada77227e8d362d4106718a5b2922b4ec2c8a6b45cdb5ac
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924691.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924691.pt@decis in 91.5754873752594 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.11s/it]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924863.pt@decis in 4.258725166320801 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924877.pt@decis in 4.238336563110352 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924891.pt@decis in 4.543119192123413 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924906.pt@decis in 5.416947603225708 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.77it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924921.pt@decis in 4.2939453125 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924726.pt', 'model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924731.pt', 'model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924740.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924744.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924726.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924726.pt@decis in 4.452629804611206 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924731.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924731.pt@decis in 5.422895669937134 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924740.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924740.pt@decis in 4.801377773284912 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924744.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924744.pt@decis in 4.671574831008911 seconds.
+Model hash is incorrect: a0bfab641d90e75f3c48bc61b793b3d1db078608387cb5759a2dd765113dd16d != d8b998b57a1040b210e74e8b7d700dc80d161cfa99f2a24ab930efb7846739b6
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924909.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924909.pt@decis in 4.674577713012695 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924963.pt@decis in 7.059675931930542 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.18it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924980.pt@decis in 4.1985862255096436 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.79it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725924994.pt@decis in 8.004213094711304 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924956.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924952.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924956.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924956.pt@decis in 5.594061613082886 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924952.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924952.pt@decis in 4.222400665283203 seconds.
+Model hash is incorrect: 350cdc13e58cb713b47e056758d5c2de34174d964aa2d388f72294c828faf26d != 3720bffab55520bd698d47592255870e2d94825d961632fcefa454e032dbe737
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924992.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924992.pt@decis in 3.3264873027801514 seconds.
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.30s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925028.pt@decis in 4.23737359046936 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.16it/s]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925042.pt@decis in 8.85636281967163 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925061.pt@decis in 8.644443273544312 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925021.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925021.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925021.pt@decis in 6.202624082565308 seconds.
+Successfully synced with master.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.40it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925089.pt@decis in 4.248958110809326 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925104.pt@decis in 4.7947893142700195 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.55it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925118.pt@decis in 7.9419732093811035 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925072.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925070.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925072.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925072.pt@decis in 4.711895942687988 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925070.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925070.pt@decis in 4.49646258354187 seconds.
+Model hash is incorrect: 55b81074db068ed0606651b57879c0d10a4276d0c8f409b89adbf4d2a732099e != 3147d28f78ff8ecdb5da4c9d4a104e9326177f05959bb771e6a4e9ec08b8ea20
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925106.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925106.pt@decis in 4.591129779815674 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.74s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925155.pt@decis in 4.000735282897949 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.43it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925169.pt@decis in 4.131120443344116 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925136.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925136.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925136.pt@decis in 4.1041553020477295 seconds.
+Successfully synced with master.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.63it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925190.pt@decis in 5.157665729522705 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  2.73it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925205.pt@decis in 3.987889051437378 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  2.29it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925218.pt@decis in 4.9311604499816895 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:02<00:00,  2.09s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925235.pt@decis in 5.06256890296936 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925190.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925187.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925190.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925190.pt@decis in 4.44592022895813 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925187.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925187.pt@decis in 4.091891765594482 seconds.
+Model hash is incorrect: f6dd1760cc2dc2ae2ea02f12b5fe88273ec74b843dbd064e152410a08e11d704 != 8c44aeea7fe37e8e50ea0a2b12557f7ca260a8968d2dd8d0d6b6fbe3d829fac8
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925222.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925222.pt@decis in 3.722956418991089 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925267.pt@decis in 3.864288568496704 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925282.pt@decis in 3.7913923263549805 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925250.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925250.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925250.pt@decis in 4.131937265396118 seconds.
+Successfully synced with master.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:06<00:00,  6.47s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925309.pt@decis in 4.289357900619507 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925324.pt@decis in 4.153110027313232 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925340.pt@decis in 4.870102882385254 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925295.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925296.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925295.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925295.pt@decis in 5.95760178565979 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925296.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925296.pt@decis in 5.135887384414673 seconds.
+Model hash is incorrect: a78da8794ccaad039e077692ecdcd94ba2f6f1df89cdbc45dba40d695c3a7a41 != 627bd058e4f43b613df884cf35d06770be43e213c4069edd8a83f4e9813985a9
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925328.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925328.pt@decis in 4.943989276885986 seconds.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.79it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925374.pt@decis in 8.179784059524536 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.13it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925392.pt@decis in 4.245356559753418 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925360.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925360.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925360.pt@decis in 6.486186981201172 seconds.
+Successfully synced with master.
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.12s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925417.pt@decis in 7.03836727142334 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.51it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925433.pt@decis in 3.9511446952819824 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925448.pt@decis in 4.122518062591553 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925462.pt@decis in 4.059356451034546 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925477.pt@decis in 4.137230157852173 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.37it/s]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925491.pt@decis in 3.862523317337036 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925414.pt', 'model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925417.pt', 'model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925416.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925414.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925414.pt@decis in 5.395235300064087 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925417.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925417.pt@decis in 4.59462308883667 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925416.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925416.pt@decis in 4.949150323867798 seconds.
+Model hash is incorrect: cf5240d22300f73896ae237c5664948ecb31d7864611ff1660bdb8c0d35f77b9 != 31d991be171fab69bb1bd755e5901016f8aab0ab5a36b6ce3114dc28ba379a62
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925478.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925478.pt@decis in 4.254430770874023 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925528.pt@decis in 4.051412105560303 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.85s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925543.pt@decis in 8.349302053451538 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925517.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925517.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925517.pt@decis in 6.220282316207886 seconds.
+Successfully synced with master.
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.62s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925573.pt@decis in 3.950108766555786 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.62s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925589.pt@decis in 7.377013921737671 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925606.pt@decis in 4.098722696304321 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925623.pt@decis in 4.01997447013855 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.71s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925639.pt@decis in 6.919149875640869 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925568.pt', 'model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925569.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925572.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925568.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925568.pt@decis in 4.060290813446045 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925569.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925569.pt@decis in 3.572122097015381 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925572.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925572.pt@decis in 3.5334463119506836 seconds.
+Model hash is incorrect: b89df211a82095c5fc00a7429236faff99f71a6aa36402a2c664b24005b8a9f9 != 9cdb1f63419d209899efc7c73ff9f51624fd83dd1a405bd6596cdea90203f45b
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925631.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925631.pt@decis in 4.176284313201904 seconds.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925674.pt@decis in 4.900407552719116 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925689.pt@decis in 4.030774354934692 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925666.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925666.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925666.pt@decis in 5.723811388015747 seconds.
+Successfully synced with master.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.28it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925713.pt@decis in 4.05566143989563 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.32it/s]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925727.pt@decis in 3.9394454956054688 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.00s/it]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925741.pt@decis in 5.447474479675293 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925757.pt@decis in 5.025710344314575 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925713.pt', 'model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925715.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925717.pt']
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925713.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925713.pt@decis in 3.748905897140503 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925715.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925715.pt@decis in 4.0035786628723145 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925717.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925717.pt@decis in 3.570286273956299 seconds.
+Model hash is incorrect: 810d2b78d5e22127a0f97a44ef388e828232325d47d698a11de8593afe9eda85 != 84005c3963869e82aef285a0978ad16c82b8a50715600f702dfacb1562314021
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925758.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925758.pt@decis in 3.684657335281372 seconds.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.66it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925790.pt@decis in 6.744752645492554 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925807.pt@decis in 4.309253215789795 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.58it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925821.pt@decis in 5.536003112792969 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.29it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925837.pt@decis in 3.952383041381836 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925790.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925792.pt']
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925790.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925790.pt@decis in 6.269388914108276 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925792.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925792.pt@decis in 5.308610916137695 seconds.
+Model hash is incorrect: fe1cb64b0a02ec70ec5f3b1f85b2cf6fbcdd9d4dbe8380f1d2162a3761608862 != 31c94242508b4054ab49a5a241ceabd77d55470b63b7f031698d583dba0308a5
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925827.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925827.pt@decis in 5.916285276412964 seconds.
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925873.pt@decis in 5.235047340393066 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925889.pt@decis in 6.111979246139526 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.06it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925905.pt@decis in 4.487318515777588 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:04<00:00,  4.74s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925924.pt@decis in 4.779189348220825 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925939.pt@decis in 3.9702744483947754 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925873.pt', 'model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925873.pt', 'model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925873.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925870.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925873.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925873.pt@decis in 4.588127851486206 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925873.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925873.pt@decis in 3.719684600830078 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925873.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925873.pt@decis in 5.012739896774292 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925870.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925870.pt@decis in 4.0980846881866455 seconds.
+Model hash is incorrect: 7a690a87e8a4a2f72b890427083ba153acbaf35d9555ccc5ec655c1c36c2b335 != 01dd0b54e9cbeed3f97a3112f4dde95303019fe21e11e34251dd069b68e25315
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925936.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925936.pt@decis in 4.415649890899658 seconds.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.07it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925979.pt@decis in 4.216900110244751 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.50it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925993.pt@decis in 4.378325700759888 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.43it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926007.pt@decis in 3.9685556888580322 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926021.pt@decis in 4.136057138442993 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925979.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925981.pt']
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925979.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925979.pt@decis in 4.35272216796875 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925981.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925981.pt@decis in 3.949709177017212 seconds.
+Model hash is incorrect: 09431c07c292cfa483ea60e0015e53379034f19716658d59a18af254f978c491 != 3b59a503aeac59d6e95e3d485f4dec74baba3d73be91686c995bf5c0d88fc950
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926011.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926011.pt@decis in 4.3025617599487305 seconds.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926051.pt@decis in 4.515205144882202 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.84it/s]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926066.pt@decis in 4.026228427886963 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926042.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926042.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926042.pt@decis in 5.831947565078735 seconds.
+Successfully synced with master.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926089.pt@decis in 4.6423680782318115 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926104.pt@decis in 4.301947832107544 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.84it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926119.pt@decis in 4.14752721786499 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926087.pt', 'model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725926082.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926087.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926087.pt@decis in 3.794489860534668 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725926082.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725926082.pt@decis in 3.086122512817383 seconds.
+Model hash is incorrect: 31515b523196c064c2a78292983525b3d2c3254c05e55d0c9d98b6fece4f9dfc != 2880c91553ed6c5c060f3fe97d3f5fb4cd149eadfcef5b1b8d172a8b4854bcb7
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926117.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926117.pt@decis in 3.040165662765503 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.06s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926146.pt@decis in 3.7676119804382324 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.87it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926160.pt@decis in 6.284744739532471 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926176.pt@decis in 3.8689937591552734 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926146.pt']
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926146.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926146.pt@decis in 4.478081941604614 seconds.
+Successfully synced with master.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.82s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926199.pt@decis in 5.56784987449646 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.50s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926216.pt@decis in 3.905247449874878 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.41s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926231.pt@decis in 3.9491941928863525 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926247.pt@decis in 4.118610143661499 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926263.pt@decis in 7.49297022819519 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926201.pt', 'model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926199.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926204.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926201.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926201.pt@decis in 5.546137571334839 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926199.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926199.pt@decis in 4.342065095901489 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926204.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926204.pt@decis in 3.8555283546447754 seconds.
+Model hash is incorrect: 9e008168e2a4c918298a73df5c2aa629ae017c85c55c39ac079831b9950a239d != aba49577bdb67a901bf83cc0e8f1e383b057860c395830990aca05d30250c72c
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926249.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926249.pt@decis in 3.9806392192840576 seconds.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926301.pt@decis in 8.076618432998657 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926320.pt@decis in 4.170471668243408 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926293.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926293.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926293.pt@decis in 6.542824029922485 seconds.
+Successfully synced with master.
+100%|██████████| 1/1 [00:01<00:00,  1.12s/it]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926344.pt@decis in 4.290046453475952 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926360.pt@decis in 6.015558481216431 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.45s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926378.pt@decis in 5.408095359802246 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926395.pt@decis in 4.5291478633880615 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926344.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926345.pt']
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926344.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926344.pt@decis in 5.511494398117065 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926345.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926345.pt@decis in 4.514404773712158 seconds.
+Model hash is incorrect: 9a237b0e157aac7dc2d4f83a2cec240877ee7008330c236ee951c662721df13e != d8020abeafe7371e2018cef55108ac1eb5d89aa249cfc533a105966f5e0dc6c8
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926382.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926382.pt@decis in 4.848711729049683 seconds.
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926428.pt@decis in 6.628038167953491 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
+Training ...
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926446.pt@decis in 4.695093870162964 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926423.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926423.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926423.pt@decis in 4.882037878036499 seconds.
+Successfully synced with master.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926470.pt@decis in 4.207143068313599 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926485.pt@decis in 4.290106534957886 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.87s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926502.pt@decis in 4.377374649047852 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas []
+Model hash is incorrect: f2073869b7cbb671541c883702ec726c4a939c8b942187522b3a2f983d194361 != a1e43993da5a1e291966681678d9b30aca0903ba5a6a28e5a7a8a0c204a687d4
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926492.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926492.pt@decis in 3.816399574279785 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.56s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926525.pt@decis in 4.373475551605225 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:02<00:00,  2.10s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926542.pt@decis in 4.071622610092163 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.07it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926557.pt@decis in 4.551003456115723 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926520.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926520.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926520.pt@decis in 5.120244741439819 seconds.
+Successfully synced with master.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.97s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926582.pt@decis in 4.459737539291382 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.57s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926598.pt@decis in 4.668825626373291 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926570.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926570.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926570.pt@decis in 4.696690320968628 seconds.
+Successfully synced with master.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926621.pt@decis in 4.365699052810669 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.46it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926636.pt@decis in 4.490887403488159 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.28s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926651.pt@decis in 4.810157060623169 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926666.pt@decis in 4.312150478363037 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926621.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926620.pt']
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926621.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926621.pt@decis in 5.2060253620147705 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926620.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926620.pt@decis in 5.308314800262451 seconds.
+Model hash is incorrect: f70304b3855f8ae59c75f401aa8f05a4a50f9bdf1441e56e8807ec8039a8f31e != d095171c4531a582866d6c1f48e68d81cc0a81bfdb3842088fd21a26057f67cd
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926660.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926660.pt@decis in 5.4493021965026855 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.29s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926701.pt@decis in 4.444115877151489 seconds.
+Master model has not changed. Continuing to train
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926715.pt@decis in 6.324697494506836 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.03s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926732.pt@decis in 5.033526659011841 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926697.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926696.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926697.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926697.pt@decis in 5.716495752334595 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926696.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926696.pt@decis in 5.034334182739258 seconds.
+Model hash is incorrect: 42173424dea0dd8ddde09282febe48a2c9a78b9b0d01fe0d58ff8838b47fe5b6 != ea8a3e7f7f9a11a2363c469f15f6b367e8ad7ac1fe0ffafac54f789da72a18ce
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926731.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926731.pt@decis in 5.93351674079895 seconds.
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926767.pt@decis in 4.115857839584351 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:00<00:00,  1.40it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926781.pt@decis in 4.312291145324707 seconds.
+Master model has not changed. Continuing to train
+Training ...
+100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926796.pt@decis in 6.986654996871948 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926570.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926570.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926570.pt@decis in 4.425419807434082 seconds.
+Model hash is incorrect: cde3105e5fbebf46f3c9e26269643ded999ea41b1d219301d0512939e8fbd518 != d17687d204e25520f088d66aafaee604b62e1eec5ce97ef528dd026b7599e549
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926543.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926543.pt@decis in 7.202841281890869 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926829.pt@decis in 4.268008708953857 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926423.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926423.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926423.pt@decis in 6.5402326583862305 seconds.
+Model hash is incorrect: c2b064b81118e266fce3d3f169d386a275d40fd0fd7897d00e5650f3d47988ba != d8020abeafe7371e2018cef55108ac1eb5d89aa249cfc533a105966f5e0dc6c8
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926382.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].15it/s]
+  0%|          | 0/1 [00:00<?, ?it/s].15it/s]
+100%|██████████| 1/1 [00:01<00:00,  1.05s/it]
+100%|██████████| 1/1 [00:01<00:00,  1.05s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926861.pt@decis in 5.325530767440796 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926201.pt', 'model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926199.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926204.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926201.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725926201.pt@decis in 5.694622755050659 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926199.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926199.pt@decis in 4.361359596252441 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926204.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926204.pt@decis in 3.943325996398926 seconds.
+Model hash is incorrect: 9611c3d7ea58941f2f0cf89a44e420e18a9a862fa7696816f757c38952089f95 != 90a713e196121757ab1bf77e5aebc09806aaa1519c270cb51a93604947eb57c7
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926166.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926166.pt@decis in 4.5935516357421875 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.47it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.47it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926898.pt@decis in 5.6724793910980225 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926042.pt']
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926042.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725926042.pt@decis in 5.5613744258880615 seconds.
+Model hash is incorrect: 536af0680ba67dbccb57661259a085e7e3595f925d68abf26b73bafd876fc13b != 3b59a503aeac59d6e95e3d485f4dec74baba3d73be91686c995bf5c0d88fc950
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725926011.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].47it/s]
+  0%|          | 0/1 [00:00<?, ?it/s].47it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.35it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.35it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926929.pt@decis in 4.21780800819397 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925790.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925792.pt']
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925790.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725925790.pt@decis in 6.314608812332153 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925792.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925792.pt@decis in 7.116311550140381 seconds.
+Model hash is incorrect: f9b81ad50a4531e55b33857163e0d8833b2bb30e27051550be81a933425b6377 != 84005c3963869e82aef285a0978ad16c82b8a50715600f702dfacb1562314021
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925758.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].35it/s]
+  0%|          | 0/1 [00:00<?, ?it/s].35it/s]
+100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725926968.pt@decis in 4.987960338592529 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925568.pt', 'model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925569.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925572.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925568.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725925568.pt@decis in 6.101217031478882 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925569.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925569.pt@decis in 6.257918119430542 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925572.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925572.pt@decis in 6.101217746734619 seconds.
+Model hash is incorrect: 11a24a745abff215024f433d9835591c795c5ae1dc3d1e55e93abbc1ad78e64a != 0892dd309d4795fbbf768a5f24bf8b46e53dadd503ae3adabe488a99ff7572a6
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925536.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].32s/it]
+  0%|          | 0/1 [00:00<?, ?it/s].32s/it]
+100%|██████████| 1/1 [00:00<00:00,  1.05it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.05it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725927011.pt@decis in 7.725513696670532 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925295.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925296.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925295.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925295.pt@decis in 6.423542737960815 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925296.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725925296.pt@decis in 5.5165510177612305 seconds.
+Model hash is incorrect: 208151b2ed486bf81b85f99450bb0b2b6711c17b7e30834c82f12222988be84c != 627bd058e4f43b613df884cf35d06770be43e213c4069edd8a83f4e9813985a9
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925328.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].05it/s]
+  0%|          | 0/1 [00:00<?, ?it/s].05it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.05it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.05it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725927050.pt@decis in 4.6951024532318115 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925136.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925136.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725925136.pt@decis in 5.069078683853149 seconds.
+Model hash is incorrect: b86247d723fe8b022276449e9a531ff6daacf902bd9d3c226e6135b4856699b0 != 9972e78057babb229416149de4234c57a2e7bdd25c8738960fe5a02eecdb4f4a
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725925158.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].05it/s]
+  0%|          | 0/1 [00:00<?, ?it/s].05it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.37it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.37it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725927078.pt@decis in 4.6432976722717285 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924956.pt', 'model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924952.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924956.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924956.pt@decis in 5.552948951721191 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924952.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924952.pt@decis in 5.39960503578186 seconds.
+Model hash is incorrect: c10556487804dda37ef4520b9991082220476c1eff88b150c0ef79f61a5b3185 != 3720bffab55520bd698d47592255870e2d94825d961632fcefa454e032dbe737
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924992.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924992.pt@decis in 3.866464376449585 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.06it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.06it/s]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725927111.pt@decis in 4.20548152923584 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924667.pt']
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924667.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725924667.pt@decis in 5.787990570068359 seconds.
+Model hash is incorrect: a344cfc8cdff83d9e9f05fd0df9747219317df9dd5075cebc6fba2c5a922779f != 98ce00cd3ba274bcbe29cfa28491a72df123d8a03f919a4bd61808ba146b7c09
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924626.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].06it/s]
+  0%|          | 0/1 [00:00<?, ?it/s].06it/s]
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725927140.pt@decis in 4.373878002166748 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Applying deltas ['model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924437.pt']
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924437.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924437.pt@decis in 6.2768638134002686 seconds.
+Model hash is incorrect: 86b915cc9557b63cf35241a520b7fdb16321eee872cd24441e722fbc5a9e4cd7 != ae5d7c2611efb9ad76f153d50bdacc2616f445ac0d081faa3f163e6008dda3b7
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725924567.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s].24s/it]
+  0%|          | 0/1 [00:00<?, ?it/s].24s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.05s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.05s/it]
+Uploaded model to model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725927173.pt@decis in 4.623171091079712 seconds.
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'
+Error: 'NoneType' object has no attribute 'model_hash'

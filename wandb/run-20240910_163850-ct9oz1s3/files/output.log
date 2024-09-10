@@ -1,0 +1,533 @@
+--------------------------------------------------------------------------------
+Step: 1, Hash: fb76a0c481bb40a176a1095d9f9044768869d9e4a8bb03d56351b16150edc9e2, Block: 2767734
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 2, Hash: fb76a0c481bb40a176a1095d9f9044768869d9e4a8bb03d56351b16150edc9e2, Block: 2767735
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 3, Hash: fb76a0c481bb40a176a1095d9f9044768869d9e4a8bb03d56351b16150edc9e2, Block: 2767735
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 4, Hash: fb76a0c481bb40a176a1095d9f9044768869d9e4a8bb03d56351b16150edc9e2, Block: 2767736
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986349.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986349.pt@decis in 8.885770797729492 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986349.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986349.pt@decis in 8.41297698020935 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986348.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986348.pt@decis in 8.145496129989624 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986384.pt@decis in 4.478372573852539 seconds.
+--------------------------------------------------------------------------------
+Step: 5, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767739
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 6, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767739
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 7, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767740
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 8, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767740
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 9, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767741
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 10, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767741
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 11, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767742
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 12, Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997, Block: 2767743
+	Applying 3 deltas ...
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986427.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986427.pt@decis in 4.54887580871582 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986428.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986428.pt@decis in 4.249586343765259 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986432.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986432.pt@decis in 3.8157784938812256 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986453.pt@decis in 6.016804218292236 seconds.
+--------------------------------------------------------------------------------
+Step: 13, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767745
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 14, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767745
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 15, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767746
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 16, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767746
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 17, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767747
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 18, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767747
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 19, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767748
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 20, Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e, Block: 2767748
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986501.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986501.pt@decis in 8.538756132125854 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986504.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986504.pt@decis in 6.019526958465576 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986500.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986500.pt@decis in 5.866674900054932 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986533.pt@decis in 4.311938524246216 seconds.
+--------------------------------------------------------------------------------
+Step: 21, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767751
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 22, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767752
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 23, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767752
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 24, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767753
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 25, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767753
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 26, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767754
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 27, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767755
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 28, Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b, Block: 2767755
+	Applying 3 deltas ...
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986581.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986581.pt@decis in 5.853605508804321 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986588.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986588.pt@decis in 4.786688327789307 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986586.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986586.pt@decis in 4.585157871246338 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986610.pt@decis in 4.541002511978149 seconds.
+--------------------------------------------------------------------------------
+Step: 29, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767758
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 30, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767758
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 31, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767759
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 32, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767759
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 33, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767760
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 34, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767761
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 35, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767761
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 36, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767762
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 37, Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31, Block: 2767762
+	Applying 4 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986666.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986666.pt@decis in 6.808533191680908 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986658.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986658.pt@decis in 3.9447152614593506 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986666.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986666.pt@decis in 3.8699657917022705 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986661.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986661.pt@decis in 4.432281732559204 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986695.pt@decis in 4.280181646347046 seconds.
+--------------------------------------------------------------------------------
+Step: 38, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767765
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 39, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767765
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 40, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767766
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 41, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767767
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 42, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767767
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 43, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767768
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 44, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767768
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 45, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767769
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 46, Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361, Block: 2767769
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986745.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986745.pt@decis in 6.179386138916016 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986750.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986750.pt@decis in 5.440120458602905 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986757.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986757.pt@decis in 4.879477262496948 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986779.pt@decis in 4.707428932189941 seconds.
+--------------------------------------------------------------------------------
+Step: 47, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767772
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 48, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767772
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 49, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767773
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 50, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767773
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 51, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767774
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 52, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767774
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 53, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767775
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 54, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767775
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 55, Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21, Block: 2767776
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986826.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986826.pt@decis in 7.05313777923584 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986830.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986830.pt@decis in 5.119856357574463 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986828.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986828.pt@decis in 5.372938632965088 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986860.pt@decis in 4.656047344207764 seconds.
+--------------------------------------------------------------------------------
+Step: 56, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767779
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 57, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767779
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 58, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767780
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 59, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767780
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 60, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767781
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 61, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767781
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 62, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767782
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 63, Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed, Block: 2767782
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986904.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986904.pt@decis in 6.128343820571899 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986901.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986901.pt@decis in 5.54207181930542 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986898.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986898.pt@decis in 5.108038425445557 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986937.pt@decis in 4.142115592956543 seconds.
+--------------------------------------------------------------------------------
+Step: 64, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767785
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 65, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767785
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 66, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767786
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 67, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767786
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 68, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767787
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 69, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767787
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 70, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767788
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 71, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767789
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 72, Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e, Block: 2767789
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986981.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986981.pt@decis in 6.041294813156128 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986985.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986985.pt@decis in 6.578527927398682 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986989.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986989.pt@decis in 5.698394775390625 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987018.pt@decis in 4.659971475601196 seconds.
+--------------------------------------------------------------------------------
+Step: 73, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767792
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 74, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767792
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 75, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767793
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 76, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767793
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 77, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767794
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 78, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767794
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 79, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767795
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 80, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767796
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 81, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767796
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 82, Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469, Block: 2767797
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987081.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987081.pt@decis in 6.750856399536133 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987075.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987075.pt@decis in 5.163586139678955 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987080.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987080.pt@decis in 4.297763347625732 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987106.pt@decis in 7.649369239807129 seconds.
+--------------------------------------------------------------------------------
+Step: 83, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767799
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 84, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767800
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 85, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767800
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 86, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767801
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 87, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767801
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 88, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767802
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 89, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767802
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 90, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767803
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 91, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767803
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 92, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767804
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 93, Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061, Block: 2767805
+	Applying 4 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987175.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987175.pt@decis in 4.148550510406494 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987161.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987161.pt@decis in 3.4716732501983643 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987177.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987177.pt@decis in 3.211027145385742 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987172.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987172.pt@decis in 3.5663700103759766 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987199.pt@decis in 4.6329827308654785 seconds.
+--------------------------------------------------------------------------------
+Step: 94, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767807
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 95, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767807
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 96, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767808
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 97, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767808
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 98, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767809
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 99, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767810
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 100, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767810
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 101, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767811
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 102, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767811
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 103, Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8, Block: 2767812
+	Applying 3 deltas ...
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987263.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987263.pt@decis in 5.602962255477905 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987255.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987255.pt@decis in 5.148138046264648 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987260.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987260.pt@decis in 4.245668411254883 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987287.pt@decis in 6.696660995483398 seconds.
+--------------------------------------------------------------------------------
+Step: 104, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767814
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 105, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767815
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 106, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767815
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 107, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767816
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 108, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767817
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 109, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767817
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 110, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767818
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 111, Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38, Block: 2767818
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987339.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987339.pt@decis in 6.562944412231445 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987338.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987338.pt@decis in 6.011224746704102 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987338.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987338.pt@decis in 5.272309064865112 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987368.pt@decis in 4.25415563583374 seconds.
+--------------------------------------------------------------------------------
+Step: 112, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767821
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 113, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767821
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 114, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767822
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 115, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767822
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 116, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767823
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 117, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767824
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 118, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767824
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 119, Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665, Block: 2767825
+	Applying 4 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987415.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987415.pt@decis in 6.355795860290527 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987416.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987416.pt@decis in 5.100131273269653 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987418.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987418.pt@decis in 5.156274318695068 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987415.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987415.pt@decis in 5.357306957244873 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987448.pt@decis in 4.28768515586853 seconds.
+--------------------------------------------------------------------------------
+Step: 120, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767827
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 121, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767828
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 122, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767829
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 123, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767829
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 124, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767830
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 125, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767830
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 126, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767831
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 127, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767831
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 128, Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5, Block: 2767832
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987502.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987502.pt@decis in 5.888221502304077 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987493.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987493.pt@decis in 5.793854236602783 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987507.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987507.pt@decis in 5.06484317779541 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987529.pt@decis in 5.502072811126709 seconds.
+--------------------------------------------------------------------------------
+Step: 129, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767834
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 130, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767835
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 131, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767835
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 132, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767836
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 133, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767837
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 134, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767837
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 135, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767838
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 136, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767838
+	Waiting for deltas ...
+--------------------------------------------------------------------------------
+Step: 137, Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f, Block: 2767839
+	Applying 3 deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987575.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987575.pt@decis in 6.251387357711792 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987589.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987589.pt@decis in 5.389101982116699 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987590.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987590.pt@decis in 4.74006986618042 seconds.
+Uploaded model to model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987611.pt@decis in 4.0648369789123535 seconds.
+--------------------------------------------------------------------------------
+Step: 138, Hash: 628b989ee1f0b7353cb6365a2b816390e26be3240ff0fa4f3cdf0f8d9b161223, Block: 2767841
+	Waiting for deltas ...
+--------------------------------------------------------------------------------

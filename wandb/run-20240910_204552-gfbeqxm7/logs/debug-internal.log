@@ -1,0 +1,161 @@
+2024-09-10 20:45:52,974 INFO    StreamThr :1101903 [internal.py:wandb_internal():85] W&B internal server running at pid: 1101903, started at: 2024-09-10 20:45:52.974131
+2024-09-10 20:45:52,976 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: status
+2024-09-10 20:45:52,977 INFO    WriterThread:1101903 [datastore.py:open_for_write():87] open: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/run-gfbeqxm7.wandb
+2024-09-10 20:45:52,978 DEBUG   SenderThread:1101903 [sender.py:send():391] send: header
+2024-09-10 20:45:52,979 DEBUG   SenderThread:1101903 [sender.py:send():391] send: run
+2024-09-10 20:45:52,983 INFO    SenderThread:1101903 [sender.py:_setup_resume():761] checking resume status for None/bistro/gfbeqxm7
+2024-09-10 20:45:53,255 INFO    SenderThread:1101903 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files
+2024-09-10 20:45:53,255 INFO    SenderThread:1101903 [sender.py:_start_run_threads():1200] run started: gfbeqxm7 with start time 1726001152.973714
+2024-09-10 20:45:53,269 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: check_version
+2024-09-10 20:45:53,269 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: check_version
+2024-09-10 20:45:53,330 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: run_start
+2024-09-10 20:45:54,742 DEBUG   HandlerThread:1101903 [system_info.py:__init__():26] System info init
+2024-09-10 20:45:54,742 DEBUG   HandlerThread:1101903 [system_info.py:__init__():41] System info init done
+2024-09-10 20:45:54,742 INFO    HandlerThread:1101903 [system_monitor.py:start():194] Starting system monitor
+2024-09-10 20:45:54,742 INFO    SystemMonitor:1101903 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-10 20:45:54,743 INFO    HandlerThread:1101903 [system_monitor.py:probe():214] Collecting system info
+2024-09-10 20:45:54,743 INFO    SystemMonitor:1101903 [interfaces.py:start():188] Started cpu monitoring
+2024-09-10 20:45:54,744 INFO    SystemMonitor:1101903 [interfaces.py:start():188] Started disk monitoring
+2024-09-10 20:45:54,745 INFO    SystemMonitor:1101903 [interfaces.py:start():188] Started gpu monitoring
+2024-09-10 20:45:54,745 INFO    SystemMonitor:1101903 [interfaces.py:start():188] Started memory monitoring
+2024-09-10 20:45:54,746 INFO    SystemMonitor:1101903 [interfaces.py:start():188] Started network monitoring
+2024-09-10 20:45:56,128 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:56,128 DEBUG   HandlerThread:1101903 [system_info.py:probe():152] Probing system
+2024-09-10 20:45:56,130 DEBUG   HandlerThread:1101903 [system_info.py:_probe_git():137] Probing git
+2024-09-10 20:45:56,135 DEBUG   HandlerThread:1101903 [system_info.py:_probe_git():145] Probing git done
+2024-09-10 20:45:56,135 DEBUG   HandlerThread:1101903 [system_info.py:probe():200] Probing system done
+2024-09-10 20:45:56,135 DEBUG   HandlerThread:1101903 [system_monitor.py:probe():223] {'os': 'Linux-5.19.0-1010-nvidia-lowlatency-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-09-10T20:45:56.128643', 'startedAt': '2024-09-10T20:45:52.969611', 'docker': None, 'cuda': None, 'args': ('--wallet.name', 'Alice', '--wallet.hotkey', 'Bob', '--subtensor.network', 'test', '--device', 'cuda:2', '--use_wandb'), 'state': 'running', 'program': '/home/ubuntu/frontend/bistro/miner.py', 'codePathLocal': 'miner.py', 'codePath': 'bistro/miner.py', 'git': {'remote': 'https://github.com/unconst/frontend.git', 'commit': 'a0660981f23476af1751d70673e4586879b6970c'}, 'email': 'jake@bittensor.com', 'root': '/home/ubuntu/frontend', 'host': 'training', 'username': 'ubuntu', 'executable': '/home/ubuntu/frontend/venv/bin/python3', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 2498.9304453125005, 'min': 1500.0, 'max': 3250.0}, 'cpu_freq_per_core': [{'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1517.382, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.362, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.144, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3797.207, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3802.364, 'min': 1500.0, 'max': 3250.0}, {'current': 3795.989, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.147, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3798.449, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.131, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1465.333, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.089, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1501.722, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3794.84, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.134, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.09, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}], 'disk': {'/': {'total': 3519.6199798583984, 'used': 93.41237258911133}}, 'gpu': 'NVIDIA H100 PCIe', 'gpu_count': 8, 'memory': {'total': 1511.5785369873047}}
+2024-09-10 20:45:56,136 INFO    HandlerThread:1101903 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-10 20:45:56,136 INFO    HandlerThread:1101903 [system_monitor.py:probe():227] Publishing system info
+2024-09-10 20:45:56,136 INFO    HandlerThread:1101903 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-10 20:45:56,138 DEBUG   SenderThread:1101903 [sender.py:send():391] send: files
+2024-09-10 20:45:56,138 INFO    SenderThread:1101903 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-10 20:45:56,208 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:56,237 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-10 20:45:56,237 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: python_packages
+2024-09-10 20:45:56,238 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 20:45:56,238 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 20:45:56,241 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:45:56,258 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/requirements.txt
+2024-09-10 20:45:56,258 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/wandb-metadata.json
+2024-09-10 20:45:56,312 DEBUG   SenderThread:1101903 [sender.py:send():391] send: telemetry
+2024-09-10 20:45:56,385 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:56,385 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:56,385 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:56,385 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:56,414 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:57,100 INFO    wandb-upload_0:1101903 [upload_job.py:push():130] Uploaded file /tmp/tmpxry48zgawandb/0clpstts-wandb-metadata.json
+2024-09-10 20:45:57,337 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:45:58,313 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 20:45:58,317 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:45:58,414 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:58,414 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:58,414 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:58,414 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:58,414 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:58,414 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:58,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:45:58,560 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 20:45:58,562 DEBUG   SenderThread:1101903 [sender.py:send():391] send: history
+2024-09-10 20:45:58,562 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 20:45:58,564 INFO    SenderThread:1101903 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 20:45:59,257 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/wandb-summary.json
+2024-09-10 20:45:59,257 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/output.log
+2024-09-10 20:45:59,317 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:46:00,317 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:46:00,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:00,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:00,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:00,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:00,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:00,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:00,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:01,258 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/output.log
+2024-09-10 20:46:01,317 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:46:02,317 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:46:02,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:02,415 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:02,416 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:02,416 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:02,416 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:02,416 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:02,416 ERROR   gpu       :1101903 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:46:03,317 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:46:04,142 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 20:46:04,282 DEBUG   SenderThread:1101903 [sender.py:send():391] send: exit
+2024-09-10 20:46:04,282 INFO    SenderThread:1101903 [sender.py:send_exit():598] handling exit code: 1
+2024-09-10 20:46:04,282 INFO    SenderThread:1101903 [sender.py:send_exit():600] handling runtime: 10
+2024-09-10 20:46:04,284 INFO    SenderThread:1101903 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 20:46:04,284 INFO    SenderThread:1101903 [sender.py:send_exit():606] send defer
+2024-09-10 20:46:04,285 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,285 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-10 20:46:04,285 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,285 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-10 20:46:04,285 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 1
+2024-09-10 20:46:04,285 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,285 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-10 20:46:04,286 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,286 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-10 20:46:04,286 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 2
+2024-09-10 20:46:04,286 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,286 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-10 20:46:04,286 INFO    HandlerThread:1101903 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-10 20:46:04,286 DEBUG   SystemMonitor:1101903 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-10 20:46:04,287 INFO    HandlerThread:1101903 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-10 20:46:04,287 DEBUG   SystemMonitor:1101903 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-10 20:46:04,287 ERROR   gpu       :1101903 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 20:46:04,287 INFO    HandlerThread:1101903 [interfaces.py:finish():200] Joined disk monitor
+2024-09-10 20:46:04,288 DEBUG   SystemMonitor:1101903 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-10 20:46:04,288 INFO    HandlerThread:1101903 [interfaces.py:finish():200] Joined gpu monitor
+2024-09-10 20:46:04,290 INFO    HandlerThread:1101903 [interfaces.py:finish():200] Joined memory monitor
+2024-09-10 20:46:04,290 INFO    HandlerThread:1101903 [interfaces.py:finish():200] Joined network monitor
+2024-09-10 20:46:04,290 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,290 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-10 20:46:04,290 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 3
+2024-09-10 20:46:04,290 DEBUG   SenderThread:1101903 [sender.py:send():391] send: stats
+2024-09-10 20:46:04,291 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,292 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-10 20:46:04,292 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,292 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-10 20:46:04,292 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 4
+2024-09-10 20:46:04,292 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,292 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-10 20:46:04,292 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,292 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-10 20:46:04,292 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 5
+2024-09-10 20:46:04,292 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,292 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-10 20:46:04,293 DEBUG   SenderThread:1101903 [sender.py:send():391] send: summary
+2024-09-10 20:46:04,293 INFO    SenderThread:1101903 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 20:46:04,293 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,294 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-10 20:46:04,294 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 6
+2024-09-10 20:46:04,294 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,294 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-10 20:46:04,294 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,294 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-10 20:46:04,299 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 20:46:04,406 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 7
+2024-09-10 20:46:04,406 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:04,406 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 7
+2024-09-10 20:46:04,407 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:04,407 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-09-10 20:46:05,259 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/config.yaml
+2024-09-10 20:46:05,259 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/wandb-summary.json
+2024-09-10 20:46:06,171 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 8
+2024-09-10 20:46:06,171 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:06,172 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 8
+2024-09-10 20:46:06,172 DEBUG   SenderThread:1101903 [sender.py:send_request():418] send_request: defer
+2024-09-10 20:46:06,172 INFO    SenderThread:1101903 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-09-10 20:46:06,172 INFO    SenderThread:1101903 [job_builder.py:build():443] Attempting to build job artifact
+2024-09-10 20:46:06,173 INFO    SenderThread:1101903 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-09-10 20:46:06,190 INFO    SenderThread:1101903 [job_builder.py:build():548] adding wandb-job metadata file
+2024-09-10 20:46:06,192 INFO    SenderThread:1101903 [sender.py:transition_state():626] send defer: 9
+2024-09-10 20:46:06,192 DEBUG   HandlerThread:1101903 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 20:46:06,192 DEBUG   SenderThread:1101903 [sender.py:send():391] send: artifact
+2024-09-10 20:46:06,192 INFO    HandlerThread:1101903 [handler.py:handle_request_defer():184] handle defer: 9
+2024-09-10 20:46:06,260 INFO    Thread-12 :1101903 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/files/output.log
+2024-09-10 20:46:09,993 WARNING StreamThr :1101903 [internal.py:is_dead():413] Internal process exiting, parent pid 1101142 disappeared
+2024-09-10 20:46:09,993 ERROR   StreamThr :1101903 [internal.py:wandb_internal():151] Internal process shutdown.
+2024-09-10 20:46:10,194 INFO    HandlerThread:1101903 [handler.py:finish():880] shutting down handler
+2024-09-10 20:46:10,194 INFO    WriterThread:1101903 [datastore.py:close():296] close: /home/ubuntu/frontend/bistro/wandb/run-20240910_204552-gfbeqxm7/run-gfbeqxm7.wandb

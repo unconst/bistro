@@ -1,0 +1,448 @@
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762432.pt@decis
+/home/ubuntu/frontend/bistro/common.py:257: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  new_model_state_dict = torch.load(unique_temp_file, map_location=torch.device(device))  # Load the model state dict
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762432.pt@decis in 89.96913933753967 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762446.pt@decis in 5.654082298278809 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.89it/s]
+
+
+
+
+25it [00:07,  3.26it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762447.pt@decis in 5.7679736614227295 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.04s/it]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762449.pt@decis in 4.127578496932983 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.20it/s]
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762450.pt@decis in 4.111401557922363 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.04s/it]
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762451.pt@decis in 4.071043014526367 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762446.pt@decis
+/home/ubuntu/frontend/bistro/common.py:257: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  new_model_state_dict = torch.load(unique_temp_file, map_location=torch.device(device))  # Load the model state dict
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762446.pt@decis in 4.526719570159912 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762446.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762446.pt@decis in 4.5201709270477295 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762448.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762448.pt@decis in 4.735650300979614 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762450.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762450.pt@decis in 4.493022203445435 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762454.pt@decis in 4.318178415298462 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762455.pt@decis in 4.356509208679199 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.58it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762456.pt@decis in 4.182251214981079 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762458.pt@decis in 4.410124063491821 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762453.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762453.pt@decis in 4.240518569946289 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762453.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762453.pt@decis in 3.851257801055908 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762454.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762454.pt@decis in 4.090809106826782 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762457.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762457.pt@decis in 4.092014312744141 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+
+
+
+
+25it [00:07,  3.25it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762460.pt@decis in 7.6294167041778564 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.33it/s]
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762462.pt@decis in 4.636716604232788 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762463.pt@decis in 4.096467018127441 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762464.pt@decis in 4.095511436462402 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762459.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762459.pt@decis in 4.216976642608643 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762460.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762460.pt@decis in 3.9158847332000732 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762459.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762459.pt@decis in 4.711958408355713 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762464.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762464.pt@decis in 4.641084909439087 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762467.pt@decis in 3.9029932022094727 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.46it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762468.pt@decis in 4.061143636703491 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762470.pt@decis in 4.871435642242432 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762471.pt@decis in 4.39066481590271 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762472.pt@decis in 4.232119083404541 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762467.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762467.pt@decis in 5.575976848602295 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762468.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762468.pt@decis in 5.284440994262695 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762470.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762470.pt@decis in 4.750064134597778 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762471.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762471.pt@decis in 4.678448677062988 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.46it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762475.pt@decis in 4.881974458694458 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.04s/it]
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762476.pt@decis in 8.895240545272827 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.43s/it]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762478.pt@decis in 7.620227813720703 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.86s/it]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762480.pt@decis in 4.1154944896698 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762474.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762474.pt@decis in 4.792514085769653 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762475.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762475.pt@decis in 4.567980527877808 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762477.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762477.pt@decis in 4.33126974105835 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762479.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762479.pt@decis in 4.662237167358398 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.16it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762483.pt@decis in 4.138823986053467 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.82it/s]
+
+
+
+
+25it [00:07,  3.25it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762484.pt@decis in 4.006667852401733 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762485.pt@decis in 3.8987998962402344 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.38it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762486.pt@decis in 4.054023027420044 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.50it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762487.pt@decis in 4.370822191238403 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762483.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762483.pt@decis in 4.410524845123291 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762483.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762483.pt@decis in 5.878083944320679 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762484.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762484.pt@decis in 4.861677169799805 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762486.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762486.pt@decis in 5.070299386978149 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762491.pt@decis in 4.133605480194092 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762492.pt@decis in 8.288804292678833 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.43it/s]
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762493.pt@decis in 4.18267822265625 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762494.pt@decis in 6.764513254165649 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762490.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762490.pt@decis in 4.010115623474121 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762491.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762491.pt@decis in 3.4748923778533936 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762492.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762492.pt@decis in 3.231030225753784 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762494.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762494.pt@decis in 4.215376377105713 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+
+
+
+
+25it [00:07,  3.25it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762497.pt@decis in 4.2544660568237305 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762499.pt@decis in 4.038625955581665 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.71it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762500.pt@decis in 4.94542932510376 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.25it/s]
+
+
+
+
+25it [00:07,  3.23it/s]
+  0%|          | 0/1 [00:00<?, ?it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762501.pt@decis in 4.439457416534424 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.73it/s]
+
+
+
+
+25it [00:07,  3.21it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762502.pt@decis in 4.135149240493774 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762497.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762497.pt@decis in 5.285341262817383 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762498.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-2762498.pt@decis in 4.892766952514648 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762499.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762499.pt@decis in 4.609851360321045 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762501.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.41it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762505.pt@decis in 4.052553653717041 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762506.pt@decis in 3.812800168991089 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.75it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762507.pt@decis in 6.659543037414551 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+
+
+
+25it [00:07,  3.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762509.pt@decis in 6.787838459014893 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762504.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762504.pt@decis in 6.691243886947632 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762504.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762504.pt@decis in 5.938533067703247 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762506.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762506.pt@decis in 5.455326080322266 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762508.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762508.pt@decis in 5.303801774978638 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762512.pt@decis in 7.347821474075317 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.05it/s]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762514.pt@decis in 3.9048731327056885 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:01<00:00,  1.71s/it]
+
+
+
+
+25it [00:07,  3.24it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762515.pt@decis in 4.193343162536621 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762511.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762511.pt@decis in 4.403791666030884 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762512.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-2762512.pt@decis in 3.93666410446167 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762512.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-2762512.pt@decis in 3.681419610977173 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis in 4.527253866195679 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+
+
+

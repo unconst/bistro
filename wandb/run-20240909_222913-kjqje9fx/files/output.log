@@ -1,0 +1,164 @@
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762281.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762281.pt@decis in 8.802846908569336 seconds.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.03s/it]
+
+
+
+
+25it [00:08,  3.07it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762287.pt@decis in 4.116611480712891 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.38it/s]
+
+
+
+
+25it [00:09,  2.66it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762289.pt@decis in 3.783726215362549 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.70it/s]
+
+
+
+
+25it [00:08,  3.06it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762290.pt@decis in 4.202071666717529 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762287.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762287.pt@decis in 3.5066254138946533 seconds.
+Successfully synced with master.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.38s/it]
+
+
+
+
+25it [00:08,  3.07it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762292.pt@decis in 4.837711572647095 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.73it/s]
+
+
+
+
+25it [00:08,  3.09it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762295.pt@decis in 18.069772243499756 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.46it/s]
+
+
+
+
+25it [00:08,  3.10it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762297.pt@decis in 4.939294338226318 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.74it/s]
+
+
+
+
+25it [00:08,  3.08it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762298.pt@decis in 4.861335754394531 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.04it/s]
+
+
+
+
+25it [00:08,  3.05it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762300.pt@decis in 8.786222219467163 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762297.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762297.pt@decis in 5.041681289672852 seconds.
+Successfully synced with master.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.31it/s]
+
+
+
+
+25it [00:08,  3.07it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762302.pt@decis in 5.462292671203613 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.05it/s]
+
+
+
+
+
+
+25it [00:11,  2.13it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762303.pt@decis in 8.31363320350647 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.22s/it]
+
+
+
+
+
+
+
+25it [00:14,  1.71it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762305.pt@decis in 5.123709678649902 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.67s/it]
+
+
+
+
+25it [00:08,  3.05it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762307.pt@decis in 5.868027210235596 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.50s/it]
+
+
+
+
+
+25it [00:08,  3.06it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762308.pt@decis in 6.464893341064453 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.36it/s]
+
+
+
+
+25it [00:08,  3.06it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762310.pt@decis in 4.650721311569214 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.16s/it]
+
+
+
+
+
+25it [00:09,  2.57it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762311.pt@decis in 7.428691387176514 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.23it/s]
+
+
+
+
+25it [00:08,  3.04it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762313.pt@decis in 4.175745010375977 seconds.
+A new master has been uploaded, break the loop.
+Applying accumulated gradients to the base model.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762303.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762303.pt@decis in 5.129572629928589 seconds.
+Model hash is incorrect or Model is None, pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762312.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762312.pt@decis in 4.313887596130371 seconds.
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:00<00:00,  1.31it/s]
+
+
+
+
+25it [00:08,  3.07it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-2762315.pt@decis in 4.4983744621276855 seconds.
+Master model has not changed. Continuing to train
+100%|██████████████████████████████████████████████████████████████████████████████████████████████| 1/1 [00:01<00:00,  1.56s/it]
+
+
+6it [00:02,  2.64it/s]

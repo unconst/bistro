@@ -1,0 +1,228 @@
+2024-09-10 17:00:35,354 INFO    StreamThr :509009 [internal.py:wandb_internal():85] W&B internal server running at pid: 509009, started at: 2024-09-10 17:00:35.353357
+2024-09-10 17:00:35,355 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status
+2024-09-10 17:00:35,356 INFO    WriterThread:509009 [datastore.py:open_for_write():87] open: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/run-Miner-5EkVG.wandb
+2024-09-10 17:00:35,358 DEBUG   SenderThread:509009 [sender.py:send():391] send: header
+2024-09-10 17:00:35,359 DEBUG   SenderThread:509009 [sender.py:send():391] send: run
+2024-09-10 17:00:35,364 INFO    SenderThread:509009 [sender.py:_setup_resume():761] checking resume status for None/bistro/Miner-5EkVG
+2024-09-10 17:00:35,651 INFO    SenderThread:509009 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files
+2024-09-10 17:00:35,651 INFO    SenderThread:509009 [sender.py:_start_run_threads():1200] run started: Miner-5EkVG with start time 1725987635.353037
+2024-09-10 17:00:35,655 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: check_version
+2024-09-10 17:00:35,656 DEBUG   SenderThread:509009 [sender.py:send_request():418] send_request: check_version
+2024-09-10 17:00:35,716 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: run_start
+2024-09-10 17:00:37,402 DEBUG   HandlerThread:509009 [system_info.py:__init__():26] System info init
+2024-09-10 17:00:37,402 DEBUG   HandlerThread:509009 [system_info.py:__init__():41] System info init done
+2024-09-10 17:00:37,403 INFO    HandlerThread:509009 [system_monitor.py:start():194] Starting system monitor
+2024-09-10 17:00:37,403 INFO    SystemMonitor:509009 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-10 17:00:37,403 INFO    HandlerThread:509009 [system_monitor.py:probe():214] Collecting system info
+2024-09-10 17:00:37,404 INFO    SystemMonitor:509009 [interfaces.py:start():188] Started cpu monitoring
+2024-09-10 17:00:37,404 INFO    SystemMonitor:509009 [interfaces.py:start():188] Started disk monitoring
+2024-09-10 17:00:37,405 INFO    SystemMonitor:509009 [interfaces.py:start():188] Started gpu monitoring
+2024-09-10 17:00:37,406 INFO    SystemMonitor:509009 [interfaces.py:start():188] Started memory monitoring
+2024-09-10 17:00:37,406 INFO    SystemMonitor:509009 [interfaces.py:start():188] Started network monitoring
+2024-09-10 17:00:38,320 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:38,321 DEBUG   HandlerThread:509009 [system_info.py:probe():152] Probing system
+2024-09-10 17:00:38,321 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:38,324 DEBUG   HandlerThread:509009 [system_info.py:_probe_git():137] Probing git
+2024-09-10 17:00:38,330 DEBUG   HandlerThread:509009 [system_info.py:_probe_git():145] Probing git done
+2024-09-10 17:00:38,330 DEBUG   HandlerThread:509009 [system_info.py:probe():200] Probing system done
+2024-09-10 17:00:38,330 DEBUG   HandlerThread:509009 [system_monitor.py:probe():223] {'os': 'Linux-5.19.0-1010-nvidia-lowlatency-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-09-10T17:00:38.321224', 'startedAt': '2024-09-10T17:00:35.349083', 'docker': None, 'cuda': None, 'args': ('--wallet.name', 'Alice', '--wallet.hotkey', 'Bob', '--subtensor.network', 'test', '--device', 'cuda:2', '--use_wandb'), 'state': 'running', 'program': '/home/ubuntu/frontend/bistro/miner.py', 'codePathLocal': 'miner.py', 'codePath': 'bistro/miner.py', 'git': {'remote': 'https://github.com/unconst/frontend.git', 'commit': 'a0660981f23476af1751d70673e4586879b6970c'}, 'email': 'jake@bittensor.com', 'root': '/home/ubuntu/frontend', 'host': 'training', 'username': 'ubuntu', 'executable': '/home/ubuntu/frontend/venv/bin/python3', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 2226.8185078125, 'min': 1500.0, 'max': 3250.0}, 'cpu_freq_per_core': [{'current': 3800.124, 'min': 1500.0, 'max': 3250.0}, {'current': 1517.749, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.042, 'min': 1500.0, 'max': 3250.0}, {'current': 1519.839, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.068, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.119, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.05, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.062, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1498.036, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.064, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.084, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.178, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.054, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.072, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.138, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.149, 'min': 1500.0, 'max': 3250.0}, {'current': 2166.187, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.158, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.133, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.145, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.047, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.462, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.058, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.158, 'min': 1500.0, 'max': 3250.0}, {'current': 1519.826, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.142, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.055, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.525, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.131, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.116, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.114, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.144, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.151, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.174, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.166, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.153, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.146, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.054, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.152, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.055, 'min': 1500.0, 'max': 3250.0}, {'current': 1518.723, 'min': 1500.0, 'max': 3250.0}, {'current': 3793.572, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.033, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.04, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.132, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.154, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.148, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.053, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.142, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.11, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.109, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1516.974, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.05, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.043, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.12, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.058, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.509, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.053, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.048, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.059, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.063, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.06, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.041, 'min': 1500.0, 'max': 3250.0}, {'current': 1519.576, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1512.115, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.055, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.035, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3802.539, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2166.743, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.039, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.186, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.057, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.488, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.535, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.176, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.162, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.505, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.192, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3794.185, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.153, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.062, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.03, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2171.5, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.16, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.054, 'min': 1500.0, 'max': 3250.0}, {'current': 3799.918, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}], 'disk': {'/': {'total': 3519.6199798583984, 'used': 88.1607894897461}}, 'gpu': 'NVIDIA H100 PCIe', 'gpu_count': 8, 'memory': {'total': 1511.5785369873047}}
+2024-09-10 17:00:38,330 INFO    HandlerThread:509009 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-10 17:00:38,331 INFO    HandlerThread:509009 [system_monitor.py:probe():227] Publishing system info
+2024-09-10 17:00:38,331 INFO    HandlerThread:509009 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-10 17:00:38,334 DEBUG   SenderThread:509009 [sender.py:send():391] send: files
+2024-09-10 17:00:38,334 INFO    SenderThread:509009 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-10 17:00:38,467 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-10 17:00:38,467 DEBUG   SenderThread:509009 [sender.py:send_request():418] send_request: python_packages
+2024-09-10 17:00:38,467 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 17:00:38,468 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:38,469 DEBUG   SenderThread:509009 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 17:00:38,520 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:38,520 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:38,520 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:38,520 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:38,546 DEBUG   SenderThread:509009 [sender.py:send():391] send: telemetry
+2024-09-10 17:00:38,653 INFO    Thread-12 :509009 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files/wandb-metadata.json
+2024-09-10 17:00:38,653 INFO    Thread-12 :509009 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files/requirements.txt
+2024-09-10 17:00:38,667 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:39,289 INFO    wandb-upload_0:509009 [upload_job.py:push():130] Uploaded file /tmp/tmpl8sxnhlgwandb/cgarv5u7-wandb-metadata.json
+2024-09-10 17:00:39,544 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:40,513 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:40,547 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:00:40,654 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 17:00:40,656 DEBUG   SenderThread:509009 [sender.py:send():391] send: history
+2024-09-10 17:00:40,656 DEBUG   SenderThread:509009 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 17:00:40,658 INFO    SenderThread:509009 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 17:00:40,668 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:40,668 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:40,668 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:40,668 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:40,668 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:40,668 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:40,668 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:41,513 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:41,653 INFO    Thread-12 :509009 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files/wandb-summary.json
+2024-09-10 17:00:41,654 INFO    Thread-12 :509009 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files/output.log
+2024-09-10 17:00:42,513 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:42,669 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:42,669 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:42,669 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:42,669 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:42,669 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:42,669 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:42,669 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:43,514 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:43,654 INFO    Thread-12 :509009 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files/output.log
+2024-09-10 17:00:44,514 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:45,196 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:45,201 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:45,201 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:45,201 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:45,201 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:45,201 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:45,201 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:45,514 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:46,469 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:00:47,262 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:47,327 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:47,327 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:47,327 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:47,327 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:47,327 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:47,327 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:49,369 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:49,413 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:49,413 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:49,413 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:49,413 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:49,413 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:49,413 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:51,470 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:00:51,569 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:51,624 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:51,624 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:51,624 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:51,624 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:51,624 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:51,624 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,147 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,182 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,183 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,183 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,183 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,183 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,183 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:54,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 17:00:54,543 DEBUG   SenderThread:509009 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 17:00:54,583 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:55,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:56,476 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:56,534 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:56,534 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:56,534 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:56,534 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:56,534 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:56,534 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:56,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:56,616 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:00:57,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:58,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:00:58,707 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:58,708 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:58,708 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:58,708 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:58,708 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:58,708 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:58,708 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:00:59,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:00,544 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:00,799 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:00,828 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:00,828 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:00,828 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:00,828 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:00,828 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:00,828 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:01,544 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:01,661 INFO    Thread-12 :509009 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files/output.log
+2024-09-10 17:01:02,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:01:02,544 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:03,196 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:03,284 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:03,284 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:03,284 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:03,284 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:03,284 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:03,284 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:03,544 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:04,544 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:05,364 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:05,400 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:05,400 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:05,400 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:05,400 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:05,400 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:05,400 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:05,748 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:06,747 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:07,455 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:07,549 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:01:07,549 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:07,550 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:07,550 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:07,550 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:07,550 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:07,550 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:07,663 INFO    Thread-12 :509009 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_170035-Miner-5EkVG/files/config.yaml
+2024-09-10 17:01:07,748 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:08,748 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:09,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 17:01:09,543 DEBUG   SenderThread:509009 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 17:01:09,552 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:09,564 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:09,564 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:09,564 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:09,564 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:09,564 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:09,564 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:09,748 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:10,748 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:11,564 ERROR   gpu       :509009 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 17:01:11,605 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:11,606 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:11,606 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:11,606 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:11,606 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:11,606 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:11,606 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:11,748 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:12,673 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:01:13,410 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:13,659 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:13,693 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:13,693 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:13,693 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:13,693 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:13,693 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:13,693 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:14,410 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:15,410 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:15,758 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:15,786 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:15,786 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:15,786 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:15,786 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:15,786 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:15,786 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:16,410 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:17,410 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:17,877 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:18,004 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:18,004 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:18,004 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:18,004 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:18,004 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:18,004 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 17:01:18,411 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:18,543 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 17:01:19,411 DEBUG   HandlerThread:509009 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 17:01:20,063 ERROR   gpu       :509009 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error

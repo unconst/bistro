@@ -1,0 +1,941 @@
+2024-09-10 16:33:21,225 INFO    StreamThr :430347 [internal.py:wandb_internal():85] W&B internal server running at pid: 430347, started at: 2024-09-10 16:33:21.225358
+2024-09-10 16:33:21,226 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status
+2024-09-10 16:33:21,228 INFO    WriterThread:430347 [datastore.py:open_for_write():87] open: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/run-9wo08cwc.wandb
+2024-09-10 16:33:21,228 DEBUG   SenderThread:430347 [sender.py:send():391] send: header
+2024-09-10 16:33:21,230 DEBUG   SenderThread:430347 [sender.py:send():391] send: run
+2024-09-10 16:33:21,396 INFO    SenderThread:430347 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files
+2024-09-10 16:33:21,396 INFO    SenderThread:430347 [sender.py:_start_run_threads():1200] run started: 9wo08cwc with start time 1725986001.225011
+2024-09-10 16:33:21,403 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: check_version
+2024-09-10 16:33:21,403 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: check_version
+2024-09-10 16:33:21,459 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: run_start
+2024-09-10 16:33:23,066 DEBUG   HandlerThread:430347 [system_info.py:__init__():26] System info init
+2024-09-10 16:33:23,066 DEBUG   HandlerThread:430347 [system_info.py:__init__():41] System info init done
+2024-09-10 16:33:23,066 INFO    HandlerThread:430347 [system_monitor.py:start():194] Starting system monitor
+2024-09-10 16:33:23,067 INFO    SystemMonitor:430347 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-10 16:33:23,067 INFO    HandlerThread:430347 [system_monitor.py:probe():214] Collecting system info
+2024-09-10 16:33:23,067 INFO    SystemMonitor:430347 [interfaces.py:start():188] Started cpu monitoring
+2024-09-10 16:33:23,068 INFO    SystemMonitor:430347 [interfaces.py:start():188] Started disk monitoring
+2024-09-10 16:33:23,069 INFO    SystemMonitor:430347 [interfaces.py:start():188] Started gpu monitoring
+2024-09-10 16:33:23,069 INFO    SystemMonitor:430347 [interfaces.py:start():188] Started memory monitoring
+2024-09-10 16:33:23,069 INFO    SystemMonitor:430347 [interfaces.py:start():188] Started network monitoring
+2024-09-10 16:33:23,870 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:23,871 DEBUG   HandlerThread:430347 [system_info.py:probe():152] Probing system
+2024-09-10 16:33:23,872 DEBUG   HandlerThread:430347 [system_info.py:_probe_git():137] Probing git
+2024-09-10 16:33:23,877 DEBUG   HandlerThread:430347 [system_info.py:_probe_git():145] Probing git done
+2024-09-10 16:33:23,877 DEBUG   HandlerThread:430347 [system_info.py:probe():200] Probing system done
+2024-09-10 16:33:23,878 DEBUG   HandlerThread:430347 [system_monitor.py:probe():223] {'os': 'Linux-5.19.0-1010-nvidia-lowlatency-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-09-10T16:33:23.871148', 'startedAt': '2024-09-10T16:33:21.221435', 'docker': None, 'cuda': None, 'args': ('--wallet.name', 'Alice', '--wallet.hotkey', 'Bob', '--subtensor.network', 'test', '--device', 'cuda:2', '--use_wandb'), 'state': 'running', 'program': '/home/ubuntu/frontend/bistro/miner.py', 'codePathLocal': 'miner.py', 'codePath': 'bistro/miner.py', 'git': {'remote': 'https://github.com/unconst/frontend.git', 'commit': 'a0660981f23476af1751d70673e4586879b6970c'}, 'email': 'jake@bittensor.com', 'root': '/home/ubuntu/frontend', 'host': 'training', 'username': 'ubuntu', 'executable': '/home/ubuntu/frontend/venv/bin/python3', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 2539.6387734375007, 'min': 1500.0, 'max': 3250.0}, 'cpu_freq_per_core': [{'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.124, 'min': 1500.0, 'max': 3250.0}, {'current': 3797.313, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.152, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.144, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.149, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.142, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.14, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.144, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.139, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3795.468, 'min': 1500.0, 'max': 3250.0}, {'current': 3797.828, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.128, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.122, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.095, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3792.352, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.04, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3802.122, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.088, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.124, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1520.113, 'min': 1500.0, 'max': 3250.0}, {'current': 1645.518, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.128, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.805, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3799.438, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.166, 'min': 1500.0, 'max': 3250.0}], 'disk': {'/': {'total': 3519.6199798583984, 'used': 84.87982940673828}}, 'gpu': 'NVIDIA H100 PCIe', 'gpu_count': 8, 'memory': {'total': 1511.5785369873047}}
+2024-09-10 16:33:23,878 INFO    HandlerThread:430347 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-10 16:33:23,878 INFO    HandlerThread:430347 [system_monitor.py:probe():227] Publishing system info
+2024-09-10 16:33:23,879 INFO    HandlerThread:430347 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-10 16:33:23,880 DEBUG   SenderThread:430347 [sender.py:send():391] send: files
+2024-09-10 16:33:23,880 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-10 16:33:23,915 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:23,994 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-10 16:33:23,995 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: python_packages
+2024-09-10 16:33:23,995 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:33:23,995 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:33:23,997 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:24,094 DEBUG   SenderThread:430347 [sender.py:send():391] send: telemetry
+2024-09-10 16:33:24,161 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:24,161 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:24,161 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:24,161 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:24,322 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:24,399 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-metadata.json
+2024-09-10 16:33:24,399 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/requirements.txt
+2024-09-10 16:33:24,805 INFO    wandb-upload_0:430347 [upload_job.py:push():130] Uploaded file /tmp/tmp8elyc79uwandb/s7koiswk-wandb-metadata.json
+2024-09-10 16:33:25,158 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:26,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:26,313 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:33:26,314 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:33:26,315 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:33:26,315 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:33:26,316 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:33:26,398 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:33:26,399 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/output.log
+2024-09-10 16:33:27,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:27,351 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:27,352 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:27,352 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:27,352 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:27,352 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:27,352 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:27,352 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:28,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:28,399 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/output.log
+2024-09-10 16:33:29,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:29,353 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:29,353 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:29,354 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:29,354 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:29,354 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:29,354 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:29,354 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:30,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:31,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:31,354 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:31,374 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:31,374 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:31,374 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:31,374 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:31,374 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:31,374 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:31,996 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:33:32,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:33,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:33,399 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:33,421 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:33,422 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:33,422 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:33,422 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:33,422 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:33,422 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:34,129 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:35,470 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:35,499 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:35,500 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:35,500 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:35,500 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:35,500 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:35,500 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:36,997 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:33:37,528 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:37,566 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:37,566 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:37,566 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:37,566 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:37,566 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:37,566 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:39,750 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:39,750 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:39,750 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:39,750 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:39,750 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:39,750 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:39,751 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:41,997 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:33:42,529 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:42,534 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:42,534 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:42,534 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:42,534 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:42,534 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:42,534 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:44,583 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:44,617 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:44,617 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:44,617 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:44,617 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:44,617 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:44,617 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,661 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,695 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,696 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,696 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,696 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,696 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,696 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:46,998 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:33:47,288 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:47,288 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:33:47,288 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:33:48,285 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:48,733 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:48,760 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:48,760 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:48,761 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:48,761 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:48,761 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:48,761 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:49,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:50,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:50,801 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:50,831 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:50,831 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:50,831 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:50,831 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:50,831 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:50,831 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:51,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:52,289 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:33:52,290 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:52,406 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/config.yaml
+2024-09-10 16:33:52,906 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:52,976 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:52,976 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:52,976 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:52,976 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:52,976 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:52,976 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:53,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:53,407 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/output.log
+2024-09-10 16:33:54,287 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:54,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:55,015 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:55,015 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:55,015 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:55,015 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:55,015 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:55,015 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:55,287 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:56,287 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:57,016 ERROR   gpu       :430347 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 16:33:57,125 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:57,216 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:57,216 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:57,216 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:57,216 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:57,216 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:57,217 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:57,287 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:58,287 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:33:59,008 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:33:59,280 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:59,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:59,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:59,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:59,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:59,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:33:59,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:00,007 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:01,008 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:01,417 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:01,441 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:01,441 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:01,441 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:01,441 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:01,442 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:01,442 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:02,008 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:02,285 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:34:02,286 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:34:03,008 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:03,409 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:03,444 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:03,484 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:03,484 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:03,484 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:03,484 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:03,484 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:03,484 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:04,008 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:05,009 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:05,543 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:05,572 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:05,572 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:05,572 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:05,572 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:05,572 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:05,572 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:06,104 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:07,103 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:07,663 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:07,664 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:07,664 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:07,664 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:07,664 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:07,664 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:07,664 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:08,103 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:09,104 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:09,287 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:09,701 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:09,706 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:09,706 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:09,706 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:09,706 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:09,706 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:09,706 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:10,104 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:11,104 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:11,774 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:11,827 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:11,827 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:11,827 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:11,827 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:11,827 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:11,827 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:12,104 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:13,104 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:13,927 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:13,954 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:13,955 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:13,955 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:13,955 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:13,955 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:13,955 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:14,104 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:14,287 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:15,105 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:16,078 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:16,105 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:16,106 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:16,106 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:16,106 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:16,106 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:16,106 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:16,106 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:17,105 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:17,285 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:34:17,286 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:34:18,105 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:18,156 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:18,252 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:18,252 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:18,252 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:18,252 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:18,252 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:18,252 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:19,105 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:19,381 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:20,106 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:20,253 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:20,261 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:20,261 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:20,261 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:20,262 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:20,262 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:20,262 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:21,105 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:22,106 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:22,307 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:22,395 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:22,395 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:22,395 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:22,395 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:22,395 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:22,395 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:23,069 DEBUG   SystemMonitor:430347 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-10 16:34:23,071 DEBUG   SenderThread:430347 [sender.py:send():391] send: stats
+2024-09-10 16:34:23,107 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:24,106 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:24,432 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:24,458 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:24,458 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:24,458 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:24,458 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:24,458 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:24,458 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:25,072 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:25,106 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:26,106 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:26,511 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:26,611 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:26,611 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:26,611 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:26,611 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:26,612 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:26,612 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:27,107 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:28,107 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:28,612 ERROR   gpu       :430347 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 16:34:28,658 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:28,751 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:28,752 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:28,752 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:28,752 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:28,752 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:28,752 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:29,107 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:30,108 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:30,288 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:30,813 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:30,898 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:30,898 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:30,898 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:30,898 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:30,898 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:30,898 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:31,107 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:32,108 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:32,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:34:32,286 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:34:32,965 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:33,024 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:33,024 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:33,024 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:33,024 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:33,024 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:33,024 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:33,108 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:34,264 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:35,088 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:35,160 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:35,160 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:35,160 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:35,160 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:35,160 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:35,160 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:35,264 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:35,343 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:36,264 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:37,218 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:37,264 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:37,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:37,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:37,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:37,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:37,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:37,372 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:38,264 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:39,265 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:39,421 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:39,498 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:39,498 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:39,498 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:39,498 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:39,498 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:39,498 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:40,265 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:41,288 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:41,481 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:41,586 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:41,660 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:41,660 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:41,661 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:41,661 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:41,661 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:41,661 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:42,481 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:43,482 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:43,764 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:43,885 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:43,886 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:43,886 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:43,886 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:43,886 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:43,886 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:44,482 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:45,482 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:45,936 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:45,994 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:45,994 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:45,994 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:45,995 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:45,995 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:45,995 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:46,288 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:46,482 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:47,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:34:47,286 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:34:47,482 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:48,079 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:48,108 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:48,108 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:48,108 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:48,108 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:48,108 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:48,108 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:48,482 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:49,483 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:50,172 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:50,235 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:50,235 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:50,235 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:50,235 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:50,235 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:50,236 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:50,483 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:51,379 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:51,483 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:52,305 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:52,400 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:52,400 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:52,400 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:52,401 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:52,401 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:52,401 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:52,483 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:53,072 DEBUG   SenderThread:430347 [sender.py:send():391] send: stats
+2024-09-10 16:34:53,483 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:54,447 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:54,483 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:54,527 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:54,528 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:54,528 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:54,528 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:54,528 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:54,528 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:55,484 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:56,484 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:56,559 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:56,598 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:56,599 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:56,599 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:56,599 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:56,599 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:56,599 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:57,073 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:34:57,484 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:58,484 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:34:58,672 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:58,759 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:58,759 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:58,760 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:58,760 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:58,760 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:58,760 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:34:59,484 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:00,485 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:00,760 ERROR   gpu       :430347 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 16:35:00,797 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:00,858 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:00,858 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:00,858 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:00,859 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:00,859 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:00,859 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:01,485 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:02,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:35:02,287 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:35:02,485 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:02,895 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:02,907 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:02,927 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:02,927 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:02,927 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:02,927 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:02,927 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:02,927 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:04,877 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:04,980 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:04,982 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:04,982 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:04,982 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:04,982 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:04,982 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:04,982 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:05,840 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:06,840 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:06,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:06,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:06,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:06,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:06,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:06,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:06,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:07,840 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:08,114 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:08,840 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:08,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:08,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:08,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:08,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:08,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:08,983 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:08,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:09,430 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/output.log
+2024-09-10 16:35:09,758 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:09,760 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:09,760 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:09,760 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:09,841 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:10,079 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:10,080 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:10,080 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:10,080 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:10,387 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:10,387 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:10,387 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:10,388 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:10,431 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:10,703 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:10,704 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:10,704 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:10,704 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:10,841 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:10,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:10,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:10,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:10,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:10,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:10,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:10,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:11,017 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:11,018 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:11,018 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:11,018 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:11,320 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:11,321 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:11,321 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:11,322 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:11,431 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:11,431 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/output.log
+2024-09-10 16:35:11,635 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:11,636 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:11,636 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:11,636 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:11,841 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:11,948 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:11,949 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:11,949 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:11,949 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:12,256 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:12,257 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:12,257 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:12,257 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:12,431 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:12,569 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:12,570 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:12,570 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:12,570 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:12,841 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:12,884 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:12,885 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:12,885 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:12,886 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:12,984 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:12,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:12,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:12,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:12,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:12,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:12,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:13,194 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:13,195 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:13,196 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:13,196 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:13,197 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:13,432 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:13,502 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:13,503 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:13,504 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:13,504 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:13,817 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:13,818 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:13,818 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:13,818 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:13,841 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:14,128 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:14,129 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:14,129 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:14,129 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:14,432 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:14,439 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:14,440 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:14,440 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:14,440 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:14,749 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:14,749 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:14,750 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:14,750 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:14,841 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:14,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:14,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:14,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:14,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:14,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:14,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:14,985 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:15,056 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:15,057 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:15,057 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:15,057 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:15,364 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:15,365 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:15,365 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:15,366 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:15,433 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:15,677 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:15,678 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:15,679 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:15,679 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:15,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:15,989 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:15,990 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:15,990 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:15,991 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:16,299 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:16,300 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:16,300 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:16,301 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:16,433 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:16,611 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:16,612 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:16,612 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:16,612 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:16,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:16,924 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:16,925 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:16,925 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:16,926 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:16,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:16,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:16,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:16,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:16,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:16,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:16,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:17,236 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:17,237 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:17,237 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:17,238 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:17,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:35:17,287 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:35:17,433 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:17,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:18,384 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:18,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:18,986 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:18,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:18,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:18,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:18,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:18,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:18,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:19,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:20,843 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:20,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:20,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:20,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:20,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:20,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:20,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:20,987 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:21,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:22,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:22,988 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:22,988 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:22,988 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:22,988 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:22,988 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:22,988 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:22,988 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:23,073 DEBUG   SenderThread:430347 [sender.py:send():391] send: stats
+2024-09-10 16:35:23,109 ERROR   FileStreamThread:430347 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/const69/bistro/9wo08cwc/file_stream
+NoneType: None
+2024-09-10 16:35:23,842 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:24,075 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:24,843 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:24,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:24,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:24,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:24,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:24,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:24,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:24,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:25,843 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:26,843 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:26,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:26,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:26,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:26,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:26,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:26,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:26,989 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:27,437 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/output.log
+2024-09-10 16:35:27,843 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:28,012 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:28,013 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:28,014 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:28,014 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:28,316 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:28,317 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:28,317 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:28,317 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:28,437 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:28,625 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:28,626 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:28,626 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:28,627 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:28,843 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:28,945 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:28,946 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:28,947 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:28,947 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:28,990 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:28,990 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:28,990 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:28,990 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:28,990 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:28,990 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:28,990 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:29,255 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:29,256 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:29,257 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:29,257 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:29,257 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:29,437 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:29,438 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/output.log
+2024-09-10 16:35:29,566 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:29,567 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:29,567 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:29,568 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:29,844 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:29,886 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:29,887 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:29,887 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:29,888 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:30,199 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:30,199 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:30,200 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:30,200 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:30,438 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:30,503 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:30,504 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:30,504 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:30,505 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:30,819 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:30,820 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:30,821 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:30,821 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:30,844 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:30,990 ERROR   gpu       :430347 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 16:35:30,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:30,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:30,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:30,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:30,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:30,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:30,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:31,132 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:31,133 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:31,134 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:31,134 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:31,438 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:31,446 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:31,447 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:31,447 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:31,448 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:31,760 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:31,761 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:31,761 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:31,762 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:31,844 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:32,074 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:32,075 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:32,076 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:32,076 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:32,286 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 16:35:32,287 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 16:35:32,383 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:32,422 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:32,423 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:32,423 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:32,439 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:32,693 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:32,694 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:32,694 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:32,695 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:32,844 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:32,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:32,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:32,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:32,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:32,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:32,991 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:32,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:33,007 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:33,007 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:33,008 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:33,008 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:33,321 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:33,322 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:33,322 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:33,324 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:33,350 ERROR   FileStreamThread:430347 [file_stream.py:_handle_response():510] dropped chunk 404 Client Error: Not Found for url: https://api.wandb.ai/files/const69/bistro/9wo08cwc/file_stream
+NoneType: None
+2024-09-10 16:35:33,439 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:33,631 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:33,633 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:33,633 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:33,633 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:33,844 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:33,945 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:33,946 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:33,946 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:33,946 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:34,260 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:34,261 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:34,262 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:34,262 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:34,262 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:34,439 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:34,571 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:34,572 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:34,572 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:34,573 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:34,844 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:34,885 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:34,885 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:34,886 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:34,886 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:34,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:34,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:34,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:34,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:34,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:34,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:34,992 ERROR   gpu       :430347 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 16:35:35,201 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:35,202 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:35,202 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:35,203 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:35,440 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:35,511 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 16:35:35,512 DEBUG   SenderThread:430347 [sender.py:send():391] send: history
+2024-09-10 16:35:35,513 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 16:35:35,513 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:35,854 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 16:35:36,440 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:36,800 DEBUG   SenderThread:430347 [sender.py:send():391] send: telemetry
+2024-09-10 16:35:36,840 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: server_info
+2024-09-10 16:35:36,840 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: server_info
+2024-09-10 16:35:36,874 DEBUG   SenderThread:430347 [sender.py:send():391] send: exit
+2024-09-10 16:35:36,874 INFO    SenderThread:430347 [sender.py:send_exit():598] handling exit code: 0
+2024-09-10 16:35:36,874 INFO    SenderThread:430347 [sender.py:send_exit():600] handling runtime: 135
+2024-09-10 16:35:36,874 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:36,874 INFO    SenderThread:430347 [sender.py:send_exit():606] send defer
+2024-09-10 16:35:36,875 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 16:35:36,875 INFO    HandlerThread:430347 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-10 16:35:36,875 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: defer
+2024-09-10 16:35:36,875 INFO    SenderThread:430347 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-10 16:35:36,875 INFO    SenderThread:430347 [sender.py:transition_state():626] send defer: 1
+2024-09-10 16:35:36,875 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 16:35:36,875 INFO    HandlerThread:430347 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-10 16:35:36,875 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: defer
+2024-09-10 16:35:36,875 INFO    SenderThread:430347 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-10 16:35:36,875 INFO    SenderThread:430347 [sender.py:transition_state():626] send defer: 2
+2024-09-10 16:35:36,875 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 16:35:36,875 INFO    HandlerThread:430347 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-10 16:35:36,875 INFO    HandlerThread:430347 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-10 16:35:36,875 DEBUG   SystemMonitor:430347 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-10 16:35:36,876 INFO    HandlerThread:430347 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-10 16:35:36,876 DEBUG   SystemMonitor:430347 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-10 16:35:36,876 ERROR   gpu       :430347 [interfaces.py:aggregate():159] Failed to serialize metric: division by zero
+2024-09-10 16:35:36,877 INFO    HandlerThread:430347 [interfaces.py:finish():200] Joined disk monitor
+2024-09-10 16:35:36,878 INFO    HandlerThread:430347 [interfaces.py:finish():200] Joined gpu monitor
+2024-09-10 16:35:36,878 INFO    HandlerThread:430347 [interfaces.py:finish():200] Joined memory monitor
+2024-09-10 16:35:36,878 INFO    HandlerThread:430347 [interfaces.py:finish():200] Joined network monitor
+2024-09-10 16:35:36,878 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: defer
+2024-09-10 16:35:36,878 INFO    SenderThread:430347 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-10 16:35:36,878 INFO    SenderThread:430347 [sender.py:transition_state():626] send defer: 3
+2024-09-10 16:35:36,878 DEBUG   SenderThread:430347 [sender.py:send():391] send: stats
+2024-09-10 16:35:36,879 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 16:35:36,879 INFO    HandlerThread:430347 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-10 16:35:36,879 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: defer
+2024-09-10 16:35:36,879 INFO    SenderThread:430347 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-10 16:35:36,879 INFO    SenderThread:430347 [sender.py:transition_state():626] send defer: 4
+2024-09-10 16:35:36,879 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 16:35:36,879 INFO    HandlerThread:430347 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-10 16:35:36,879 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: defer
+2024-09-10 16:35:36,879 INFO    SenderThread:430347 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-10 16:35:36,879 INFO    SenderThread:430347 [sender.py:transition_state():626] send defer: 5
+2024-09-10 16:35:36,879 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 16:35:36,879 INFO    HandlerThread:430347 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-10 16:35:36,880 DEBUG   SenderThread:430347 [sender.py:send():391] send: summary
+2024-09-10 16:35:36,880 INFO    SenderThread:430347 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 16:35:36,880 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: defer
+2024-09-10 16:35:36,880 INFO    SenderThread:430347 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-10 16:35:36,880 INFO    SenderThread:430347 [sender.py:transition_state():626] send defer: 6
+2024-09-10 16:35:36,880 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: defer
+2024-09-10 16:35:36,880 INFO    HandlerThread:430347 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-10 16:35:36,880 DEBUG   SenderThread:430347 [sender.py:send_request():418] send_request: defer
+2024-09-10 16:35:36,880 INFO    SenderThread:430347 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-10 16:35:36,882 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 16:35:36,911 ERROR   SenderThread:430347 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 16:35:36,911 ERROR   SenderThread:430347 [internal_api.py:execute():350] {"errors":[{"message":"run 9wo08cwc was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}
+2024-09-10 16:35:37,440 INFO    Thread-12 :430347 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_163321-9wo08cwc/files/wandb-summary.json
+2024-09-10 16:35:37,874 DEBUG   HandlerThread:430347 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-10 16:35:37,946 ERROR   SenderThread:430347 [internal_api.py:execute():349] 409 response executing GraphQL.
+2024-09-10 16:35:37,946 ERROR   SenderThread:430347 [internal_api.py:execute():350] {"errors":[{"message":"run 9wo08cwc was previously created and deleted; try a new run name","path":["upsertBucket"]}],"data":{"upsertBucket":null}}

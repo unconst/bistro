@@ -1,0 +1,161 @@
+--------------------------------------------------------------------------------
+Step: 1, Block: 2768969, Master: 0 Hash: 319cf52625480b768a9b8df9359c25b00a20d5af62e6b75ee1b7816e5ffe24fe
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1726001116.pt@decis
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/miner.py", line 122, in main
+    master = download_model( metadata = master_meta, device = config.device, CLIENT = CLIENT )
+  File "/home/ubuntu/frontend/bistro/common.py", line 346, in download_model
+    CLIENT.download_file(metadata.bucket, metadata.filename, unique_temp_file)  # Download the model file to a unique file path
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/boto3/s3/inject.py", line 192, in download_file
+    return transfer.download_file(
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/boto3/s3/transfer.py", line 406, in download_file
+    future.result()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/s3transfer/futures.py", line 106, in result
+    raise e
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/s3transfer/futures.py", line 261, in result
+    self._done_event.wait(MAXINT)
+  File "/usr/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/miner.py", line 241, in <module>
+    main( config )
+  File "/home/ubuntu/frontend/bistro/miner.py", line 213, in main
+    handle_exit_signal( None, None, history, run )
+  File "/home/ubuntu/frontend/bistro/miner.py", line 64, in handle_exit_signal
+    run.delete()
+AttributeError: 'Run' object has no attribute 'delete'
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/miner.py:122 in main                            │
+│                                                                              │
+│   119 │   │   │   if hash_model( master ) != master_meta.model_hash:         │
+│   120 │   │   │   │   # Fully resync the state.                              │
+│   121 │   │   │   │   print ('Failed to sync master state using deltas.')    │
+│ ❱ 122 │   │   │   │   master = download_model( metadata = master_meta, devic │
+│   123 │   │   │   │   tokenizer: AutoTokenizer = AutoTokenizer.from_pretrain │
+│   124 │   │   │   │   tokenizer.pad_token = tokenizer.eos_token              │
+│   125 │   │   │   │   master_hash = hash_model( master )                     │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/common.py:346 in download_model                 │
+│                                                                              │
+│   343 │   │   unique_temp_file = os.path.join(tempfile.gettempdir(), f"{uuid │
+│   344 │   │                                                                  │
+│   345 │   │   # Download the model file from the storage service             │
+│ ❱ 346 │   │   CLIENT.download_file(metadata.bucket, metadata.filename, uniqu │
+│   347 │   │                                                                  │
+│   348 │   │   # Load the model state dict from the unique temporary file     │
+│   349 │   │   new_model_state_dict = torch.load(unique_temp_file, map_locati │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/boto3/s3/inject.py:1 │
+│ 92 in download_file                                                          │
+│                                                                              │
+│   189 │   │   transfer.                                                      │
+│   190 │   """                                                                │
+│   191 │   with S3Transfer(self, Config) as transfer:                         │
+│ ❱ 192 │   │   return transfer.download_file(                                 │
+│   193 │   │   │   bucket=Bucket,                                             │
+│   194 │   │   │   key=Key,                                                   │
+│   195 │   │   │   filename=Filename,                                         │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/boto3/s3/transfer.py │
+│ :406 in download_file                                                        │
+│                                                                              │
+│   403 │   │   │   bucket, key, filename, extra_args, subscribers             │
+│   404 │   │   )                                                              │
+│   405 │   │   try:                                                           │
+│ ❱ 406 │   │   │   future.result()                                            │
+│   407 │   │   # This is for backwards compatibility where when retries are   │
+│   408 │   │   # exceeded we need to throw the same error from boto3 instead  │
+│   409 │   │   # s3transfer's built in RetriesExceededError as current users  │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/s3transfer/futures.p │
+│ y:106 in result                                                              │
+│                                                                              │
+│   103 │   │   │   return self._coordinator.result()                          │
+│   104 │   │   except KeyboardInterrupt as e:                                 │
+│   105 │   │   │   self.cancel()                                              │
+│ ❱ 106 │   │   │   raise e                                                    │
+│   107 │                                                                      │
+│   108 │   def cancel(self):                                                  │
+│   109 │   │   self._coordinator.cancel()                                     │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/s3transfer/futures.p │
+│ y:103 in result                                                              │
+│                                                                              │
+│   100 │   │   │   # Usually the result() method blocks until the transfer is │
+│   101 │   │   │   # however if a KeyboardInterrupt is raised we want want to │
+│   102 │   │   │   # out of this and propagate the exception.                 │
+│ ❱ 103 │   │   │   return self._coordinator.result()                          │
+│   104 │   │   except KeyboardInterrupt as e:                                 │
+│   105 │   │   │   self.cancel()                                              │
+│   106 │   │   │   raise e                                                    │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/s3transfer/futures.p │
+│ y:261 in result                                                              │
+│                                                                              │
+│   258 │   │   # can be interrupted in python3 so we just wait with the large │
+│   259 │   │   # possible value integer value, which is on the scale of billi │
+│   260 │   │   # years...                                                     │
+│ ❱ 261 │   │   self._done_event.wait(MAXINT)                                  │
+│   262 │   │                                                                  │
+│   263 │   │   # Once done waiting, raise an exception if present or return t │
+│   264 │   │   # final result.                                                │
+│                                                                              │
+│ /usr/lib/python3.10/threading.py:607 in wait                                 │
+│                                                                              │
+│    604 │   │   with self._cond:                                              │
+│    605 │   │   │   signaled = self._flag                                     │
+│    606 │   │   │   if not signaled:                                          │
+│ ❱  607 │   │   │   │   signaled = self._cond.wait(timeout)                   │
+│    608 │   │   │   return signaled                                           │
+│    609                                                                       │
+│    610                                                                       │
+│                                                                              │
+│ /usr/lib/python3.10/threading.py:320 in wait                                 │
+│                                                                              │
+│    317 │   │   gotit = False                                                 │
+│    318 │   │   try:    # restore state no matter what (e.g., KeyboardInterru │
+│    319 │   │   │   if timeout is None:                                       │
+│ ❱  320 │   │   │   │   waiter.acquire()                                      │
+│    321 │   │   │   │   gotit = True                                          │
+│    322 │   │   │   else:                                                     │
+│    323 │   │   │   │   if timeout > 0:                                       │
+╰──────────────────────────────────────────────────────────────────────────────╯
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/miner.py:241 in <module>                        │
+│                                                                              │
+│   238 │   bt.wallet.add_args( parser )                                       │
+│   239 │   bt.subtensor.add_args( parser )                                    │
+│   240 │   config = bt.config( parser )                                       │
+│ ❱ 241 │   main( config )                                                     │
+│   242                                                                        │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/miner.py:213 in main                            │
+│                                                                              │
+│   210 │   │                                                                  │
+│   211 │   │   # Handle keyboard interrupts, stops training gracefully.       │
+│   212 │   │   except (KeyboardInterrupt, SystemExit):                        │
+│ ❱ 213 │   │   │   handle_exit_signal( None, None, history, run )             │
+│   214 │   │   │   break                                                      │
+│   215 │   │                                                                  │
+│   216 │   │   # Handle unknown exceptions, continue training after 5 seconds │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/miner.py:64 in handle_exit_signal               │
+│                                                                              │
+│    61 │   │   CLIENT.delete_object(Bucket=config.bucket, Key = el.filename)  │
+│    62 │   │   CLIENT.delete_object( Bucket = config.bucket, Key = el.metadat │
+│    63 │   if run != None:                                                    │
+│ ❱  64 │   │   run.delete()                                                   │
+│    65 │   exit(0)                                                            │
+│    66 signal.signal(signal.SIGTERM, handle_exit_signal)                      │
+│    67                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttributeError: 'Run' object has no attribute 'delete'

@@ -1,0 +1,53 @@
+is master not syncing state.
+Model hash is same as remote master.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 181, in main
+    if uid == my_uid: continue
+NameError: name 'random_uid' is not defined
+Waiting for deltas ...
+Error: name 'random_uid' is not defined
+is master not syncing state.
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 181, in main
+    if uid == my_uid: continue
+NameError: name 'random_uid' is not defined
+Model hash is same as remote master.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...
+Error: name 'random_uid' is not defined
+is master not syncing state.
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 181, in main
+    if uid == my_uid: continue
+NameError: name 'random_uid' is not defined
+Model hash is same as remote master.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...
+Error: name 'random_uid' is not defined
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 181, in main
+    if uid == my_uid: continue
+NameError: name 'random_uid' is not defined
+is master not syncing state.
+Model hash is same as remote master.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...
+Error: name 'random_uid' is not defined
+is master not syncing state.
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 181, in main
+    if uid == my_uid: continue
+NameError: name 'random_uid' is not defined
+Model hash is same as remote master.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...
+Error: name 'random_uid' is not defined
+is master not syncing state.
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 181, in main
+    if uid == my_uid: continue
+NameError: name 'random_uid' is not defined
+Model hash is same as remote master.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...

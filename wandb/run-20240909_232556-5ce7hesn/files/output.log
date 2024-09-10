@@ -1,0 +1,112 @@
+is master not syncing state.
+Model hash is same as remote master.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924256.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924256.pt@decis in 6.504640817642212 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+
+25it [00:03,  8.14it/s]
+11it [00:01,  8.85it/s]
+25it [00:02,  8.93it/s]
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 249, in main
+    weights[miner_meta.uid] = loss_dif
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'GPT2LMHeadModel' object has no attribute 'uid'
+is master not syncing state.
+Master hash is incorrect pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis in 7.189934968948364 seconds.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924392.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924392.pt@decis in 5.295670509338379 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.62s/it]
+
+25it [00:02,  8.88it/s]
+12it [00:01,  8.80it/s]
+25it [00:02,  8.86it/s]
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 249, in main
+    weights[miner_meta.uid] = loss_dif
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'GPT2LMHeadModel' object has no attribute 'uid'
+is master not syncing state.
+Master hash is incorrect pulling latest.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis in 5.742644548416138 seconds.
+Local master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175 matches remote master hash 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Waiting for deltas ...
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924421.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725924421.pt@decis in 6.531918525695801 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+25it [00:02,  9.00it/s]
+
+21it [00:02,  8.92it/s]
+25it [00:02,  8.97it/s]
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 249, in main
+    weights[miner_meta.uid] = loss_dif
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'GPT2LMHeadModel' object has no attribute 'uid'
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 249, in main
+    weights[miner_meta.uid] = loss_dif
+  File "/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1729, in __getattr__
+    raise AttributeError(f"'{type(self).__name__}' object has no attribute '{name}'")
+AttributeError: 'GPT2LMHeadModel' object has no attribute 'uid'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 317, in <module>
+    config = bt.config( parser )
+  File "/home/ubuntu/frontend/bistro/validator.py", line 293, in main
+    traceback.print_exc()
+KeyboardInterrupt
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/validator.py:249 in main                        │
+│                                                                              │
+│   246 │   │   │   │   pre_loss = np.mean( pre_delta_losses )                 │
+│   247 │   │   │   │   post_loss = np.mean( post_delta_losses )               │
+│   248 │   │   │   │   loss_dif = pre_loss - post_loss                        │
+│ ❱ 249 │   │   │   │   weights[miner_meta.uid] = loss_dif                     │
+│   250 │   │   │   │   print ( 'UID', miner_meta.uid, 'loss_dif', loss_dif, ' │
+│   251 │   │   │   │   if config.use_wandb:                                   │
+│   252 │   │   │   │   │   wandb.log({ "loss_dif": loss_dif, 'pre loss':  pre │
+│                                                                              │
+│ /home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/nn/modules/mod │
+│ ule.py:1729 in __getattr__                                                   │
+│                                                                              │
+│   1726 │   │   │   modules = self.__dict__['_modules']                       │
+│   1727 │   │   │   if name in modules:                                       │
+│   1728 │   │   │   │   return modules[name]                                  │
+│ ❱ 1729 │   │   raise AttributeError(f"'{type(self).__name__}' object has no  │
+│   1730 │                                                                     │
+│   1731 │   def __setattr__(self, name: str, value: Union[Tensor, 'Module'])  │
+│   1732 │   │   def remove_from(*dicts_or_sets):                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+AttributeError: 'GPT2LMHeadModel' object has no attribute 'uid'
+During handling of the above exception, another exception occurred:
+╭───────────────────── Traceback (most recent call last) ──────────────────────╮
+│ /home/ubuntu/frontend/bistro/validator.py:317 in <module>                    │
+│                                                                              │
+│   314 │   parser.add_argument('--weights_alpha', type=float, default=0.1, he │
+│   315 │   bt.wallet.add_args( parser )                                       │
+│   316 │   bt.subtensor.add_args( parser )                                    │
+│ ❱ 317 │   config = bt.config( parser )                                       │
+│   318 │   main( config )                                                     │
+│   319                                                                        │
+│                                                                              │
+│ /home/ubuntu/frontend/bistro/validator.py:293 in main                        │
+│                                                                              │
+│   290 │   │   # Handle unknown exceptions, continue training after 5 seconds │
+│   291 │   │   except Exception as e:                                         │
+│   292 │   │   │   print(f"Error: {e}")                                       │
+│ ❱ 293 │   │   │   traceback.print_exc()                                      │
+│   294 │   │   │   time.sleep(5)                                              │
+│   295 │   │   │   continue                                                   │
+│   296                                                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯

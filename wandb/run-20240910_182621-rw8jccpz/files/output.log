@@ -1,0 +1,1579 @@
+--------------------------------------------------------------------------------
+Step: 1, Block: 2768272, Master: 0 Hash: b043e70ea488969bf82ab70e2c1107f6448a97eccb020f7e7c3c1ee97008e9d6
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725992682.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725992682.pt@decis in 108.24596238136292 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725992755.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725992755.pt@decis in 7.301331281661987 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.34it/s]
+Eval pre...
+Eval post...
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 192, in main
+    for delta_meta in latest_master_meta.deltas:
+AttributeError: 'types.SimpleNamespace' object has no attribute 'deltas'
+UID 1 loss_dif nan pre loss nan post loss nan
+A new master has been uploaded, break the loop.
+Sync the new state.
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+--------------------------------------------------------------------------------
+Step: 2, Block: 2768283, Master: 0 Hash: e5f42477246cd5ba5791df0f3ba42716456c05c6b1732b1352d4c308dfde67ed
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725992874.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725992874.pt@decis in 5.783451795578003 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725992973.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725992973.pt@decis in 4.939119338989258 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.52it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif 8.074729628562928 pre loss 10.292249259948731 post loss 2.2175196313858034
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725992973.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725992973.pt@decis in 6.70168662071228 seconds.
+Eval pre...
+Eval post...
+UID 4 loss_dif 8.048465461730956 pre loss 10.296765174865723 post loss 2.2482997131347657
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725992973.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725992973.pt@decis in 10.13899040222168 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.91it/s]
+Eval post...
+UID 5 loss_dif 7.890265579223633 pre loss 10.294835395812989 post loss 2.4045698165893556
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725992973.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725992973.pt@decis in 5.54735541343689 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725992972.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725992972.pt@decis in 3.767742872238159 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725992973.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725992973.pt@decis in 3.2036468982696533 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725992973.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725992973.pt@decis in 3.0798873901367188 seconds.
+--------------------------------------------------------------------------------
+Step: 3, Block: 2768293, Master: 0 Hash: c031c4b58149cfbf6d3559709ff28d6d2685943c1d937e47f21cf07a55cfaf9a
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725993011.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725993011.pt@decis in 4.005211114883423 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993076.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993076.pt@decis in 6.285925626754761 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993076.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993076.pt@decis in 4.953890562057495 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.11it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993104.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993104.pt@decis in 5.473389625549316 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.75it/s]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993106.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993106.pt@decis in 6.237643003463745 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993104.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993104.pt@decis in 4.153425216674805 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993076.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993076.pt@decis in 3.788287878036499 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993105.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993105.pt@decis in 3.3138577938079834 seconds.
+--------------------------------------------------------------------------------
+Step: 4, Block: 2768302, Master: 0 Hash: d5f8a431c8812892603a17041d9381a58a40c0bcc57f71240540f936b15d95c2
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725993135.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725993135.pt@decis in 4.549115896224976 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993194.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993194.pt@decis in 7.576735734939575 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.10it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993194.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993194.pt@decis in 5.9073896408081055 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.85it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993198.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993198.pt@decis in 5.928117752075195 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.70s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993239.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993239.pt@decis in 4.733009576797485 seconds.
+
+100%|██████████| 1/1 [00:02<00:00,  2.31s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993231.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993231.pt@decis in 5.58617091178894 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.18it/s]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993266.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.66it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993266.pt@decis in 5.766303777694702 seconds.
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993266.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993266.pt@decis in 4.569646596908569 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.59it/s]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993266.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993266.pt@decis in 6.758799076080322 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993305.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993305.pt@decis in 6.262509822845459 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.73it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993323.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.98it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993323.pt@decis in 6.848361253738403 seconds.
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993323.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.07s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993334.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993334.pt@decis in 6.092841625213623 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.70it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993367.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993367.pt@decis in 7.662577152252197 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.48it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993367.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993367.pt@decis in 5.387359142303467 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.38it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993397.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993397.pt@decis in 7.2828309535980225 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993418.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993418.pt@decis in 7.119976997375488 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.79it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993418.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993418.pt@decis in 4.759507179260254 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.90it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993435.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993435.pt@decis in 6.001408100128174 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993431.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993431.pt@decis in 5.123350381851196 seconds.
+
+100%|██████████| 1/1 [00:02<00:00,  2.04s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993466.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993466.pt@decis in 6.76675009727478 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.68s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993462.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.62s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993482.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993482.pt@decis in 5.89758825302124 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.70s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993499.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993499.pt@decis in 4.654546737670898 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.68s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993530.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993530.pt@decis in 7.418165445327759 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993553.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.55it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993553.pt@decis in 5.391024351119995 seconds.
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993563.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.39s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993589.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993589.pt@decis in 5.89617133140564 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.02s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993599.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  2.25it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993599.pt@decis in 5.5005035400390625 seconds.
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993602.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993602.pt@decis in 7.035113334655762 seconds.
+Eval pre...
+100%|██████████| 1/1 [00:00<00:00,  2.09it/s]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993599.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993599.pt@decis in 7.133890867233276 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.06s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993621.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993621.pt@decis in 6.235634088516235 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  2.10it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993661.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993661.pt@decis in 5.173530578613281 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.69it/s]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993665.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993684.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993684.pt@decis in 8.554380893707275 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.47it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993696.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993696.pt@decis in 5.211907148361206 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.89it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993684.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993684.pt@decis in 7.322129011154175 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.33it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993728.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993728.pt@decis in 5.866424083709717 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.05it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993728.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993728.pt@decis in 5.730672359466553 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.25s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993759.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993759.pt@decis in 7.034676790237427 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993759.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993759.pt@decis in 4.585602283477783 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.01it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993792.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.43it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993790.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993790.pt@decis in 5.927409887313843 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993818.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993818.pt@decis in 6.142751455307007 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.12s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993820.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993820.pt@decis in 9.725176811218262 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.92it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993849.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993849.pt@decis in 5.528355598449707 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.82s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993849.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993849.pt@decis in 4.822048664093018 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993880.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.28it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993880.pt@decis in 6.50368857383728 seconds.
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993886.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993886.pt@decis in 5.412100076675415 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.39it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993886.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993886.pt@decis in 5.642406702041626 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.48it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993918.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725993918.pt@decis in 6.707352161407471 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.73it/s]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993942.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993942.pt@decis in 8.663084506988525 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.58s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993942.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725993942.pt@decis in 6.940202951431274 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993980.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993980.pt@decis in 4.611581087112427 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.68s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993980.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725993980.pt@decis in 5.491913318634033 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993978.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725993978.pt@decis in 4.745513439178467 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.80s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994014.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994014.pt@decis in 7.606603384017944 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.54s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994014.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994014.pt@decis in 9.756189107894897 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.51s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994050.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994050.pt@decis in 6.637957811355591 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994048.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994048.pt@decis in 7.340377569198608 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.62s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994084.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994084.pt@decis in 4.971981763839722 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.59s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994082.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994082.pt@decis in 7.00275182723999 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994121.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994121.pt@decis in 7.082404136657715 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.46it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994121.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994121.pt@decis in 5.709024906158447 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994151.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994151.pt@decis in 5.5895469188690186 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994152.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994152.pt@decis in 10.595389604568481 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.81s/it]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994184.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994184.pt@decis in 11.50963306427002 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  2.33it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994188.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994188.pt@decis in 11.172131776809692 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.45it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994221.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994221.pt@decis in 6.9108827114105225 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  2.32it/s]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994219.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994219.pt@decis in 6.664367914199829 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.55s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994254.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994254.pt@decis in 5.49426007270813 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.51it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994255.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994255.pt@decis in 9.451984405517578 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994290.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994290.pt@decis in 12.09968376159668 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994317.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994317.pt@decis in 5.394460916519165 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.58s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994317.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994317.pt@decis in 5.510241270065308 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994317.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994317.pt@decis in 6.244727849960327 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.39it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994353.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994354.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994354.pt@decis in 6.841875314712524 seconds.
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994385.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994385.pt@decis in 5.844929933547974 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994384.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  2.09it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994384.pt@decis in 7.031721830368042 seconds.
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994416.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994416.pt@decis in 5.091859340667725 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.53it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994416.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994416.pt@decis in 11.207627773284912 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.06it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994451.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994451.pt@decis in 4.3462255001068115 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994452.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994452.pt@decis in 7.649451017379761 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994483.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994483.pt@decis in 10.638553857803345 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994479.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994479.pt@decis in 4.916669845581055 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994513.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994513.pt@decis in 5.177041053771973 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  2.32it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994520.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994520.pt@decis in 5.966116666793823 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.44it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994518.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994518.pt@decis in 5.631338119506836 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.71s/it]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994552.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994552.pt@decis in 6.864055395126343 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994554.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994554.pt@decis in 7.969511270523071 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.91it/s]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994578.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994578.pt@decis in 6.3513503074646 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994588.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994588.pt@decis in 4.8659398555755615 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.89s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994620.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994620.pt@decis in 7.375283241271973 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994620.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994642.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.36it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994654.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994654.pt@decis in 7.942091703414917 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994685.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994685.pt@decis in 9.902922630310059 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.65s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994706.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994706.pt@decis in 6.2118682861328125 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994719.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994719.pt@decis in 4.992177724838257 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.18it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994719.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994719.pt@decis in 6.111281394958496 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.88it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994749.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.23s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994749.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.57it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994749.pt@decis in 4.7694995403289795 seconds.
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994777.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994777.pt@decis in 6.56725549697876 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.51it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994781.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994812.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994812.pt@decis in 6.892302989959717 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.72it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994810.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994810.pt@decis in 5.612327814102173 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.44it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994834.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994834.pt@decis in 4.293067932128906 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.83it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994843.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.49it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994843.pt@decis in 4.900333881378174 seconds.
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994841.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994841.pt@decis in 6.0624706745147705 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.70it/s]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994865.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994865.pt@decis in 7.135112762451172 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.14s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994877.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994877.pt@decis in 6.765126705169678 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.07it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994906.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994906.pt@decis in 6.123222351074219 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.36it/s]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994906.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725994906.pt@decis in 4.5714075565338135 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:02<00:00,  2.31s/it]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994940.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994940.pt@decis in 6.703185558319092 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.33s/it]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994936.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994936.pt@decis in 5.865478754043579 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.94it/s]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994959.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994959.pt@decis in 5.907168388366699 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994972.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725994972.pt@decis in 6.329241514205933 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994997.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725994997.pt@decis in 5.749295949935913 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994991.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725994991.pt@decis in 7.5043065547943115 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995031.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995031.pt@decis in 5.389774322509766 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.83it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995025.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995025.pt@decis in 5.079360485076904 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.18it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995041.pt@decis
+100%|██████████| 1/1 [00:00<00:00,  1.97it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995041.pt@decis in 5.214982986450195 seconds.
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995057.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995057.pt@decis in 8.023680686950684 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.79it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995072.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995072.pt@decis in 5.814156532287598 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.67it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995071.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995071.pt@decis in 3.710141181945801 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.97it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995108.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995108.pt@decis in 6.602845907211304 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.60s/it]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995108.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995108.pt@decis in 5.898678302764893 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.74it/s]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995137.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995137.pt@decis in 7.148043155670166 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995153.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995153.pt@decis in 6.685063123703003 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.61s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995157.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995157.pt@decis in 4.6812098026275635 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.57s/it]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995169.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995169.pt@decis in 4.949373245239258 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995204.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995204.pt@decis in 6.172100067138672 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.33it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995190.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995190.pt@decis in 6.328450679779053 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995227.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995227.pt@decis in 5.637823820114136 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.96s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995236.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995236.pt@decis in 7.986993789672852 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.93s/it]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995259.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995259.pt@decis in 6.354741096496582 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.86it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995273.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995273.pt@decis in 6.265144348144531 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.86it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995273.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995273.pt@decis in 4.215659856796265 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.57it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995301.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995301.pt@decis in 11.627870559692383 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.38it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995301.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995301.pt@decis in 4.90333104133606 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.11s/it]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995326.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995326.pt@decis in 7.928229808807373 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.85it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995358.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995358.pt@decis in 5.857480764389038 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995368.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995368.pt@decis in 5.992858171463013 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995368.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995368.pt@decis in 8.196858882904053 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.11it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995391.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.02s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995399.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995399.pt@decis in 7.330995798110962 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.84s/it]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995431.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995431.pt@decis in 7.0376927852630615 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.75it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995425.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995425.pt@decis in 5.3938188552856445 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995457.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995457.pt@decis in 4.7515175342559814 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.16it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995463.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995463.pt@decis in 5.464287042617798 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.96it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995490.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995490.pt@decis in 5.651824951171875 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.53s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 192, in main
+    for delta_meta in latest_master_meta.deltas:
+AttributeError: 'types.SimpleNamespace' object has no attribute 'deltas'
+A new master has been uploaded, break the loop.
+Sync the new state.
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+--------------------------------------------------------------------------------
+Step: 5, Block: 2768501, Master: 0 Hash: ffc2eeb685a7d6f9de1ae90a1d87300f5ae32a08b448e569de46b8ac14c01744
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995513.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995513.pt@decis in 5.256310939788818 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995573.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995573.pt@decis in 5.929558038711548 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Eval post...
+UID 4 loss_dif 7.970154192447662 pre loss 10.069017181396484 post loss 2.098862988948822
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995577.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995577.pt@decis in 10.911564826965332 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Eval post...
+UID 3 loss_dif 7.600751309394838 pre loss 10.214239807128907 post loss 2.6134884977340698
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995607.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995607.pt@decis in 5.311007738113403 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  2.67it/s]
+Eval post...
+UID 4 loss_dif 8.011639537811279 pre loss 10.074881706237793 post loss 2.063242168426514
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995611.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995611.pt@decis in 6.191511631011963 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.28it/s]
+Eval post...
+UID 3 loss_dif 7.919155933856963 pre loss 10.098902473449707 post loss 2.179746539592743
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995646.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995646.pt@decis in 4.016201972961426 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.72it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif 7.93856854915619 pre loss 10.109049758911134 post loss 2.1704812097549437
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 192, in main
+    for delta_meta in latest_master_meta.deltas:
+AttributeError: 'types.SimpleNamespace' object has no attribute 'deltas'
+A new master has been uploaded, break the loop.
+Sync the new state.
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+--------------------------------------------------------------------------------
+Step: 6, Block: 2768512, Master: 0 Hash: 44e024c14ac2d46d204a9ff77d4eadc090a11ab4651d98ae9140a7269c154765
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995654.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995654.pt@decis in 6.48653769493103 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995722.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995722.pt@decis in 6.204376220703125 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Eval post...
+UID 4 loss_dif 7.96846517086029 pre loss 10.288664932250976 post loss 2.320199761390686
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995731.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995731.pt@decis in 6.944458723068237 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.24s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif 8.08276359319687 pre loss 10.274857940673828 post loss 2.192094347476959
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995729.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995729.pt@decis in 5.663159132003784 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995722.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995722.pt@decis in 5.44925594329834 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995729.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995729.pt@decis in 4.692849159240723 seconds.
+--------------------------------------------------------------------------------
+Step: 7, Block: 2768521, Master: 0 Hash: 93d4aff98b93b884d5300b51433925930442a00db68d1d7fdf81b098da3de6c9
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995754.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995754.pt@decis in 5.142858982086182 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995814.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995814.pt@decis in 6.729028701782227 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.22it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995827.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995827.pt@decis in 6.892561197280884 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.33it/s]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995827.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995827.pt@decis in 5.884996175765991 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.37it/s]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995857.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.18s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995827.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995827.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 194, in main
+    for (name, master_param), (_, delta_param) in zip( master.named_parameters(), delta.named_parameters() ):
+AttributeError: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 8, Block: 2768530, Master: 0 Hash: d5f8a431c8812892603a17041d9381a58a40c0bcc57f71240540f936b15d95c2
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995858.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995858.pt@decis in 7.062603712081909 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995922.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725995922.pt@decis in 5.001574277877808 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.92s/it]
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995935.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725995935.pt@decis in 6.237870693206787 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.57s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995923.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995923.pt@decis in 7.787206649780273 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.17it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995963.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725995963.pt@decis in 4.708415269851685 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.37s/it]
+Eval post...
+UID 3 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995958.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725995958.pt@decis in 7.9011924266815186 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+A new master has been uploaded, break the loop.
+Sync the new state.
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 192, in main
+    for delta_meta in latest_master_meta.deltas:
+AttributeError: 'types.SimpleNamespace' object has no attribute 'deltas'
+--------------------------------------------------------------------------------
+Step: 9, Block: 2768541, Master: 0 Hash: 83abfa3fe2c19f07250c5005b07aba2af880a810010464a752201584fd0d3ba4
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995999.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725995999.pt@decis in 8.783487558364868 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis in 6.823549747467041 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+Eval post...
+UID 1 loss_dif 7.929360446929931 pre loss 10.360085182189941 post loss 2.43072473526001
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis in 4.721527099609375 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif 8.122511582374573 pre loss 10.325093421936035 post loss 2.2025818395614625
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis in 10.457529306411743 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.47s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif 8.139508066177367 pre loss 10.300738372802734 post loss 2.161230306625366
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996090.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996090.pt@decis in 6.295713186264038 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.63it/s]
+Eval pre...
+Eval post...
+UID 1 loss_dif 8.078621826171876 pre loss 10.302586936950684 post loss 2.2239651107788085
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996054.pt@decis in 7.203932285308838 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996082.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996082.pt@decis in 6.066845655441284 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996077.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996077.pt@decis in 5.516096115112305 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996079.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996079.pt@decis in 4.907294750213623 seconds.
+--------------------------------------------------------------------------------
+Step: 10, Block: 2768552, Master: 0 Hash: 0c3cd47ebc69fcf953ce7248e87975f437bf7bd73b79f70a10ab40ceb1e51e19
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996113.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996113.pt@decis in 4.616891384124756 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996181.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996181.pt@decis in 6.294473171234131 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.73it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996188.pt@decis in 6.664222002029419 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.40it/s]
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996181.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996181.pt@decis in 6.373658895492554 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.15s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+A new master has been uploaded, break the loop.
+Sync the new state.
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 192, in main
+    for delta_meta in latest_master_meta.deltas:
+AttributeError: 'types.SimpleNamespace' object has no attribute 'deltas'
+--------------------------------------------------------------------------------
+Step: 11, Block: 2768559, Master: 0 Hash: 18ec2ff0fa0bd6e1ae1993879c0595eadf616f315c016c523500a88a365135e2
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996226.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996226.pt@decis in 6.149608612060547 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996277.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996277.pt@decis in 6.000619173049927 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.57s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif 8.695267701148987 pre loss 11.081090507507325 post loss 2.3858228063583375
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996277.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996277.pt@decis in 4.58625054359436 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.43s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif 8.665431427955626 pre loss 11.057820739746093 post loss 2.3923893117904664
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996312.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996312.pt@decis in 5.973472833633423 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.35it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif 8.907304751873017 pre loss 11.065281295776368 post loss 2.157976543903351
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996312.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996312.pt@decis in 6.095977544784546 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif 8.63432460308075 pre loss 11.075379791259765 post loss 2.441055188179016
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996337.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996337.pt@decis in 6.258097410202026 seconds.
+Eval pre...
+100%|██████████| 1/1 [00:00<00:00,  1.51it/s]
+Eval post...
+UID 5 loss_dif 8.527075386047363 pre loss 11.092087745666504 post loss 2.5650123596191405
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996303.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996303.pt@decis in 7.14783501625061 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996303.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996303.pt@decis in 5.463532447814941 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996277.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996277.pt@decis in 4.501182556152344 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996301.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996301.pt@decis in 4.7718846797943115 seconds.
+--------------------------------------------------------------------------------
+Step: 12, Block: 2768572, Master: 0 Hash: 6dbb11c35751e36b55489284e276d1fcb8667cd85d2edaa05be9a622ac9975f6
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996342.pt@decis in 7.512532472610474 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996413.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996413.pt@decis in 6.874707937240601 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Eval post...
+UID 4 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996426.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.49s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif nan pre loss nan post loss nan
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996436.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996436.pt@decis in 4.3532538414001465 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.89s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif nan pre loss nan post loss nan
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996436.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996436.pt@decis in 6.692630052566528 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996444.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996444.pt@decis in 5.1437318325042725 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996426.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996426.pt@decis in 5.504486799240112 seconds.
+--------------------------------------------------------------------------------
+Step: 13, Block: 2768580, Master: 0 Hash: 4036110f210e8f8f9ae04f9caf1e631dc867ead6c17d322bd3521cdfb0035398
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996462.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996462.pt@decis in 4.934937953948975 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996531.pt@decis in 4.985651254653931 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.68s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif 0.0 pre loss 10.824931144714355 post loss 10.824931144714355
+Traceback (most recent call last):
+  File "/home/ubuntu/frontend/bistro/validator.py", line 192, in main
+    for delta_meta in latest_master_meta.deltas:
+AttributeError: 'types.SimpleNamespace' object has no attribute 'deltas'
+A new master has been uploaded, break the loop.
+Sync the new state.
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+--------------------------------------------------------------------------------
+Step: 14, Block: 2768586, Master: 0 Hash: f0322c58f7cd2fd9c5ce1c0a2c22d1390a0dfd54969744477ce294b7364b57ea
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996503.pt@decis in 7.433971643447876 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996583.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996583.pt@decis in 7.59149169921875 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.40it/s]
+Eval post...
+UID 3 loss_dif 7.881137399673461 pre loss 10.334760704040526 post loss 2.453623304367065
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996583.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996583.pt@decis in 10.343319177627563 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Eval post...
+UID 1 loss_dif 8.09646294593811 pre loss 10.305505065917968 post loss 2.209042119979858
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996583.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996583.pt@decis in 6.108367919921875 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996583.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996583.pt@decis in 3.653928518295288 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996586.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996586.pt@decis in 3.5808887481689453 seconds.
+--------------------------------------------------------------------------------
+Step: 15, Block: 2768593, Master: 0 Hash: 8ecb15c49dbc01a58b9503f0cdd83a4da20d2040789489ecfc71b263337d961b
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996617.pt@decis in 3.7335424423217773 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996682.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996682.pt@decis in 5.886143684387207 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.88it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif 0.8167664480209349 pre loss 3.0248925065994263 post loss 2.2081260585784914
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996686.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996686.pt@decis in 6.498416900634766 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.24it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.843683123588562 pre loss 3.0411924934387207 post loss 2.1975093698501587
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996686.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996686.pt@decis in 6.912764310836792 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.58it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.8436831092834471 pre loss 3.041192479133606 post loss 2.1975093698501587
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996687.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996687.pt@decis in 5.336678504943848 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996682.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996682.pt@decis in 4.355630397796631 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996686.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996686.pt@decis in 4.05886173248291 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996681.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996681.pt@decis in 4.470419645309448 seconds.
+--------------------------------------------------------------------------------
+Step: 16, Block: 2768602, Master: 0 Hash: ae8cba14e324d80fc838ec02bb93737ad7a7f2d283027c2f6ed4529a9823ba62
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996721.pt@decis in 6.330105304718018 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis in 5.626282691955566 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.32s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.27554489135742166 pre loss 2.4658978843688963 post loss 2.1903529930114747
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis in 5.047670841217041 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.2755448579788209 pre loss 2.4658978509902956 post loss 2.1903529930114747
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis in 6.320715665817261 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.70s/it]
+Eval post...
+UID 4 loss_dif 0.3089570856094359 pre loss 2.7179813957214356 post loss 2.4090243101119997
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996817.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996817.pt@decis in 6.8353517055511475 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.35it/s]
+Eval pre...
+Eval post...
+UID 5 loss_dif 0.28880048751831033 pre loss 2.707166800498962 post loss 2.418366312980652
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996823.pt@decis in 8.94943904876709 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996820.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996820.pt@decis in 9.091292142868042 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725996788.pt@decis in 6.982514142990112 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996817.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996817.pt@decis in 5.564967155456543 seconds.
+--------------------------------------------------------------------------------
+Step: 17, Block: 2768614, Master: 0 Hash: 5d8cde56df2ad8fa2b3af264838ba8d1451c0c335faa114fde7764b63100da44
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996854.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996854.pt@decis in 6.685898780822754 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996919.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996919.pt@decis in 8.19710898399353 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.82it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif 0.1439974975585936 pre loss 2.358903031349182 post loss 2.2149055337905885
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996919.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.15it/s]
+Eval pre...
+Eval post...
+UID 3 loss_dif 0.1891298198699949 pre loss 2.5172113847732542 post loss 2.3280815649032593
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996929.pt@decis
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.00s/it]
+Eval pre...
+Eval post...
+UID 1 loss_dif 0.15448371410369877 pre loss 2.5562575483322143 post loss 2.4017738342285155
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996929.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725996929.pt@decis in 7.103116750717163 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996919.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725996919.pt@decis in 5.166850328445435 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996924.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725996924.pt@decis in 5.374950885772705 seconds.
+--------------------------------------------------------------------------------
+Step: 18, Block: 2768622, Master: 0 Hash: cfd2a48dc895ee56353ab9a9df091468671762203543449d4ccf908ff8605092
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996951.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725996951.pt@decis in 7.975618362426758 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725997014.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725997014.pt@decis in 7.28156042098999 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
+Eval pre...
+Eval post...
+UID 4 loss_dif 0.04639853954315187 pre loss 2.2967700386047363 post loss 2.2503714990615844
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725997014.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725997014.pt@decis in 5.396314382553101 seconds.
+Eval pre...
+100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
+Eval post...
+UID 4 loss_dif 0.057917537689209375 pre loss 2.21643212556839 post loss 2.1585145878791807
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725997022.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725997022.pt@decis in 6.149003744125366 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Eval pre...
+Eval post...
+UID 5 loss_dif 0.06542140960693343 pre loss 2.3191376185417174 post loss 2.253716208934784
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725997021.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725997021.pt@decis in 5.4996678829193115 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725997014.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725997014.pt@decis in 3.9885165691375732 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725997022.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725997022.pt@decis in 5.309089660644531 seconds.
+--------------------------------------------------------------------------------
+Step: 19, Block: 2768630, Master: 0 Hash: 02c62b60e5eddf1de8694ee3709131b32ddbbfca09cc96230a8207935ca57d7e
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725997051.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725997051.pt@decis in 6.085236310958862 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725997120.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725997120.pt@decis in 5.597101211547852 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Eval post...
+UID 3 loss_dif 0.10030789375305149 pre loss 2.2030699682235717 post loss 2.10276207447052
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725997122.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725997122.pt@decis in 4.517098665237427 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+

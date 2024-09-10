@@ -1,0 +1,30 @@
+Model hash is incorrect: 0x0000000000000000000000000000000000000000000000000000000000000000 != 267ed7b0710aa72033e4d03bece24b02bcd601bbaa9d0875dfef51a0be15f175
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-2762515.pt@decis in 91.00546026229858 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:00<00:00,  1.08it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924377.pt@decis in 4.155757665634155 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+Master model has not changed. Continuing to train
+
+100%|██████████| 1/1 [00:00<00:00,  1.35it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924392.pt@decis in 4.04423975944519 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+Master model has not changed. Continuing to train
+
+100%|██████████| 1/1 [00:00<00:00,  1.44it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924406.pt@decis in 5.874138355255127 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.08it/s]
+Master model has not changed. Continuing to train
+Training ...
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924421.pt@decis in 5.879433870315552 seconds.
+Master model has not changed. Continuing to train
+100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+Training ...
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725924437.pt@decis in 4.319597005844116 seconds.
+  0%|          | 0/1 [00:00<?, ?it/s]
+Master model has not changed. Continuing to train
+

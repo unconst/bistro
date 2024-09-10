@@ -1,0 +1,16 @@
+--------------------------------------------------------------------------------
+Step: 1, Block: 2767707, Master: 0 Hash: fb76a0c481bb40a176a1095d9f9044768869d9e4a8bb03d56351b16150edc9e2
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725985946.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725985946.pt@decis in 98.45675086975098 seconds.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986008.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986008.pt@decis in 7.810621023178101 seconds.
+Eval pre...
+100%|██████████| 1/1 [00:00<00:00,  1.30it/s]
+Eval post...
+UID 1 loss_dif 0.00540862560272215 pre loss 2.2725594568252565 post loss 2.2671508312225344
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986117.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986117.pt@decis in 5.1931679248809814 seconds.
+Eval pre...
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s]

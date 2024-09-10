@@ -1,0 +1,255 @@
+
+	Waiting for a master model to be uploaded ...
+--------------------------------------------------------------------------------
+Step: 1, Block: 2768033, Master: 0 Hash: 0fcc9a540097ab22797b6f6330d0490793c95628c46a9655a8807ca5bbcf6e30
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725989919.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725989919.pt@decis in 93.22196125984192 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.16s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990033.pt@decis in 5.101006507873535 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.56it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990048.pt@decis in 4.282690048217773 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.10it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990063.pt@decis in 5.4954071044921875 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990033.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990078.pt@decis in 6.757705926895142 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990048.pt, still holding: 2 files.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725990033.pt@decis
+Error while downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725990033.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 2, Block: 2768047, Master: 0 Hash: 1917a1338ae036e2ef4d6b79f9644fac51f0330b93b75c874c59ca9d2b1961af
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990068.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990068.pt@decis in 7.153524398803711 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.54it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990112.pt@decis in 4.789599657058716 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990063.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.09it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990126.pt@decis in 4.3265039920806885 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990078.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.34it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990140.pt@decis in 4.67067551612854 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990112.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.53it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990154.pt@decis in 6.889041185379028 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990126.pt, still holding: 2 files.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990112.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990112.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 3, Block: 2768054, Master: 0 Hash: e5f6f4322b65f1e9de80205f2833fb7cabb876f1ce08e45b52c027a20d51f8c5
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990146.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990146.pt@decis in 7.2306904792785645 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.12s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990189.pt@decis in 4.681046724319458 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990140.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:01<00:00,  1.11s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990204.pt@decis in 5.214818716049194 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990154.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.38it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990219.pt@decis in 5.5771644115448 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990189.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.81it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990234.pt@decis in 4.7603185176849365 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990204.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:01<00:00,  1.07s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990248.pt@decis in 4.673461198806763 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990219.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.38s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990264.pt@decis in 4.518369197845459 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990234.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.44s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990280.pt@decis in 4.484307050704956 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990248.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:02<00:00,  2.46s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990297.pt@decis in 4.765524387359619 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990264.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:00<00:00,  1.46it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990311.pt@decis in 7.8187761306762695 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990280.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.60it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990329.pt@decis in 4.589499235153198 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990297.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:00<00:00,  1.35it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990344.pt@decis in 7.2380125522613525 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990311.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.34s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990361.pt@decis in 4.804322719573975 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990329.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.42s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990377.pt@decis in 4.367567300796509 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990344.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.48s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990393.pt@decis in 4.745767116546631 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990361.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.64s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990409.pt@decis in 4.92076849937439 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990377.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.26s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990425.pt@decis in 4.791422605514526 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990393.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:01<00:00,  1.01s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990440.pt@decis in 4.388983488082886 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990409.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.78it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990454.pt@decis in 4.468933820724487 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990425.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.97it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990468.pt@decis in 4.6910560131073 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990440.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  2.00it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990482.pt@decis in 4.638018608093262 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990454.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990498.pt@decis in 8.066382646560669 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990468.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.93s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990518.pt@decis in 5.090670347213745 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990482.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:01<00:00,  1.46s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990535.pt@decis in 7.853630542755127 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990498.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.06s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990553.pt@decis in 4.790062665939331 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990518.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.58s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990569.pt@decis in 8.3794846534729 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990535.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:02<00:00,  2.10s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990590.pt@decis in 5.74077582359314 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990553.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:03<00:00,  3.67s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990609.pt@decis in 4.504176378250122 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990569.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.57s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990624.pt@decis in 4.511280059814453 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990590.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:01<00:00,  1.11s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990639.pt@decis in 8.657212734222412 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990609.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.13it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990657.pt@decis in 5.848675966262817 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990624.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.24it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990672.pt@decis in 4.198415279388428 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990639.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:02<00:00,  2.26s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990689.pt@decis in 4.902053117752075 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990657.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:02<00:00,  2.06s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990705.pt@decis in 5.132423639297485 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990672.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.75s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990722.pt@decis in 5.034430742263794 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990689.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.53it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990737.pt@decis in 4.5371270179748535 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990705.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.72s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990753.pt@decis in 4.907550096511841 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990722.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.52s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990769.pt@decis in 4.515982151031494 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990737.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:02<00:00,  2.34s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990785.pt@decis in 4.678356885910034 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990753.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990800.pt@decis in 4.3932952880859375 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990769.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.27it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990814.pt@decis in 5.689312219619751 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990785.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990830.pt@decis in 4.907527446746826 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990800.pt, still holding: 2 files.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Error: 'types.SimpleNamespace' object has no attribute 'deltas'
+--------------------------------------------------------------------------------
+Step: 4, Block: 2768110, Master: 0 Hash: b55c3d659e6ed59fdb5117ed4f1fa1f7fb8eec39f707c05bd3b65509ac08afc1
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990818.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990818.pt@decis in 5.689647197723389 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990860.pt@decis in 4.614914655685425 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990814.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990875.pt@decis in 4.932873964309692 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990830.pt, still holding: 2 files.
+
+100%|██████████| 1/1 [00:01<00:00,  1.10s/it]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990891.pt@decis in 4.4571428298950195 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990860.pt, still holding: 2 files.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725990855.pt@decis
+Error while downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725990855.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 5, Block: 2768115, Master: 0 Hash: 0cb5974b8bd3c2cf6f68d047e3888a15973f593a4e40081992a20fe53401fab2
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990881.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990881.pt@decis in 7.1886820793151855 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990924.pt@decis in 5.2215259075164795 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990875.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.07it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990939.pt@decis in 4.429279565811157 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990891.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.07it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990953.pt@decis in 8.899365901947021 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990924.pt, still holding: 2 files.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990924.pt@decis
+Error while downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990924.pt@decis with error An error occurred (404) when calling the HeadObject operation: Not Found.
+Error: 'NoneType' object has no attribute 'named_parameters'
+--------------------------------------------------------------------------------
+Step: 6, Block: 2768121, Master: 0 Hash: a631a60d0a2b6f59c82c6397a153be7569317d4ffad35f445f6582f16bebfb42
+Failed to sync master state using deltas.
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990957.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725990957.pt@decis in 7.789434194564819 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990992.pt@decis in 5.143298864364624 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990939.pt, still holding: 2 files.
+100%|██████████| 1/1 [00:00<00:00,  1.02it/s]
+Uploaded model to model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725991007.pt@decis in 5.124834775924683 seconds.
+Deleting old delta: model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725990953.pt, still holding: 2 files.

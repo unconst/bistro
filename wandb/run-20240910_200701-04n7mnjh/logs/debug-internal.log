@@ -1,0 +1,106 @@
+2024-09-10 20:07:01,914 INFO    StreamThr :986209 [internal.py:wandb_internal():85] W&B internal server running at pid: 986209, started at: 2024-09-10 20:07:01.914228
+2024-09-10 20:07:01,917 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: status
+2024-09-10 20:07:01,918 INFO    WriterThread:986209 [datastore.py:open_for_write():87] open: /home/ubuntu/frontend/bistro/wandb/run-20240910_200701-04n7mnjh/run-04n7mnjh.wandb
+2024-09-10 20:07:01,919 DEBUG   SenderThread:986209 [sender.py:send():391] send: header
+2024-09-10 20:07:01,919 DEBUG   SenderThread:986209 [sender.py:send():391] send: run
+2024-09-10 20:07:02,241 INFO    SenderThread:986209 [dir_watcher.py:__init__():211] watching files in: /home/ubuntu/frontend/bistro/wandb/run-20240910_200701-04n7mnjh/files
+2024-09-10 20:07:02,241 INFO    SenderThread:986209 [sender.py:_start_run_threads():1200] run started: 04n7mnjh with start time 1725998821.913523
+2024-09-10 20:07:02,253 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: check_version
+2024-09-10 20:07:02,253 DEBUG   SenderThread:986209 [sender.py:send_request():418] send_request: check_version
+2024-09-10 20:07:02,313 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: run_start
+2024-09-10 20:07:03,919 DEBUG   HandlerThread:986209 [system_info.py:__init__():26] System info init
+2024-09-10 20:07:03,919 DEBUG   HandlerThread:986209 [system_info.py:__init__():41] System info init done
+2024-09-10 20:07:03,919 INFO    HandlerThread:986209 [system_monitor.py:start():194] Starting system monitor
+2024-09-10 20:07:03,920 INFO    SystemMonitor:986209 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-10 20:07:03,920 INFO    HandlerThread:986209 [system_monitor.py:probe():214] Collecting system info
+2024-09-10 20:07:03,921 INFO    SystemMonitor:986209 [interfaces.py:start():188] Started cpu monitoring
+2024-09-10 20:07:03,921 INFO    SystemMonitor:986209 [interfaces.py:start():188] Started disk monitoring
+2024-09-10 20:07:03,922 INFO    SystemMonitor:986209 [interfaces.py:start():188] Started gpu monitoring
+2024-09-10 20:07:03,923 INFO    SystemMonitor:986209 [interfaces.py:start():188] Started memory monitoring
+2024-09-10 20:07:03,923 INFO    SystemMonitor:986209 [interfaces.py:start():188] Started network monitoring
+2024-09-10 20:07:04,522 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:04,522 DEBUG   HandlerThread:986209 [system_info.py:probe():152] Probing system
+2024-09-10 20:07:04,526 DEBUG   HandlerThread:986209 [system_info.py:_probe_git():137] Probing git
+2024-09-10 20:07:04,532 DEBUG   HandlerThread:986209 [system_info.py:_probe_git():145] Probing git done
+2024-09-10 20:07:04,532 DEBUG   HandlerThread:986209 [system_info.py:probe():200] Probing system done
+2024-09-10 20:07:04,532 DEBUG   HandlerThread:986209 [system_monitor.py:probe():223] {'os': 'Linux-5.19.0-1010-nvidia-lowlatency-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-09-10T20:07:04.523061', 'startedAt': '2024-09-10T20:07:01.910101', 'docker': None, 'cuda': None, 'args': ('--wallet.name', 'Alice', '--wallet.hotkey', 'Dave', '--subtensor.network', 'test', '--device', 'cuda:4', '--use_wandb'), 'state': 'running', 'program': '/home/ubuntu/frontend/bistro/miner.py', 'codePathLocal': 'miner.py', 'codePath': 'bistro/miner.py', 'git': {'remote': 'https://github.com/unconst/frontend.git', 'commit': 'a0660981f23476af1751d70673e4586879b6970c'}, 'email': 'jake@bittensor.com', 'root': '/home/ubuntu/frontend', 'host': 'training', 'username': 'ubuntu', 'executable': '/home/ubuntu/frontend/venv/bin/python3', 'cpu_count': 64, 'cpu_count_logical': 128, 'cpu_freq': {'current': 2370.5016562500005, 'min': 1500.0, 'max': 3250.0}, 'cpu_freq_per_core': [{'current': 2163.624, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3795.866, 'min': 1500.0, 'max': 3250.0}, {'current': 3795.917, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.153, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1498.018, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2359.901, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3796.131, 'min': 1500.0, 'max': 3250.0}, {'current': 1514.485, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.15, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1519.544, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.135, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.122, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3798.418, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2747.351, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.128, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2170.677, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3800.114, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1519.566, 'min': 1500.0, 'max': 3250.0}, {'current': 1515.503, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1518.176, 'min': 1500.0, 'max': 3250.0}, {'current': 3795.842, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 2300.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 1500.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}, {'current': 3250.0, 'min': 1500.0, 'max': 3250.0}], 'disk': {'/': {'total': 3519.6199798583984, 'used': 91.04973220825195}}, 'gpu': 'NVIDIA H100 PCIe', 'gpu_count': 8, 'memory': {'total': 1511.5785369873047}}
+2024-09-10 20:07:04,532 INFO    HandlerThread:986209 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-10 20:07:04,532 INFO    HandlerThread:986209 [system_monitor.py:probe():227] Publishing system info
+2024-09-10 20:07:04,533 INFO    HandlerThread:986209 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-10 20:07:04,536 DEBUG   SenderThread:986209 [sender.py:send():391] send: files
+2024-09-10 20:07:04,536 INFO    SenderThread:986209 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-10 20:07:04,554 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:04,555 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:04,555 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:04,555 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:04,555 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:04,559 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:04,670 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-10 20:07:04,671 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-10 20:07:04,671 DEBUG   SenderThread:986209 [sender.py:send_request():418] send_request: python_packages
+2024-09-10 20:07:04,672 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:04,673 DEBUG   SenderThread:986209 [sender.py:send_request():418] send_request: stop_status
+2024-09-10 20:07:04,813 DEBUG   SenderThread:986209 [sender.py:send():391] send: telemetry
+2024-09-10 20:07:05,244 INFO    Thread-12 :986209 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_200701-04n7mnjh/files/wandb-metadata.json
+2024-09-10 20:07:05,245 INFO    Thread-12 :986209 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_200701-04n7mnjh/files/requirements.txt
+2024-09-10 20:07:05,468 INFO    wandb-upload_0:986209 [upload_job.py:push():130] Uploaded file /tmp/tmplzl0kd94wandb/1z93d86k-wandb-metadata.json
+2024-09-10 20:07:05,699 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:06,559 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:06,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:06,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:06,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:06,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:06,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:06,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:06,679 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:06,945 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-10 20:07:06,947 DEBUG   SenderThread:986209 [sender.py:send():391] send: history
+2024-09-10 20:07:06,948 DEBUG   SenderThread:986209 [sender.py:send_request():418] send_request: summary_record
+2024-09-10 20:07:06,949 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 20:07:06,950 INFO    SenderThread:986209 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-10 20:07:07,243 INFO    Thread-12 :986209 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_200701-04n7mnjh/files/output.log
+2024-09-10 20:07:07,243 INFO    Thread-12 :986209 [dir_watcher.py:_on_file_created():271] file/dir created: /home/ubuntu/frontend/bistro/wandb/run-20240910_200701-04n7mnjh/files/wandb-summary.json
+2024-09-10 20:07:07,679 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:08,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:08,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:08,560 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:08,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:08,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:08,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:08,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:08,679 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:09,243 INFO    Thread-12 :986209 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/ubuntu/frontend/bistro/wandb/run-20240910_200701-04n7mnjh/files/output.log
+2024-09-10 20:07:09,679 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:10,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:10,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:10,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:10,561 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:10,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:10,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:10,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:10,679 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:11,679 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:12,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:12,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:12,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:12,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:12,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:12,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:12,562 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:12,672 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: status_report
+2024-09-10 20:07:12,679 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-10 20:07:14,705 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:14,706 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:14,706 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:14,706 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:14,706 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:14,706 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:14,706 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:16,773 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:16,829 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:16,829 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:16,829 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:16,829 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:16,829 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:16,829 ERROR   gpu       :986209 [interfaces.py:monitor():142] Failed to sample metric: Unknown Error
+2024-09-10 20:07:17,673 DEBUG   HandlerThread:986209 [handler.py:handle_request():158] handle_request: status_report

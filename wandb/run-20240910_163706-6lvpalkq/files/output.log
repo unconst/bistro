@@ -1,0 +1,318 @@
+--------------------------------------------------------------------------------
+Step: 1, Block: 2767725, Master: 0 Hash: fb76a0c481bb40a176a1095d9f9044768869d9e4a8bb03d56351b16150edc9e2
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986074.pt@decis
+/home/ubuntu/frontend/venv/lib/python3.10/site-packages/torch/cuda/__init__.py:654: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986074.pt@decis in 107.03192520141602 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.21s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986348.pt@decis in 5.017540216445923 seconds.
+
+100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986366.pt@decis in 4.343045949935913 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.41s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986382.pt@decis in 5.219852447509766 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986349.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986349.pt@decis in 7.778045415878296 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986349.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986349.pt@decis in 6.818090438842773 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986348.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986348.pt@decis in 6.707009553909302 seconds.
+--------------------------------------------------------------------------------
+Step: 2, Block: 2767741, Master: 0 Hash: 80a7c9e5031ee4e0646b048aaa3a143fbfbded4b117c0e69ed9b03c787158997
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986384.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986384.pt@decis in 7.2572290897369385 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.15s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986432.pt@decis in 5.28089451789856 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.08it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986447.pt@decis in 5.389949321746826 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986464.pt@decis in 4.602560520172119 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986427.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986427.pt@decis in 8.35559606552124 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986428.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986428.pt@decis in 7.472654342651367 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986432.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986432.pt@decis in 4.678340911865234 seconds.
+--------------------------------------------------------------------------------
+Step: 3, Block: 2767747, Master: 0 Hash: 79515dd98e2ded7eb60209acb733617076a9c22235edd0109ab19aeb8c58f04e
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986453.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986453.pt@decis in 7.199427604675293 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.12s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986511.pt@decis in 5.17011022567749 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.36it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986526.pt@decis in 5.248513460159302 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.08s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986541.pt@decis in 4.890327215194702 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986501.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986501.pt@decis in 6.960146188735962 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986504.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986504.pt@decis in 6.557112693786621 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986500.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986500.pt@decis in 5.8445751667022705 seconds.
+--------------------------------------------------------------------------------
+Step: 4, Block: 2767754, Master: 0 Hash: b22b54f454859097758f5b9c876ec2d9740fd6d75c6fa5672bb9e494701d139b
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986533.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986533.pt@decis in 5.40872049331665 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.18it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986586.pt@decis in 4.536585807800293 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.14it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986601.pt@decis in 4.8452630043029785 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986616.pt@decis in 4.658015489578247 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986581.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986581.pt@decis in 7.686607360839844 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986588.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986588.pt@decis in 5.912968158721924 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986586.pt@decis
+100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986586.pt@decis in 5.473897695541382 seconds.
+--------------------------------------------------------------------------------
+Step: 5, Block: 2767760, Master: 0 Hash: b6f66cfc6b676ae91fc23dc98268a16824451e23c2d2b26f7b647535277aae31
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986610.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986610.pt@decis in 5.4066383838653564 seconds.
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986661.pt@decis in 6.959597110748291 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.29it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986678.pt@decis in 5.578222990036011 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.31it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986694.pt@decis in 4.354835271835327 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986666.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986666.pt@decis in 4.47384238243103 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986658.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986658.pt@decis in 3.544816255569458 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986666.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986666.pt@decis in 3.826448678970337 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986661.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986661.pt@decis in 4.436994791030884 seconds.
+--------------------------------------------------------------------------------
+Step: 6, Block: 2767766, Master: 0 Hash: 1f621410db7a8df3297b116a788dce349157141b08a5b46dbcf46f17261f5361
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986695.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986695.pt@decis in 6.813776254653931 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986737.pt@decis in 9.067575931549072 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986757.pt@decis in 4.724584102630615 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.19it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986772.pt@decis in 4.841646194458008 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.65it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986787.pt@decis in 5.073232889175415 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986745.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986745.pt@decis in 9.208113431930542 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986750.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986750.pt@decis in 8.10043740272522 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986757.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986757.pt@decis in 7.343700885772705 seconds.
+--------------------------------------------------------------------------------
+Step: 7, Block: 2767775, Master: 0 Hash: 6e0e78d0a4769a90b4990dd95f61a10feb8dc14972bf591be1a7ef5f55c34b21
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986779.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986779.pt@decis in 5.907979249954224 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.08it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986838.pt@decis in 4.6730828285217285 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.43it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986854.pt@decis in 4.535603761672974 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.39it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986869.pt@decis in 4.640157461166382 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986826.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986826.pt@decis in 8.500786304473877 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986830.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986830.pt@decis in 8.954128980636597 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986828.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986828.pt@decis in 9.578654766082764 seconds.
+--------------------------------------------------------------------------------
+Step: 8, Block: 2767782, Master: 0 Hash: 69902b5a6bdd5eb7220604cab84e1006412ee33e9ef567b0290c768cd3dec5ed
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986860.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986860.pt@decis in 7.509165525436401 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986923.pt@decis in 6.439580917358398 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.74s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986942.pt@decis in 5.503392457962036 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986904.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986904.pt@decis in 5.733683109283447 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986901.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986901.pt@decis in 5.697103500366211 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986898.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725986898.pt@decis in 5.873727321624756 seconds.
+--------------------------------------------------------------------------------
+Step: 9, Block: 2767787, Master: 0 Hash: db689f48bee1664b74ae8a0e228ca0176b0d04f1e5d6a1c8500fa150ded0434e
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986937.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725986937.pt@decis in 9.580631256103516 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.58s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986989.pt@decis in 4.753870964050293 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.78s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987007.pt@decis in 4.5581300258636475 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.22it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987022.pt@decis in 5.662754774093628 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986981.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725986981.pt@decis in 6.464097499847412 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986985.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725986985.pt@decis in 5.721444129943848 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986989.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725986989.pt@decis in 4.666577577590942 seconds.
+--------------------------------------------------------------------------------
+Step: 10, Block: 2767793, Master: 0 Hash: 34a8f89a3b0ec592e33027022b12d53caec7fe0cf872900685a279a77bb4f469
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987018.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987018.pt@decis in 5.173525094985962 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.40s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987065.pt@decis in 4.506971120834351 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.12it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987080.pt@decis in 7.732397794723511 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.85s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987100.pt@decis in 10.575582504272461 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.86s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987122.pt@decis in 4.5131306648254395 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987081.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987081.pt@decis in 9.166369199752808 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987075.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987075.pt@decis in 5.948608160018921 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987080.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987080.pt@decis in 7.10840368270874 seconds.
+--------------------------------------------------------------------------------
+Step: 11, Block: 2767802, Master: 0 Hash: 659b18fe4b333da6fb704b81bf53f37159bedda3ab1ece8fffb09d967a886061
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987106.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987106.pt@decis in 6.735511302947998 seconds.
+
+100%|██████████| 1/1 [00:02<00:00,  2.15s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987172.pt@decis in 7.555543661117554 seconds.
+
+100%|██████████| 1/1 [00:02<00:00,  2.20s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987193.pt@decis in 5.346302509307861 seconds.
+
+100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987209.pt@decis in 6.1459290981292725 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987175.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987175.pt@decis in 4.71612024307251 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987161.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987161.pt@decis in 4.241314888000488 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987177.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987177.pt@decis in 4.2593913078308105 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987172.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987172.pt@decis in 4.877068519592285 seconds.
+--------------------------------------------------------------------------------
+Step: 12, Block: 2767809, Master: 0 Hash: 299068dc415dd179f55cf4f1c59abab2e2f69fbb1d1919a0273c05d2fd7524c8
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987199.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987199.pt@decis in 10.760066032409668 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.39s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987260.pt@decis in 7.336298704147339 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.01it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987277.pt@decis in 4.91119384765625 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.62it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987293.pt@decis in 4.759551048278809 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987263.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987263.pt@decis in 7.8627893924713135 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987255.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987255.pt@decis in 5.230339288711548 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987260.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987260.pt@decis in 4.355150461196899 seconds.
+--------------------------------------------------------------------------------
+Step: 13, Block: 2767816, Master: 0 Hash: bae153afaa8320df839bac323be2633b4484b98115f00de64a62f06864214e38
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987287.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987287.pt@decis in 6.1099817752838135 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.35s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987338.pt@decis in 4.968285799026489 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987354.pt@decis in 6.848338603973389 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.11s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987372.pt@decis in 4.9342687129974365 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987339.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987339.pt@decis in 4.404955148696899 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987338.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987338.pt@decis in 5.240963697433472 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987338.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987338.pt@decis in 6.802311420440674 seconds.
+--------------------------------------------------------------------------------
+Step: 14, Block: 2767823, Master: 0 Hash: 486c3aa6dc032846c786f3aa181f40cc341248e15f29c8a38028e6b7c42a3665
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987368.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987368.pt@decis in 7.457102537155151 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.21it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987415.pt@decis in 4.476423740386963 seconds.
+
+100%|██████████| 1/1 [00:02<00:00,  2.08s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987431.pt@decis in 4.798147916793823 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.03it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987447.pt@decis in 4.523849725723267 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987415.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987415.pt@decis in 7.003223896026611 seconds.
+Downloading model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987416.pt@decis
+Downloaded model from model-5DHYeSMbG3n31Ev9e9BNZzBiWnSd9bkp5s8CdC3RR5aMUpAh-1725987416.pt@decis in 7.021520137786865 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987418.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987418.pt@decis in 7.054764986038208 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987415.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987415.pt@decis in 13.115415811538696 seconds.
+--------------------------------------------------------------------------------
+Step: 15, Block: 2767830, Master: 0 Hash: 2a8edd5b470d1fd3633a55c51a4019acf975d69b2cfb03d76baec6b0075507c5
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987448.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987448.pt@decis in 6.48954176902771 seconds.
+
+100%|██████████| 1/1 [00:00<00:00,  1.34it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987507.pt@decis in 4.7579450607299805 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.09s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987522.pt@decis in 4.939793586730957 seconds.
+100%|██████████| 1/1 [00:00<00:00,  1.23it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987538.pt@decis in 4.334909200668335 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.
+Downloading model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987502.pt@decis
+Downloaded model from model-5EkVGe9zdK4D1rdPD2qutAbU1HGNcjSt8ibsMQcWnPLNcsxn-1725987502.pt@decis in 9.614537000656128 seconds.
+Downloading model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987493.pt@decis
+Downloaded model from model-5GQw7vvU1tzQ8XCVE1FRf3As9MmTZasPZUoiSgDmnnEj9jaP-1725987493.pt@decis in 9.053760528564453 seconds.
+Downloading model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987507.pt@decis
+Downloaded model from model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987507.pt@decis in 7.82189679145813 seconds.
+--------------------------------------------------------------------------------
+Step: 16, Block: 2767837, Master: 0 Hash: 16d13e53d9913e2aa5ca99a752d68ba94bf674addd50a310856b15dda089752f
+Downloading model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987529.pt@decis
+Downloaded model from model-5F4UUMWF41GsLFvwVpigmoxTKVngDP6C7utvECgtQB83U3fJ-1725987529.pt@decis in 6.180606126785278 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.19s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987590.pt@decis in 4.637939453125 seconds.
+100%|██████████| 1/1 [00:00<00:00,  2.04it/s]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987604.pt@decis in 4.72307562828064 seconds.
+100%|██████████| 1/1 [00:01<00:00,  1.27s/it]
+Uploaded model to model-5D2uD6jYfLvpMPsngA3n4VAqxxmXSPtuku1TaXQnPdH3xohZ-1725987620.pt@decis in 4.564894199371338 seconds.
+A new master has been uploaded, break the loop.
+Sync the new state.

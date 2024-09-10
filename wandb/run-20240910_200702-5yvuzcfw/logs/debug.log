@@ -1,0 +1,36 @@
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Current SDK version is 0.17.7
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Configure stats pid to 985595
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/.config/wandb/settings
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Loading settings from /home/ubuntu/frontend/bistro/wandb/settings
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'bistro/miner.py', 'program_abspath': '/home/ubuntu/frontend/bistro/miner.py', 'program': '/home/ubuntu/frontend/bistro/miner.py'}
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_init.py:_log_setup():524] Logging user logs to /home/ubuntu/frontend/bistro/wandb/run-20240910_200702-5yvuzcfw/logs/debug.log
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_init.py:_log_setup():525] Logging internal logs to /home/ubuntu/frontend/bistro/wandb/run-20240910_200702-5yvuzcfw/logs/debug-internal.log
+2024-09-10 20:07:02,908 INFO    MainThread:985595 [wandb_init.py:init():607] calling init triggers
+2024-09-10 20:07:02,909 INFO    MainThread:985595 [wandb_init.py:init():614] wandb.init called with sweep_config: {}
+config: {'__is_set': {'wallet.name': True, 'wallet.hotkey': True, 'subtensor.network': True, 'device': True, 'use_wandb': True}, 'name': None, 'netuid': 212, 'bucket': 'decis', 'batch_size': 4, 'history_size': 4, 'learning_rate': 0.0001, 'optimizer_beta1': 0.9, 'optimizer_beta2': 0.95, 'optimizer_weight_decay': 0.1, 'num_pages_per_upload': 3, 'eval_window': 5, 'device': 'cuda:5', 'use_wandb': True, 'no_prompt': False, 'wallet': 
+name: Alice
+hotkey: Eve
+path: ~/.bittensor/wallets/
+, 'subtensor': 
+network: test
+chain_endpoint: wss://entrypoint-finney.opentensor.ai:443
+_mock: false
+, 'config': None, 'strict': False, 'no_version_checking': False}
+2024-09-10 20:07:02,909 INFO    MainThread:985595 [wandb_init.py:init():657] starting backend
+2024-09-10 20:07:02,909 INFO    MainThread:985595 [wandb_init.py:init():661] setting up manager
+2024-09-10 20:07:02,909 INFO    MainThread:985595 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-09-10 20:07:02,922 INFO    MainThread:985595 [wandb_init.py:init():669] backend started and connected
+2024-09-10 20:07:02,925 INFO    MainThread:985595 [wandb_init.py:init():764] updated telemetry
+2024-09-10 20:07:02,948 INFO    MainThread:985595 [wandb_init.py:init():797] communicating run to backend with 90.0 second timeout
+2024-09-10 20:07:03,243 INFO    MainThread:985595 [wandb_run.py:_on_init():2479] communicating current version
+2024-09-10 20:07:03,262 INFO    MainThread:985595 [wandb_run.py:_on_init():2488] got version response upgrade_message: "wandb version 0.17.9 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-09-10 20:07:03,262 INFO    MainThread:985595 [wandb_init.py:init():848] starting run threads in backend
+2024-09-10 20:07:04,698 INFO    MainThread:985595 [wandb_run.py:_console_start():2457] atexit reg
+2024-09-10 20:07:04,699 INFO    MainThread:985595 [wandb_run.py:_redirect():2303] redirect: wrap_raw
+2024-09-10 20:07:04,699 INFO    MainThread:985595 [wandb_run.py:_redirect():2368] Wrapping output streams.
+2024-09-10 20:07:04,699 INFO    MainThread:985595 [wandb_run.py:_redirect():2393] Redirects installed.
+2024-09-10 20:07:04,700 INFO    MainThread:985595 [wandb_init.py:init():891] run started, returning control to user process
