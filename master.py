@@ -187,7 +187,7 @@ def main( config ):
                     master_param.data.add_( delta_update ) 
                     
                 # Append applied to the list of applied.
-                applied_history.append(  delta_meta.__dict__ ) 
+                applied_history.append( delta_meta.__dict__ ) 
                 
                 # Add the new master hash to our history.
                 master_hash = hash_model( master )
@@ -197,7 +197,6 @@ def main( config ):
                 if len(hash_history) > config.parent_window:
                     # Remove a history from the list
                     hash_history.pop( 0 ) 
-                    applied_history.pop( 0 )
                 
                 # Break the loop on successful application.
                 break
@@ -208,7 +207,7 @@ def main( config ):
                 wallet = wallet, 
                 model = master, 
                 block = int(time.time()),
-                extras = { 'sequence_length': config.sequence_length, 'tokenizer_name': config.tokenizer_name, 'deltas': applied_history }, 
+                extras = { 'sequence_length': config.sequence_length, 'tokenizer_name': config.tokenizer_name, 'deltas': [applied_history[-1]] }, 
                 bucket = config.bucket,
                 CLIENT = CLIENT
             ))

@@ -31,6 +31,13 @@ from transformers import GPT2Config, GPT2LMHeadModel
 from transformers import LlamaForCausalLM, LlamaConfig, LlamaTokenizer
 from typing import Dict, List, Optional, Tuple
 
+from compression import topk_compress_gradients, topk_decompress_gradients
+
+def human_readable_size(size, decimal_places=2):
+    for unit in ['B', 'KB', 'MB', 'GB', 'TB']:
+        if size < 1024.0:
+            return f"{size:.{decimal_places}f} {unit}"
+        size /= 1024.0
 
 def get_latest_metadata_block( hotkey:str, bucket:str, CLIENT ) -> int:
     """
@@ -114,6 +121,7 @@ def get_latest_metadata_for_hotkey_and_bucket(
     metadata = {}
     metadata['last_modified'] = int(response['LastModified'].timestamp())
     metadata['blocks_since_modified'] = int((time.time() - int(response['LastModified'].timestamp())) / 12)
+    metadata['size'] = response['ContentLength']
     metadata['bucket'] = bucket
     metadata['filename'] = filename
     metadata['metadata_filename'] = metadata_filename
@@ -168,6 +176,8 @@ def upload_model(
         extras: Dict[ str, object ],
         bucket: str,
         CLIENT,
+        use_compression: bool = False,
+        compression_percent: float = 0.9,
     ) -> SimpleNamespace:
     """
     Uploads a model to a specified bucket along with its metadata.
@@ -200,6 +210,7 @@ def upload_model(
         })
     # Add model hashes.
     extras['model_hash'] = hash_model( model )
+    extras['compressed'] = use_compression
 
     # Generate filenames for the model and its metadata
     filename = f'model-{wallet.hotkey.ss58_address}-{block}.pt'  # Filename for the model
@@ -216,6 +227,11 @@ def upload_model(
         GrantRead='uri="http://acs.amazonaws.com/groups/global/AllUsers"',
         GrantReadACP='uri="http://acs.amazonaws.com/groups/global/AllUsers"'
     )
+    
+    # Compress the model.
+    if use_compression:
+        for key, param in model_state_dict.items():
+            model_state_dict[key] = topk_compress_gradients({key: param}, k=int( ( 1 - compression_percent ) * param.numel()))[key]
 
     # Upload the model to the storage service
     with io.BytesIO() as module_buffer:
@@ -232,85 +248,11 @@ def upload_model(
     )
 
     # Log the completion of the upload process with the time taken
-    print(f"Uploaded model to {filename}@{bucket} in {time.time() - start_time} seconds.")
-    return get_latest_metadata_for_hotkey_and_bucket( hotkey = wallet.hotkey.ss58_address, bucket = bucket, CLIENT = CLIENT )
+    returned_metadata = get_latest_metadata_for_hotkey_and_bucket( hotkey = wallet.hotkey.ss58_address, bucket = bucket, CLIENT = CLIENT )
+    print(f"Uploaded model to {filename}@{bucket} of size: {human_readable_size(returned_metadata.size)} in: {time.time() - start_time} seconds.")
+    return 
 
 
-def upload_delta( 
-        wallet: 'bt.wallet',
-        model: torch.nn.Module, 
-        block: int,
-        extras: Dict[ str, object ],
-        bucket: str,
-        CLIENT,
-    ) -> SimpleNamespace:
-    """
-    Uploads a delta to a specified bucket along with its metadata.
-
-    Args:
-        wallet (bt.wallet): The wallet containing the hotkey used to generate the filename.
-        model (torch.nn.Module): The model to be uploaded.
-        extras (Dict[str, object]): Additional metadata to be uploaded with the model.
-        bucket (str): The bucket to upload the model to.
-        CLIENT: The client used to interact with the storage service.
-
-    Returns:
-        None
-    """
-    start_time = time.time()  # Record the start time for the upload process
-    model_state_dict = model.state_dict()  # Get the state dictionary of the model
-
-    # Extract the configuration from the model and update extras with model type and configuration
-    if isinstance(model, LlamaForCausalLM):
-        config = model.config  # Get the configuration of the Llama model
-        extras.update({
-            'model_type': 'llama',  # Add model type to extras
-            'model_config': config.to_dict()  # Add model configuration to extras
-        })
-    elif isinstance(model, GPT2LMHeadModel):
-        config = model.config  # Get the configuration of the GPT-2 model
-        extras.update({
-            'model_type': 'gpt2',  # Add model type to extras
-            'model_config': config.to_dict()  # Add model configuration to extras
-        })
-    # Add model hashes.
-    extras['model_hash'] = hash_model( model )
-    extras['type'] = 'delta'
-
-    # Generate filenames for the model and its metadata
-    filename = f'delta-{wallet.hotkey.ss58_address}-{block}.pt'  # Filename for the model
-    metadata_filename = f"model-{wallet.hotkey.ss58_address}-{block}_metadata.json"  # Filename for the metadata
-
-    # Upload the metadata to the storage service
-    metadata_buffer = io.BytesIO(json.dumps(extras).encode('utf-8'))  # Create a buffer for the metadata
-    CLIENT.upload_fileobj(metadata_buffer, bucket, metadata_filename)  # Upload the metadata buffer to the storage service
-
-    # Grant read and list permissions to all users for the metadata
-    CLIENT.put_object_acl(
-        Bucket=bucket,
-        Key=metadata_filename,
-        GrantRead='uri="http://acs.amazonaws.com/groups/global/AllUsers"',
-        GrantReadACP='uri="http://acs.amazonaws.com/groups/global/AllUsers"'
-    )
-
-    # Upload the model to the storage service
-    with io.BytesIO() as module_buffer:
-        torch.save(model_state_dict, module_buffer)  # Save the model state dictionary to the buffer
-        module_buffer.seek(0)  # Reset the buffer's position to the beginning
-        CLIENT.upload_fileobj(module_buffer, bucket, filename)  # Upload the model buffer to the storage service
-
-    # Grant read and list permissions to all users for the model
-    CLIENT.put_object_acl(
-        Bucket=bucket,
-        Key=filename,
-        GrantRead='uri="http://acs.amazonaws.com/groups/global/AllUsers"',
-        GrantReadACP='uri="http://acs.amazonaws.com/groups/global/AllUsers"'
-    )
-
-    # Log the completion of the upload process with the time taken
-    print(f"Uploaded delta to {filename}@{bucket} in {time.time() - start_time} seconds.")
-    return get_latest_metadata_for_hotkey_and_bucket( hotkey = wallet.hotkey.ss58_address, bucket = bucket, CLIENT = CLIENT )
-        
 def download_model( 
         metadata: SimpleNamespace, 
         device: str, 
@@ -347,6 +289,16 @@ def download_model(
 
         # Load the model state dict from the unique temporary file
         new_model_state_dict = torch.load(unique_temp_file, map_location=torch.device(device), weights_only=True)  # Load the model state dict
+        
+        # Check if the model is compressed and decompress if necessary
+        if hasattr(metadata, 'compressed') and metadata.compressed:
+            original_shape_dict = {name: param.shape for name, param in model.named_parameters()}
+            for name, param in model.named_parameters():
+                if name in new_model_state_dict:
+                    compressed_data = new_model_state_dict[name]
+                    decompressed_data = topk_decompress_gradients({name: compressed_data}, {name: param.shape})
+                    new_model_state_dict[name] = decompressed_data[name]
+        
         model.load_state_dict(new_model_state_dict)  # Load the state dict into the model
         model.to(device)  # Move the model to the specified device
 
@@ -354,7 +306,7 @@ def download_model(
         os.remove(unique_temp_file)  # Delete the unique temporary file
 
         # Log the completion of the download process with the time taken
-        print(f"Downloaded model from {metadata.filename}@{metadata.bucket} in {time.time() - start_time} seconds.")
+        print(f"Downloaded model from {metadata.filename}@{metadata.bucket} of size: {human_readable_size(metadata.size)} in: in {time.time() - start_time} seconds.")
         return model  # Return the downloaded model
     except Exception as e:
         print (f'Error while downloading model from {metadata.filename}@{metadata.bucket} with error {e}.')

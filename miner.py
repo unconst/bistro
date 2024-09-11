@@ -159,6 +159,7 @@ def main( config ):
                     # Step the optimizer.
                     optimizer.step()
                     optimizer.zero_grad()
+                    break
                     
                 # Baseline just keeps training.
                 if config.baseline: continue
@@ -176,6 +177,8 @@ def main( config ):
                     extras = { 'master_hash': master_meta.model_hash },
                     bucket = config.bucket,
                     CLIENT = CLIENT,
+                    use_compression = config.use_compression,
+                    compression_percent = config.compression_percent,
                 ))
                 if len(history) > config.history_size:
                     old_delta = history.pop(0)
@@ -192,10 +195,13 @@ def main( config ):
 
             # Download the deltas and attain the new master.
             print ('Sync the new state.')
+            print ( 'Deltas', latest_master_meta.deltas )
             for delta_meta in latest_master_meta.deltas:
-                delta = download_model( metadata = SimpleNamespace( **delta_meta ), device = 'cpu', CLIENT = CLIENT )
+                as_namespace = SimpleNamespace( **delta_meta )
+                print ('applying delta: ', {as_namespace.filename})
+                delta = download_model( metadata = as_namespace, device = 'cpu', CLIENT = CLIENT )
                 for (name, checkpoint_param), (_, delta_param) in zip( checkpoint.named_parameters(), delta.named_parameters() ):
-                    delta_update = delta_param.data.to( master.device )
+                    delta_update = delta_param.data.to( checkpoint.device )
                     if torch.isnan( delta_update ).any(): delta_update[ torch.isnan(delta_update) ] = 0  # Set NaNs to 0
                     checkpoint_param.data.add_( delta_update / len( latest_master_meta.deltas ) ) 
                     
@@ -204,7 +210,15 @@ def main( config ):
             del delta
             torch.cuda.empty_cache()
             master = copy.deepcopy( checkpoint )
+            master_hash = hash_model( master )
             master.to(config.device)
+            master.train()
+            optimizer = optim.AdamW(
+                master.parameters(),
+                lr = config.learning_rate,  # Peak learning rate
+                betas = ( config.optimizer_beta1, config.optimizer_beta2 ), # B1 and B2
+                weight_decay = config.optimizer_weight_decay  # Weight decay
+            )
 
         # Handle keyboard interrupts, stops training gracefully.
         except (KeyboardInterrupt, SystemExit):
@@ -241,6 +255,8 @@ if __name__ == "__main__":
     parser.add_argument('--device', type=str, default='cuda', help='Device to use for training')
     parser.add_argument('--use_wandb', action='store_true', help='Use Weights and Biases for logging')
     parser.add_argument('--baseline', action='store_true', help='Baseline addition.')
+    parser.add_argument('--use_compression', action='store_true', help='If the delta should use compression')
+    parser.add_argument('--compression_percent', type=float, default=0.9, help='Compression percentage default 90%.')
     bt.wallet.add_args( parser )
     bt.subtensor.add_args( parser )
     config = bt.config( parser )   
