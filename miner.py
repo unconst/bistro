@@ -77,7 +77,7 @@ def main( config ):
     # Init weights and biases
     run = None
     if config.use_wandb:
-        name = f'Miner-{wallet.hotkey.ss58_address[:5]}'
+        name = f'Miner-{wallet.hotkey.ss58_address[:5]}' if not config.baseline else 'Baseline'
         run = wandb.init( project='bistro', resume = 'allow', name = name, config = config )
     
     # Main training loop.
@@ -160,12 +160,15 @@ def main( config ):
                     optimizer.step()
                     optimizer.zero_grad()
                     
+                # Baseline just keeps training.
+                if config.baseline: continue
+                    
                 # Compute the delta between the current master model and the checkpoint model in-place
                 delta = copy.deepcopy( master ).to('cpu')
                 for (name, param), (_, checkpoint_param) in zip(delta.named_parameters(), checkpoint.named_parameters()):
                     param.data.sub_(checkpoint_param.data)
                     
-                # Upload the delta to S3.      
+                # Upload the delta to S3 and check state.
                 history.append( upload_model(
                     wallet = wallet,
                     model = delta,
@@ -187,14 +190,21 @@ def main( config ):
                     print ('A new master has been uploaded, break the loop.')
                     break 
 
-            # # Download the deltas and attain the new master.
-            # print ('Sync the new state.')
-            # for delta_meta in latest_master_meta.deltas:
-            #     delta = download_model( metadata = SimpleNamespace( **delta_meta ), device = 'cpu', CLIENT = CLIENT )
-            #     for (name, master_param), (_, delta_param) in zip( master.named_parameters(), delta.named_parameters() ):
-            #         delta_param_data = delta_param.data.to( master.device )
-            #         delta_param_data[ torch.isnan( delta_param_data ) ] = 0  # Remove NaNs by setting them to 0
-            #         master_param.data.add_( delta_param_data / len( latest_master_meta.deltas ) ) 
+            # Download the deltas and attain the new master.
+            print ('Sync the new state.')
+            for delta_meta in latest_master_meta.deltas:
+                delta = download_model( metadata = SimpleNamespace( **delta_meta ), device = 'cpu', CLIENT = CLIENT )
+                for (name, checkpoint_param), (_, delta_param) in zip( checkpoint.named_parameters(), delta.named_parameters() ):
+                    delta_update = delta_param.data.to( master.device )
+                    if torch.isnan( delta_update ).any(): delta_update[ torch.isnan(delta_update) ] = 0  # Set NaNs to 0
+                    checkpoint_param.data.add_( delta_update / len( latest_master_meta.deltas ) ) 
+                    
+            # Then reset the master to the new updated checkpoint + delta.
+            del master
+            del delta
+            torch.cuda.empty_cache()
+            master = copy.deepcopy( checkpoint )
+            master.to(config.device)
 
         # Handle keyboard interrupts, stops training gracefully.
         except (KeyboardInterrupt, SystemExit):
@@ -230,6 +240,7 @@ if __name__ == "__main__":
     parser.add_argument('--eval_window', type=int, default=5, help='Number of pages to load')
     parser.add_argument('--device', type=str, default='cuda', help='Device to use for training')
     parser.add_argument('--use_wandb', action='store_true', help='Use Weights and Biases for logging')
+    parser.add_argument('--baseline', action='store_true', help='Baseline addition.')
     bt.wallet.add_args( parser )
     bt.subtensor.add_args( parser )
     config = bt.config( parser )   

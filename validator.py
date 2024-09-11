@@ -149,8 +149,7 @@ def main( config ):
                 for batch in dataset:                
                     input_ids = torch.tensor(batch, dtype=torch.long).to(config.device)
                     labels = input_ids.clone()
-                    labels[:, :-1] = input_ids[:, 1:]
-                    labels[:, -1] = tokenizer.pad_token_id
+                    labels = torch.where( labels == tokenizer.pad_token_id, -100, labels )
                     with torch.no_grad():
                         outputs = master( input_ids=input_ids, labels=labels )
                     post_delta_losses.append( outputs.loss.item() )                    

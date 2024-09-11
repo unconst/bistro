@@ -158,32 +158,40 @@ def main( config ):
                 
                 # Check if is None.
                 if delta_meta == None:
+                    # Delta is non-existent.
                     continue
                 
                 # Check if delta.master_hash is in history.
                 if delta_meta.master_hash not in hash_history:
+                    # Delta is too old.
+                    continue
+                
+                # Check if we have already applied the delta.
+                if delta_meta.filename in [ a['filename'] for a in applied_history ]:
+                    # Already applied.
                     continue
                 
                 # Download the delta from the bucket.
                 try:
                     delta = download_model( metadata = delta_meta, device = 'cpu', CLIENT = CLIENT )
                 except Exception as e:
-                    # Failed to load the delta.
+                    # Could not load delta.
                     continue
-                
+                                
                 # Apply the delta to the master.
                 for (name, master_param), (_, delta_param) in zip( master.named_parameters(), delta.named_parameters() ):
-                    # Sanatize the delta NaN vales.
+                    # Sanatize the delta: delete NaN values.
                     delta_update = delta_param.data.to( master.device )
-                    if torch.isnan(delta_update).any():
+                    if torch.isnan( delta_update ).any():
                         delta_update[ torch.isnan(delta_update) ] = 0  # Set NaNs to 0
                     master_param.data.add_( delta_update ) 
                     
                 # Append applied to the list of applied.
-                applied_history.append( delta_meta.__dict__ )
+                applied_history.append(  delta_meta.__dict__ ) 
                 
                 # Add the new master hash to our history.
-                hash_history.append( hash_model( master ) )
+                master_hash = hash_model( master )
+                hash_history.append( master_hash )
                 
                 # Check our history length.
                 if len(hash_history) > config.parent_window:
@@ -237,7 +245,7 @@ if __name__ == "__main__":
     parser.add_argument('--netuid', type=int, default=212, help='Bittensor network uid.')
     parser.add_argument('--bucket', type=str, default='decis', help='S3 bucket name')
     parser.add_argument('--history_size', type=int, default=2, help='Number of previous models to maintain.')
-    parser.add_argument('--parent_window', type=int, default=2, help='Number of steps behind the master we accept for deltas.')
+    parser.add_argument('--parent_window', type=int, default=1, help='Number of steps behind the master we accept for deltas.')
     parser.add_argument('--sequence_length', type=int, default=2048, help='Sequence Length.')
     parser.add_argument('--tokenizer_name', type=str, default='gpt2', help='Tokenizer name.')
     parser.add_argument('--min_accumulations', type=int, default=1, help='Min number of deltas to apply every step.')
