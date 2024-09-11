@@ -53,6 +53,7 @@ CLIENT: boto3.client = boto3.client(
 
 # Main function.
 def main( config ):
+    print('\n', '-' * 40, 'Config', '-' * 40,)
     print ( config )
     
     # Init Bittensor objects.
@@ -62,6 +63,7 @@ def main( config ):
     if wallet.hotkey.ss58_address not in metagraph.hotkeys:
         print(f'\tWallet {wallet} is not registered on subnet: {metagraph.netuid}'); sys.exit()
     my_uid = metagraph.hotkeys.index( wallet.hotkey.ss58_address )
+    print('\n', '-' * 40, 'Objects', '-' * 40,)
     print ( f'Wallet: {wallet}\nSubtensor: {subtensor}\nMetagraph: {metagraph}\nUID: {my_uid}' )
     
     # Assert the chain commitment.
@@ -78,6 +80,9 @@ def main( config ):
     print ('Tokenizer:', config.tokenizer_name)
 
     # Init model based on type.
+    # Upload the master stake.
+    print (f'Model: {config.model_type}')
+    print('\n', '-' * 40, 'State Initialization', '-' * 40,)
     master = None
     my_current_meta = get_latest_metadata( my_uid, metagraph, subtensor, CLIENT = CLIENT )
     if my_current_meta != None and not config.restart:
@@ -104,8 +109,7 @@ def main( config ):
                 intermediate_size = 6144
             ))
             
-    # Upload the master stake.
-    print (f'Model: {config.model_type}')
+
     history = [] # Previous model uploads.
     history.append(upload_model(
         wallet = wallet, 
@@ -124,6 +128,8 @@ def main( config ):
     # Remember delta for later removal.
     steps = 0
     n_accumulated = 0
+    hash_history = [ hash_model( master )]
+    applied_history = []
     while True:
         try:
         
@@ -131,63 +137,70 @@ def main( config ):
             master_hash = hash_model( master )
             subtensor = bt.subtensor( config = config )
             metagraph = subtensor.metagraph( netuid = config.netuid )
-                                    
-            # Pull metadeta from miners and checking for enough to apply.
-            pending = []
-            for uid in metagraph.uids:
-                if uid == my_uid: continue
-                delta_meta = get_latest_metadata( uid, metagraph, subtensor, CLIENT = CLIENT )
-                if delta_meta == None or delta_meta.master_hash != master_hash:
-                    continue
-                pending.append( delta_meta )
-            if len( pending ) < config.min_accumulations:
-                print ('\tWaiting for deltas ...')
-                continue
             
-            # Got deltas, starting step.
+            # Starting the step.
             steps += 1 
             if config.use_wandb: wandb.log({ "step": steps, "block": subtensor.block } )
-            print('-' * 80)
-            print ( f'Step: {steps}, Hash: {master_hash}, Block: {subtensor.block}' )
-
-            # Download and apply each of the deltas to the master
-            print (f'\tApplying {len(pending)} deltas ...')
-            applied = []
-            for delta_meta in pending:
+            print('\n', '-' * 40, f'Step: {steps}', '-' * 40)
+            print ( f'Hash: {master_hash}, Block: {subtensor.block}' )
+      
+            # Pull metadeta from miners and checking for enough to apply.
+            while True:
+                # Pick a random miner.
+                next_uid = random.choice( metagraph.uids )
                 
-                # Download the delta.
-                delta = download_model( metadata = delta_meta, device = 'cpu', CLIENT = CLIENT )
-                if delta != None:
+                # Skip myself.
+                if next_uid == my_uid:
+                    continue
+                
+                # Get the random miners metadata.
+                delta_meta = get_latest_metadata( next_uid, metagraph, subtensor, CLIENT = CLIENT )
+                
+                # Check if is None.
+                if delta_meta == None:
+                    continue
+                
+                # Check if delta.master_hash is in history.
+                if delta_meta.master_hash not in hash_history:
+                    continue
+                
+                # Download the delta from the bucket.
+                try:
+                    delta = download_model( metadata = delta_meta, device = 'cpu', CLIENT = CLIENT )
+                except Exception as e:
+                    # Failed to load the delta.
+                    continue
+                
+                # Apply the delta to the master.
+                for (name, master_param), (_, delta_param) in zip( master.named_parameters(), delta.named_parameters() ):
+                    # Sanatize the delta NaN vales.
+                    delta_update = delta_param.data.to( master.device )
+                    if torch.isnan(delta_update).any():
+                        delta_update[ torch.isnan(delta_update) ] = 0  # Set NaNs to 0
+                    master_param.data.add_( delta_update ) 
                     
-                    # Apply the delta to the master
-                    for (name, master_param), (_, delta_param) in zip( master.named_parameters(), delta.named_parameters() ):
-                        # Sanatize the delta NaN vales.
-                        delta_update = delta_param.data.to( master.device )
-                        # Remove Nans.
-                        if torch.isnan(delta_update).any():
-                            delta_update[ torch.isnan(delta_update) ] = 0  # Set NaNs to 0
-                        master_param.data.add_( delta_update / len( pending ) ) 
-                    
-                    # Check if the model has NaNs after applying the delta
-                    has_nans = any(torch.isnan(param).any() for param in master.parameters())
-                    if has_nans:
-                        print("Warning: The model contains NaNs after applying the delta.")
-                        # Remove NaNs from the master parameters
-                        for param in master.parameters():
-                            param.data[torch.isnan(param.data)] = 0
-                    applied.append( delta_meta.__dict__ )
-                    
-                    # Increment counter.
-                    n_accumulated += 1
-                    if config.use_wandb: wandb.log({ "n_accumulated": n_accumulated } )
-            
+                # Append applied to the list of applied.
+                applied_history.append( delta_meta.__dict__ )
+                
+                # Add the new master hash to our history.
+                hash_history.append( hash_model( master ) )
+                
+                # Check our history length.
+                if len(hash_history) > config.parent_window:
+                    # Remove a history from the list
+                    hash_history.pop( 0 ) 
+                    applied_history.pop( 0 )
+                
+                # Break the loop on successful application.
+                break
+                
             # Upload the new master.
             # TODO: We should be uploading the delta to save bandwidth rather than have the miners query the other S3 buckets.
             history.append( upload_model(
                 wallet = wallet, 
                 model = master, 
                 block = int(time.time()),
-                extras = { 'sequence_length': config.sequence_length, 'tokenizer_name': config.tokenizer_name, 'deltas': applied }, 
+                extras = { 'sequence_length': config.sequence_length, 'tokenizer_name': config.tokenizer_name, 'deltas': applied_history }, 
                 bucket = config.bucket,
                 CLIENT = CLIENT
             ))
@@ -196,7 +209,6 @@ def main( config ):
                 print (f'Deleting old model: {old_model.filename}, still holding: {len(history)} files.')
                 CLIENT.delete_object( Bucket = config.bucket, Key = old_model.filename )
                 CLIENT.delete_object( Bucket = config.bucket, Key = old_model.metadata_filename )
-
                                         
         # Handle keyboard interrupts, stops training gracefully.
         except (KeyboardInterrupt, SystemExit):
@@ -225,6 +237,7 @@ if __name__ == "__main__":
     parser.add_argument('--netuid', type=int, default=212, help='Bittensor network uid.')
     parser.add_argument('--bucket', type=str, default='decis', help='S3 bucket name')
     parser.add_argument('--history_size', type=int, default=2, help='Number of previous models to maintain.')
+    parser.add_argument('--parent_window', type=int, default=2, help='Number of steps behind the master we accept for deltas.')
     parser.add_argument('--sequence_length', type=int, default=2048, help='Sequence Length.')
     parser.add_argument('--tokenizer_name', type=str, default='gpt2', help='Tokenizer name.')
     parser.add_argument('--min_accumulations', type=int, default=1, help='Min number of deltas to apply every step.')

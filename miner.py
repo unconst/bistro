@@ -53,6 +53,7 @@ CLIENT: boto3.client = boto3.client(
 
 # Main function.
 def main( config ):
+    print('\n', '-' * 40, 'Config', '-' * 40,)
     print ( config )
     
     # Init Bittensor objects.
@@ -62,6 +63,7 @@ def main( config ):
     if wallet.hotkey.ss58_address not in metagraph.hotkeys:
         raise ValueError(f'Wallet {wallet} is not registered on subnet: {metagraph.netuid}')
     my_uid = metagraph.hotkeys.index( wallet.hotkey.ss58_address )
+    print('\n', '-' * 40, 'Objects', '-' * 40,)
     print ( f'Wallet: {wallet}\nSubtensor: {subtensor}\nMetagraph: {metagraph}\nUID: {my_uid}' )
     
     # Assert the chain commitment.
@@ -98,8 +100,8 @@ def main( config ):
                 continue
             steps += 1 # New step master is uploaded.
             if config.use_wandb: wandb.log({ "step": steps, "block": subtensor.block, "master": master_uid} )
-            print('-' * 80)
-            print ( f'Step: { steps }, Block: { subtensor.block }, Master: { master_uid } Hash: { master_meta.model_hash }' )
+            print('\n', '-' * 40, f'Step: {steps}', '-' * 40)
+            print ( f'Block: {subtensor.block}, Master: { master_uid } Hash: { master_meta.model_hash }' )
             
             # If we are not in sync with master, download the state.
             if hash_model( master ) != master_meta.model_hash:
@@ -146,8 +148,7 @@ def main( config ):
                     # Forward pass
                     input_ids = torch.tensor(batch, dtype=torch.long).to(config.device)
                     labels = input_ids.clone()
-                    labels[:, :-1] = input_ids[:, 1:]
-                    labels[:, -1] = tokenizer.pad_token_id
+                    labels = torch.where( labels == tokenizer.pad_token_id, -100, labels )
                     outputs = master( input_ids = input_ids, labels = labels )
                     
                     # Accumulate gradients.
